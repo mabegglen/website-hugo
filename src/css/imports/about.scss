@@ -1,0 +1,18 @@
+.ueber-uns{
+  .wide-banner {
+    padding-bottom: 9rem;
+  }
+  .images {
+
+    .img-1 {
+      //width: 100%;
+      margin-top: 30%;
+
+      @include media-breakpoint-up(md) {
+        //width: 40%;
+      }
+    }
+  }
+}
+
+

@@ -1,0 +1,84 @@
+baseurl = "/"
+languageCode = "de-ch"
+languageLang = "de"
+title = "acend GmbH"
+
+# RSS, categories and tags disabled for an easy start
+# See configuration options for more details: 
+# https://gohugo.io/getting-started/configuration/#toml-configuration
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+
+# menu
+[[menu.main]]
+URL = "trainings"
+name = "Trainings"
+weight = 1
+
+[[menu.main]]
+URL = "ueber-uns"
+name = "Über uns"
+weight = 2
+ 
+[[menu.main]]
+URL = "kontakt"
+name = "Kontakt"
+weight = 3
+
+
+# default parameters
+[params]
+home = "Home"
+logo = "/AC-logo-rgb-blue.svg"
+# theme color
+theme_color = "#41228e"
+
+# contact info
+phone = "+41 00 000 00 00"
+name = "**acend GmbH**"
+address = "Musterstrasse 108, Bern"
+email = "info@acend.ch"
+
+# meta description
+author = "acend GmbH"
+description = "This is meta description"
+# google analytics
+google_analytics_id = "" # Your ID
+# copyright
+copyright = "&copy; 2020 acend GmbH"
+
+
+# preloader
+[params.preloader]
+enable = true
+preloader = "images/preloader.gif" # use png, jpg, svg or gif format
+
+# contact
+[params.contact]
+enable = true
+form_action = "https://formspree.io/stream4@acend.ch" # contact form works with : https://formspree.io
+
+# google map
+[params.map]
+enable = false
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=&#038;types=(cities)&#038;libraries=places&#038;language=en"
+map_latitude = "51.5223477"
+map_longitude = "-0.1622023"
+map_marker = "images/marker.png"
+
+# social site
+[[params.social]]
+icon = "ti-facebook"
+link = ""
+
+[[params.social]]
+icon = "ti-instagram"
+link = ""
+
+[[params.social]]
+icon = "ti-linkedin"
+link = "https://www.linkedin.com/company/acend-ch/"
+
+[[params.social]]
+icon = "ti-twitter-alt"
+link = "https://www.twitter.com/"

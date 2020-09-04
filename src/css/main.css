@@ -1,0 +1,29 @@
+/*
+  You can use import statements to include partials:
+ */
+@import 'imports/variables.scss';
+/* import bootstrap:*/
+@import "~bootstrap/scss/bootstrap";
+
+/**
+ * Import npm dependencies
+ *
+ * Prefix your imports with `~` to grab from node_modules/
+ * @see https://github.com/webpack-contrib/sass-loader#imports
+ */
+/*@import "~flickity/dist/flickity.min.css";*/
+@import "~flickity/dist/flickity.min";
+@import "~flickity-fade/flickity-fade";
+
+/** Import theme styles */
+@import 'imports/reset.scss';
+@import 'imports/global.scss';
+@import 'imports/forms.scss';
+@import 'imports/buttons.scss';
+@import 'imports/modal.scss';
+@import 'imports/header.scss';
+@import 'imports/footer.scss';
+@import 'imports/home.scss';
+@import 'imports/about.scss';
+@import 'imports/trainings.scss';
+@import 'imports/testimonials.scss';

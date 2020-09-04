@@ -1,0 +1,76 @@
+title : "Hi! I’m <br> Christoher <br> UX designer"
+
+# about
+about:
+  enable : true
+  title : "Wer wir sind"
+  content : "Leadtext gross dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Cum 
+sociis natoque penatibus et magni scu auen lus mus."
+  button:
+    enable : false
+    label : "Mehr erfahren"
+    URL : "ueber-uns"
+
+# slideshow trainigs
+slideshow:
+  enable : true
+  item: 
+    - ubertitle : "Trainingsangebot"
+      title : "Container und Kubernetes"
+      subtitle : "Basic"
+      URL : "/trainings/container-und-kubernetes-basic/"
+      label : "Mehr erfahren"
+      img1 : "images/trainings/ACEND_Adventure_Polarlicht@4x.jpg"
+      img2 : "images/trainings/ACEND_Jeremy@4x.jpg"
+      img3 : "images/trainings/ACEND_CodeA@4x.jpg"
+      
+    - ubertitle : "Trainingsangebot"
+      title : "Helm"
+      subtitle : "Basic"
+      URL : "/trainings/container-und-kubernetes-basic/"
+      label : "Mehr erfahren"
+      img1 : "images/trainings/ACEND_Adventure_Lava@4x.jpg"
+      img2 : "images/trainings/ACEND_Adyna@4x.jpg"
+      img3 : "images/trainings/ACEND_CodeB@4x.jpg"
+      
+    - ubertitle : "Trainingsangebot"
+      title : "Open Shift"
+      subtitle : "Basic"
+      URL : "/trainings/container-und-kubernetes-basic/"
+      label : "Mehr erfahren"
+      img1 : "images/trainings/ACEND_Adventure_Eishoele@4x.jpg"
+      img2 : "images/trainings/ACEND_Philip@4x.jpg"
+      img3 : "images/trainings/ACEND_CodeC@4x.jpg"
+  
+
+# testimonial
+testimonials:
+  enable : true
+  title : "Testimonials"
+  testimonial:
+     - title : "Das sagt unsere Kursteilnehmerin<br/>Fiona Jakobsen, Basel"
+       image : "images/team/member-2.png"
+       text : "Ut enim ad minim veniam, quis nostrud exercitation ullamco Kubernetes Basic nostrud exercitation ullamco ex earmo coma modo consequat." 
+    
+     - title : "Das sagt unsere Kursteilnehmerin<br/>Peter Müller, Winterthur"
+       image : "images/team/member-1.png"
+       text : "Ut enim ad minim veniam, quis nostrud exercitation ullamco Kubernetes Basic nostrud exercitation ullamco ex earmo coma modo consequat." 
+    
+     - title : "Das sagt unsere Kursteilnehmerin<br/>Bianca White, Bern"
+       image : "images/team/member-3.png"
+       text : "Ut enim ad minim veniam, quis nostrud exercitation ullamco Kubernetes Basic nostrud exercitation ullamco ex earmo coma modo consequat." 
+    
+# partner
+partner:
+  enable : true
+  title : "Unsere Partner"
+  item:
+    - logo : "images/partner/puzzle-itc-logo.svg"
+      text : "Puzzle ITC lorem ipsum erstklassiger IT-Dienstleister decken wir den ganzen Lebenszyklus von geschäftskritischen Anwendungen und Infrastrukturen ab. Dabei setzen wir konsequent auf Open Source Technologien sowie modernste Methoden und Werkzeuge."
+      URL : "https://puzzle.ch"
+      label : "puzzle.ch"
+
+    - logo : "images/partner/die-mobiliar-logo.svg"
+      text : "Puzzle ITC lorem ipsum erstklassiger IT-Dienstleister decken wir den ganzen Lebenszyklus von geschäftskritischen Anwendungen und Infrastrukturen ab. Dabei setzen wir konsequent auf Open Source Technologien sowie modernste Methoden und Werkzeuge."
+      URL : "https://puzzle.ch"
+      label : "puzzle.ch"

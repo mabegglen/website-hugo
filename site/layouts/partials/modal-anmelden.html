@@ -1,0 +1,109 @@
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="signupModalLabel">Anmeldung</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">
+                  <svg class="icon" width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g id="icon/Close" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <g id="AC_Icon_Burger_RGB_Schwarz" transform="translate(15.000000, 14.000000)" fill="#000000" fill-rule="nonzero">
+                          <rect id="Rectangle" transform="translate(17.950000, 17.860000) rotate(-45.000000) translate(-17.950000, -17.860000) " x="-4.05" y="15.86" width="44" height="4"></rect>
+                      </g>
+                      <g id="AC_Icon_Burger_RGB_Schwarz" transform="translate(32.500000, 32.500000) rotate(-90.000000) translate(-32.500000, -32.500000) translate(15.000000, 15.000000)" fill="#000000" fill-rule="nonzero">
+                          <rect id="Rectangle" transform="translate(17.950000, 17.860000) rotate(-45.000000) translate(-17.950000, -17.860000) " x="-4.05" y="15.86" width="44" height="4"></rect>
+                      </g>
+                  </g>
+              </svg></span>
+              </button>
+            </div>
+            <div class="modal-body">
+
+                <div class="container-fluid">
+                    <div class="row mb-5">
+                      <div class="col-lg-8 lead-big">
+                          Lorem ipsum dolor sit amet, consectetur adi dkler ioern ring pisicing etur urlrer.
+                      </div>  
+                    </div>
+                    
+                    
+                    
+                    <div class="row">
+                      <div class="col-lg-11 offset-lg-1">
+
+
+                <form id="anmeldeform" action="{{site.Params.contact.form_action}}" method="POST" >
+
+
+                    <div class="mb-4">
+                        <select class="custom-select" required>
+                        <option value="" selected>Kurs auswählen...</option>
+                        {{ $t := where .Site.RegularPages "Section" "trainings"}}
+                        {{ range $t }}
+                        <option value="1">{{ .Title }}</option>
+                        {{ end }}
+
+                        
+                        
+                      </select>
+                      </div>
+
+                    <div class="mb-4">
+                      <div class="custom-control custom-radio custom-control-inline">
+                          <input type="radio" id="select_einzelperson" name="einzelperson" class="custom-control-input" required>
+                          <label class="custom-control-label" for="select_einzelperson">Einzelperson</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                          <input type="radio" id="select_team" name="einzelperson" class="custom-control-input">
+                          <label class="custom-control-label" for="select_team">Team</label>
+                        </div>
+                      </div>
+                  
+                  
+                      <div class="mb-4">
+                      <div class="custom-control custom-radio custom-control-inline">
+                          <input type="radio" id="anrede_frau" name="anrede" class="custom-control-input" required>
+                          <label class="custom-control-label" for="anrede_frau">Frau</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                          <input type="radio" id="anrede_herr" name="anrede" class="custom-control-input">
+                          <label class="custom-control-label" for="anrede_herr">Herr</label>
+                        </div>
+                      </div>
+      
+      
+                    <input type="text" id="name" name="name" placeholder="Name *" class="form-control form-control-lg  mb-4" required>
+                    
+                    <input type="text" id="vorname" name="vorname" placeholder="Vorname *" class="form-control form-control-lg  mb-4" required>
+                    
+                    <input type="text" id="firma" name="firma" placeholder="Firma" class="form-control form-control-lg  mb-4">
+                   
+                    <input type="email" id="email" name="_replyto" placeholder="E-mail *" class="form-control form-control-lg mb-4" required>
+                    
+                    <input type="text" id="telefon" name="telefon" placeholder="Telefon" class="form-control form-control-lg mb-4">
+                  
+                    <input type="text" name="_gotcha" style="display:none">
+
+                    <textarea name="nachricht" id="nachricht" class="form-control form-control-lg mb-4"
+                      placeholder="Nachricht"></textarea>
+                  
+                      <div class="custom-control custom-checkbox mb-4">
+                          <input type="checkbox" class="custom-control-input" id="agb_check" required>
+                          <label class="custom-control-label small" for="agb_check">Ich habe die Nutzungsbedingungen der Website gelesen und bin damit einverstanden.
+                            </label>
+                        </div>
+      
+                    <button class="btn btn-outline-primary  py-3 px-5 ">Senden</button>
+                  
+                </form>
+              </div>  
+            </div>
+              </div>  
+            </div>
+
+
+            </div>
+            
+          </div>
+        </div>
+      </div>

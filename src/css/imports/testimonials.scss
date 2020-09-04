@@ -1,0 +1,10 @@
+.testimonial {
+  .img {
+    margin-top: -10%;
+    margin-left: -10%;
+ 
+    @include media-breakpoint-up(md) {
+      margin-left: -11.5%;
+    }
+  }
+}

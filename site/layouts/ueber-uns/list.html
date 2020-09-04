@@ -1,0 +1,130 @@
+{{ define "main" }}
+
+{{ with site.Data.ueberuns.lead }}
+  {{ partial "lead.html" . }}
+{{ end }}
+
+{{ with site.Data.ueberuns.main_image }}
+  <img src="{{ . | relURL}}" alt="" class="bg-shape-1 w-100">
+{{ end }}
+
+
+ 
+<!-- page title 
+<section class="page-title-alt bg-primary_ position-relative overflow-hidden_">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="text-white_ font-tertiary">{{ .Params.leadtitle }}</h1>
+      </div>
+    </div>
+  </div> -->
+  <!-- background shapes 
+  <img src="{{`images/illustrations/page-title.png`| relURL}}" alt="illustrations" class="bg-shape-1 w-100">
+  <img src="{{`images/illustrations/dots-group-sm.svg`| relURL}}" alt="illustrations" class="bg-shape-2">
+  <img src="{{`images/illustrations/leaf-yellow.svg`| relURL}}" alt="illustrations" class="bg-shape-3">
+  <img src="{{`images/illustrations/leaf-orange.svg`| relURL}}" alt="illustrations" class="bg-shape-4">
+  <img src="{{`images/illustrations/dots-group-cyan.svg`| relURL}}" alt="illustrations" class="bg-shape-5">
+  <img src="{{`images/illustrations/leaf-cyan-lg.svg`| relURL}}" alt="illustrations" class="bg-shape-6">-->
+</section>
+<!-- /page title -->
+
+<!-- about -->
+<section class="section my-6">
+  <div class="container">
+
+    <div class="row">
+      <div  data-scroll class="col-11 col-lg-5 offset-1">
+        <h3>Subthema 1 enim ad minim veniam, quis nostrud.</h3>
+        <p>Kaum ein Moment beflügelt Entwicklungen so sehr, wie die Freude darüber, etwas Neues entdeckt zu haben. Als Wissensplattform begleitet acend mit dieser Haltung Schweizer Engineers, ihre Unternehmen in technologisches Neuland zu führen.</p>
+      </div>
+    </div>
+
+    <div class="row images my-6">
+        <div class="col-lg-10 offset-lg-2 d-flex align-items-start">
+            <div data-scroll  class="img-1">
+            <img src="{{ `/images/ueberuns/ACEND_Workshop_Tablet@4x.jpg` | relURL}}" alt="" class="img-fluid">
+          </div>
+          <div data-scroll class="img-2">
+            <img src="{{ `/images/ueberuns/ACEND_Workshop_Frontal@4x.jpg` | relURL}}" alt="" class="img-fluid"></div>
+
+        </div>      
+    </div>
+
+    <div class="row my-6">
+        <div  data-scroll class="col-11 col-lg-5 offset-1 offset-lg-6">
+          
+          <h3>Subthema 2 enim ad minim veniam, quis nostrud.</h3>
+          <p>Kaum ein Moment beflügelt Entwicklungen so sehr, wie die Freude darüber, etwas Neues entdeckt zu haben. Als Wissensplattform begleitet acend mit dieser Haltung Schweizer Engineers, ihre Unternehmen in technologisches Neuland zu führen.</p>
+        </div>
+        
+      </div>
+
+      <div class="row images my-6">
+          <div class="col-lg-10   d-flex align-items-start">
+              <div data-scroll  class="img-1 mt-5">
+                <img src="{{ `/images/ueberuns/ACEND_Workshop_Brainstorming@4x.jpg` | relURL}}" alt="" class="img-fluid">
+              </div>
+              <div data-scroll class="img-2">
+                <img src="{{ `/images/ueberuns/ACEND_Students_Discussion@4x.jpg` | relURL}}" alt="" class="img-fluid">
+              </div>
+          </div>      
+      </div>
+
+      <div class="row my-6">
+          <div  data-scroll class="col-11 col-lg-5 offset-1">
+            <h3>Subthema 3 enim ad minim veniam, quis nostrud.</h3>
+            <p>Kaum ein Moment beflügelt Entwicklungen so sehr, wie die Freude darüber, etwas Neues entdeckt zu haben. Als Wissensplattform begleitet acend mit dieser Haltung Schweizer Engineers, ihre Unternehmen in technologisches Neuland zu führen.</p>
+          </div>
+        </div>
+
+
+        <div class="row my-6">
+          <div  data-scroll class="col-9 offset-1 bg-primary text-white p-5">
+            <p class="quote">«Kaum ein Moment beflügelt Entwicklungen so sehr, wie die Freude darüber, etwas Neues entdeckt zu haben. Als Wissensplattform begleitet acend mit dieser Haltung Schweizer Engineers, ihre Unternehmen in technologisches Neuland zu führen.»</p>
+            <p><stron>Roland Fischer,</stron> Gründer acend</p>
+          </div>
+        </div>
+
+  </div>
+</section>
+<!-- /about -->
+
+
+<!-- team -->
+{{ if site.Data.ueberuns.team.enable }}
+{{ with site.Data.ueberuns.team }}
+<section class="section mb-5 bg-cover" data-background="{{`images/backgrounds/team-bg.png`|relURL}}">
+  <div class="container">
+    <h2 class="mb-5">{{ .title | markdownify }}</h2>
+    
+    <div class="row">
+      <div class="col-lg-11 offset-lg-1">
+        <div class="row">
+          {{ range .team_member }}
+          <div class="col-6 mb-5">
+            <div class="row">
+             <div class="col-sm-6">
+                <img src="{{ .image | relURL }}" class="img-fluid">
+             </div>
+              <div class="col-sm-6">
+                <h4 class="mb-0 mt-3 mt-sm-4">{{.title }}</h4>
+                <p class="title">{{.designation }}</p>
+                <p class="small">{{.abstract }}</p>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /team -->
+
+
+{{ partial "banner-anmelden.html" . }}
+
+{{ end }}

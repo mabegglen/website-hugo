@@ -1,0 +1,66 @@
+{{ define "main" }}
+
+{{ with site.Data.trainings.lead }}
+  {{ partial "lead.html" . }}
+{{ end }}
+
+
+<!-- trainigs -->
+<section class="section">
+  <div class="container">
+    
+    
+    {{ if site.Data.trainings.content }}
+      {{ with site.Data.trainings.content }}
+      <div class="row my-5">
+        <div class="col-lg-9 offset-lg-1">
+          {{ .  | markdownify }}
+        </div>
+      </div>
+      {{ end }}
+    {{ end }}
+    
+    
+
+
+
+
+
+    
+  <!--  filter 
+    <div class="row mb-5">
+      <div class="col-12">
+        <div class="btn-group btn-group-toggle justify-content-center d-flex flex-wrap" data-toggle="buttons">
+          <label class="btn btn-sm btn-primary active">
+            <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
+          </label>
+					{{ $categories := slice }}
+					{{ range .Data.Pages }}
+					{{ range .Params.categories }}
+					{{ $categories = $categories | append . }}
+					{{ end }}
+					{{ end }}
+					{{ range ( $categories | uniq ) }}
+          <label class="btn btn-sm btn-primary">
+            <input type="radio" name="shuffle-filter" value="{{ . | urlize }}" />{{ . | humanize }}
+          </label>
+          {{ end }}
+        </div>
+      </div>
+    </div> 
+  -->
+    <div class="row my-5">
+        <div class="col-lg-11 offset-lg-1">
+        {{ range .Data.Pages }}
+          {{ partial "box-training" . }} 
+        {{ end }}
+        </div>
+    </div>
+  </div>
+</section>
+<!-- /portfolio -->
+
+{{ partial "banner-anmelden.html" . }}
+
+
+{{ end }}

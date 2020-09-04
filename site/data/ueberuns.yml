@@ -1,0 +1,61 @@
+lead:
+  title: "Wir sind acend"
+  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+# main image
+main_image: "images/ueberuns/ACEND_Adventure_Lava_Big@4x.jpg"
+
+
+
+# work process
+work_process:
+  enable : false
+  title : "Work Process"
+  item:
+  - title : "Research and Plan"
+    icon : "images/icons/plan.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    
+  - title : "Design and Develop"
+    icon : "images/icons/design.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    
+  - title : "Deliver"
+    icon : "images/icons/print.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+
+# team
+team:
+  enable: true
+  title : "Die Personen hinter acend"
+  team_member:
+    - title : "Jack Schenziwe"
+      image : "images/team/Coach@4x.jpg"
+      designation : "Project Manager"
+      abstract : "Peter Muster arbeitet als Berater und Trainer für XZP IT, wo er Organisationen hilft, wirkungsvolle Produkte zu entwickeln und zu liefern. "
+      
+    - title : "Julias Carlie"
+      image : "images/team/Coach@4x.jpg"
+      designation : "Web Developer"
+      abstract : "Peter Muster arbeitet als Berater und Trainer für XZP IT, wo er Organisationen hilft, wirkungsvolle Produkte zu entwickeln und zu liefern. "
+      
+    - title : "John Doe"
+      image : "images/team/Coach@4x.jpg"
+      designation : "Designer"
+      abstract : "Peter Muster arbeitet als Berater und Trainer für XZP IT, wo er Organisationen hilft, wirkungsvolle Produkte zu entwickeln und zu liefern. "
+ 
+    - title : "Jack Schenziwe"
+      image : "images/team/Coach@4x.jpg"
+      designation : "Project Manager"
+      abstract : "Peter Muster arbeitet als Berater und Trainer für XZP IT, wo er Organisationen hilft, wirkungsvolle Produkte zu entwickeln und zu liefern. "
+      
+    - title : "Julias Carlie"
+      image : "images/team/Coach@4x.jpg"
+      designation : "Web Developer"
+      abstract : "Peter Muster arbeitet als Berater und Trainer für XZP IT, wo er Organisationen hilft, wirkungsvolle Produkte zu entwickeln und zu liefern. "
+      
+    - title : "John Doe"
+      image : "images/team/Coach@4x.jpg"
+      designation : "Designer"
+      abstract : "Peter Muster arbeitet als Berater und Trainer für XZP IT, wo er Organisationen hilft, wirkungsvolle Produkte zu entwickeln und zu liefern. "

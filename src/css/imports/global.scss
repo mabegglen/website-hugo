@@ -1,0 +1,273 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3938487, 2020-08-21T07:55:13-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed ../fonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: TTFirsNeue-Light by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-firs-neue/light/
+ * 
+ * Webfont: TTFirsNeue-Medium by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-firs-neue/medium/
+ * 
+ * 
+ * Webfonts copyright: Copyright (c) 2018 by Typetype. Designer Ivan Gladkikh, technical designers Philipp Nurullin, Vika Usmanova, Nadyr Rakhimov, Marina Khodak. All rights reserved.
+ * 
+ * © 2020 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3c18b7");
+  
+@font-face {
+  font-family: "TTFirsNeue-Medium";
+  src: url('../fonts/TTFirsNeue-Medium/font.woff2') format('woff2'), url('../fonts/TTFirsNeue-Medium/font.woff') format('woff');
+}
+@font-face {
+  font-family: "TTFirsNeue-Light";
+  src: url('../fonts/TTFirsNeue-Light/font.woff2') format('woff2'), url('../fonts/TTFirsNeue-Light/font.woff') format('woff');
+}
+
+:root {
+  --primary: #074761;
+  --primary-light: #e7ecee;
+}
+
+html {
+  font-size: 16px;
+  line-height: 30px;
+
+  @include media-breakpoint-up(md) {
+    font-size: 18px;
+  }
+}
+
+body {
+  //font-size: calc(10px + 1vmin);
+  font-family: "TTFirsNeue-Light", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #282c34;
+  color: white;*/
+  padding-top: 12rem;
+  color: $AC-Blue;
+  color: var(--primary);
+}
+
+//icons
+.icon {
+  width: 40px;
+  height: 40px;
+}
+.icon-sm {
+  width: 28px;
+  height: 28px;
+}
+
+
+
+#logo,
+.claim,
+.icon:not(.icon-white),
+.toggler-icon {
+  path, polygon, rect {
+   fill: $AC-Blue;
+    fill: var(--primary);
+  }
+}
+
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-family: "TTFirsNeue-Medium", sans-serif;
+  font-weight: normal;
+}
+
+h2,
+.h2 {
+  font-size: 1.375rem;
+
+  @include media-breakpoint-up(md) {
+    font-size: 2rem
+  }
+}
+
+h3,
+.h3,
+.category,
+.footer-section h5,
+.paragraph-lg,
+.quote {
+  font-size: 1.375rem;
+
+  @include media-breakpoint-up(md) {
+    font-size: 1.555rem
+  }
+}
+
+h4,
+.h4 {
+  font-size: 1.222rem
+}
+
+.small-bold {
+  font-family: "TTFirsNeue-Medium", sans-serif;
+  font-size: 14px;
+}
+
+.btn {
+  font-family: "TTFirsNeue-Medium", sans-serif;
+  background-color: var(--primary);
+  color: #fff;
+  border-radius: 0;
+}
+
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+.mb-minus {
+  margin-bottom: -3rem;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.border-outline {
+
+  border-left: 1rem solid white;
+  border-right: 1rem solid white;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+    color: var(--primary);
+  }
+  .text-white & {
+    color: #fff;
+  }
+}
+
+.border,
+.border-top,
+.border-bottom {
+    border-color: var(--primary) !important;
+}
+
+.border-top,
+.border-bottom {
+  position: relative;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 10px;
+    background-color: var(--primary);
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+  }
+}
+
+.border-top::after {
+  top: 0;
+  bottom: auto;
+}
+
+
+.lead-big {
+  font-family: "TTFirsNeue-Medium", sans-serif;
+  font-size: 1.625rem;
+  line-height: 2.15rem;
+
+  @include media-breakpoint-up(md) {
+    font-size: 2.666rem;
+    line-height: 3.25rem;
+  }
+}
+
+.pattern {
+  position: relative;
+  &::after {
+    content: "";
+    background-image: url("../images/AC_Muster_1_RGB_Weiss.svg");
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    //z-index: -1;   
+    pointer-events: none;
+    background-attachment: fixed;
+  }
+}
+
+.modal-backdrop.show {
+    opacity: 0.5;
+    background-image: url("../images/AC_Muster_1_RGB_Weiss.svg");
+    background-attachment: fixed;
+}
+
+
+[data-scroll]:not(.header) {
+  transition: opacity 1s, transform 0.6s ease-in-out;
+}
+[data-scroll="in"]:not(.header) {
+  opacity: 1;
+  transform: translateY(0);
+}
+[data-scroll="out"]:not(.header) {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.entry-content {
+  ol, ul, dl {
+    padding-left: 1rem;
+  }
+
+  li {
+    list-style: none;
+    &::before {
+      content: "¬ ";
+      margin-left: -0.75rem;
+    }
+  }
+}
+
+
+.mt-6, .my-6 {
+    margin-top: 5rem !important;
+}
+.mb-6, .my-6 {
+    margin-bottom: 5rem !important;
+}
