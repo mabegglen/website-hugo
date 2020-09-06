@@ -16,3 +16,4 @@ RUN npm install && npm run build
 FROM nginxinc/nginx-unprivileged:alpine
 
 COPY --from=builder  /opt/app/src/dist /usr/share/nginx/html
+COPY --from=builder  /opt/app/src/nginx.conf /etc/nginx/conf.d/default.conf
