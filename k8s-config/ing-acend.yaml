@@ -1,0 +1,22 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: nginx-public
+    kubernetes.io/tls-acme: "true"
+    cert-manager.io/cluster-issuer: acend-letsencrypt
+  labels:
+    app: acend-website
+  name: acend-website-acend-ch
+spec:
+  rules:
+  - host: acend.ch
+    http:
+      paths:
+      - backend:
+          serviceName: acend-website
+          servicePort: 8080
+  tls:
+  - hosts:
+      - acend.ch
+    secretName: acend-ch
