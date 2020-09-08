@@ -1,20 +1,24 @@
 ---
 title: "Container & Kubernetes"
-description: "Einführung in Cloud Native Technologien für Software Entwickler und Devops Engineers"
+description: "In zwei Tagen von der theoretischen Grundlage zur selbst deployten, containerbasierten Applikation auf Kubernetes."
 date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 0
 slug: 
-categories: ["Basic"]
+categories: ["Basics"]
 duration: "3 Tage"
 abstract : "Einführung in Cloud Native Technologien für Software Entwickler und Devops Engineers"
 main_title : "Einführung in Cloud Native Technologien für Software Entwickler und Devops Engineers"
 
 personen: 
-  daten : "15.10.20, 22.01.21, 29.04.2021"
+  daten : "10.11.20, 11.11.20"
   preis : "CHF 1900"
 
-image: "images/trainings/item-1.png"
+headerimages:
+  img1 : "images/trainings/ACEND_Adventure_Polarlicht@4x.jpg"
+  img2 : "images/trainings/ACEND_Jeremy@4x.jpg"
+  img3 : "images/trainings/ACEND_CodeA@4x.jpg"
+
 
 main_text: "Container-Technologien und insbesondere Kubernetes haben in den letzten Jahren enorm an Bedeutung gewonnen und wurden ein wichtiger Treiber der Digitalisierung. 
 
@@ -25,13 +29,13 @@ accordion:
     item:
         - title : "Trainingsziele"
           icon : "1"
-          content : "¬ Den Einstieg in eine moderne Technologie finden     
-          ¬ Konzepte von Containern und Kubernetes verstehen    
+          content : "¬ Den Einstieg in eine moderne Technologie finden<br/>     
+          ¬ Konzepte von Containern und Kubernetes verstehen<br/>    
           ¬ Applikationen auf Kubernetes deployen"
- 
+  
         - title : "Voraussetzungen"
           icon : "2"
-          content : "¬ Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet via WLAN.   
+          content : "¬ Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet via WLAN.<br/>
           ¬ Lokale Admin-Rechte oder Zugriffsmöglichkeit auf ein Terminal (im Browser) sind zusätzlich nötig."
 
         - title : "Zielpublikum"
@@ -40,10 +44,10 @@ accordion:
 
         - title : "Konditionen"
           icon : "4"
-          content : "¬ CHF 1900 / Person für 2 Tage
-          ¬ Gruppen von 8-24 Personen
-          ¬ Inklusive Verpflegung, Unterlagen und Kubernetes Cluster in der Cloud. 
-          ¬ Rabatt ab 12 Personen"
+          content : "¬ CHF 1900 / Person für 2 Tage<br/>
+          ¬ Gruppen von 8-24 Personen<br/>
+          ¬ Inklusive Verpflegung, Unterlagen und Kubernetes Cluster in der Cloud<br/> 
+          ¬ Rabatt ab 12 Personen<br/>"
 
 # Trainingsinhalt
 trainingsinhalt: 
@@ -90,15 +94,19 @@ trainers:
   enable: true
   title : "Lernen Sie Ihre Trainer kennen"
   trainer:
-    - title : "Philipp Grossenbacher"
+    - title : "Johann"
       image : "images/team/Coach@4x.jpg"
-      designation : "Trainer"
-      abstract : "Peter Muster arbeitet als Berater und Trainer für XZP IT, wo er Organisationen hilft, wirkungsvolle Produkte zu entwickeln und zu liefern."
+      designation : "Co-Founder & Trainer"
+      abstract : "Stille Wasser sind tief und gerne taucht er tief in die Cloud Native Technologien ein. Als nachhaltiger Klimafreund taucht er lieber im Thunersee als im Meer ab."
+      linkedin : "https://www.linkedin.com/in/jogy/"
+      twitter : "https://twitter.com/_jogy_"
       
-    - title : "Marcel Groner"
+    - title : "Seba"
       image : "images/team/Coach@4x.jpg"
-      designation : "Trainer"
-      abstract : "Peter Muster arbeitet als Berater und Trainer für XZP IT, wo er Organisationen hilft, wirkungsvolle Produkte zu entwickeln und zu liefern."
+      designation : "Co-Founder & Trainer"
+      abstract : "Für ihn ist hochkomplexe IT nicht schwieriger als ein Kinderspiel. Erklären kann er beides gleich gut."
+      linkedin : "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"
+      twitter : "https://twitter.com/SebaPlattner"
 
 # testimonials
 testimonials:

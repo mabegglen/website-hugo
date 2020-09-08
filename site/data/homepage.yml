@@ -1,11 +1,9 @@
-title : "Hi! I’m <br> Christoher <br> UX designer"
 
 # about
 about:
   enable : true
-  title : "Wer wir sind"
-  content : "Leadtext gross dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Cum 
-sociis natoque penatibus et magni scu auen lus mus."
+  title : "Experience Knowledge"
+  content : "Kaum ein Gefühl beflügelt Entwicklungen so sehr wie die Freude, etwas Neues entdeckt zu haben. Lass uns diesen Moment gemeinsam erleben."
   button:
     enable : false
     label : "Mehr erfahren"
@@ -17,7 +15,7 @@ slideshow:
   item: 
     - ubertitle : "Trainingsangebot"
       title : "Container und Kubernetes"
-      subtitle : "Basic"
+      subtitle : "Basics"
       URL : "/trainings/container-und-kubernetes-basic/"
       label : "Mehr erfahren"
       img1 : "images/trainings/ACEND_Adventure_Polarlicht@4x.jpg"
@@ -26,7 +24,7 @@ slideshow:
       
     - ubertitle : "Trainingsangebot"
       title : "Helm"
-      subtitle : "Basic"
+      subtitle : "Basics"
       URL : "/trainings/container-und-kubernetes-basic/"
       label : "Mehr erfahren"
       img1 : "images/trainings/ACEND_Adventure_Lava@4x.jpg"
@@ -35,29 +33,34 @@ slideshow:
       
     - ubertitle : "Trainingsangebot"
       title : "Open Shift"
-      subtitle : "Basic"
+      subtitle : "Basics"
       URL : "/trainings/container-und-kubernetes-basic/"
       label : "Mehr erfahren"
       img1 : "images/trainings/ACEND_Adventure_Eishoele@4x.jpg"
       img2 : "images/trainings/ACEND_Philip@4x.jpg"
       img3 : "images/trainings/ACEND_CodeC@4x.jpg"
   
+# trainings
+trainigs:
+  title: "Unsere Trainings" 
+  text: "Bei uns lernst du neue Technologien auf eine aussergewöhnliche Art und Weise kennen. Unsere Trainings bestehen aus abwechslungsreicher Theorie und praxisnahen hands-on Labs. Lass dich inspirieren vom Herzblut unserer Trainer und tausche dich mit unserer Community aus."
 
+      
 # testimonial
 testimonials:
   enable : true
   title : "Testimonials"
   testimonial:
-     - title : "Das sagt unsere Kursteilnehmerin<br/>Fiona Jakobsen, Basel"
-       image : "images/team/member-2.png"
-       text : "Ut enim ad minim veniam, quis nostrud exercitation ullamco Kubernetes Basic nostrud exercitation ullamco ex earmo coma modo consequat." 
+     - title : "Das sagt unser Kursteilnehmer<br/>Bonfils Nicolas, Bern"
+       image : "images/trainings/ACEND_Jeremy@4x.jpg"
+       text : "«Sehr gut geführter Workshop mit fachlich kompetenten Trainern in lockerer Atmosphäre. Besonders der Mix zwischen Theorie und Labs (Praxis) hat mir gefallen.»" 
     
-     - title : "Das sagt unsere Kursteilnehmerin<br/>Peter Müller, Winterthur"
-       image : "images/team/member-1.png"
+     - title : "Das sagt unsere Kursteilnehmerin<br/>Hans Muster, Winterthur"
+       image : "images/trainings/ACEND_Jeremy@4x.jpg"
        text : "Ut enim ad minim veniam, quis nostrud exercitation ullamco Kubernetes Basic nostrud exercitation ullamco ex earmo coma modo consequat." 
     
      - title : "Das sagt unsere Kursteilnehmerin<br/>Bianca White, Bern"
-       image : "images/team/member-3.png"
+       image : "images/trainings/ACEND_Jeremy@4x.jpg"
        text : "Ut enim ad minim veniam, quis nostrud exercitation ullamco Kubernetes Basic nostrud exercitation ullamco ex earmo coma modo consequat." 
     
 # partner
@@ -65,12 +68,12 @@ partner:
   enable : true
   title : "Unsere Partner"
   item:
-    - logo : "images/partner/puzzle-itc-logo.svg"
-      text : "Puzzle ITC lorem ipsum erstklassiger IT-Dienstleister decken wir den ganzen Lebenszyklus von geschäftskritischen Anwendungen und Infrastrukturen ab. Dabei setzen wir konsequent auf Open Source Technologien sowie modernste Methoden und Werkzeuge."
+    - logo : "images/partner/logo-puzzle-logo@2x.png"
+      text : "Puzzle ITC deckt als innovativer IT-Dienstleister den ganzen Lebenszyklus von geschäftskritischen Anwendungen und Infrastrukturen ab. Dabei wird konsequent auf Open Source Technologien sowie modernste Methoden und Werkzeuge gesetzt. Ein interdisziplinäres und qualifiziertes Team arbeitet an Projekten in den Bereichen Beratung, Applikationen, Delivery, Infrastruktur und eigenen Open Source Lösungen."
       URL : "https://puzzle.ch"
       label : "puzzle.ch"
 
-    - logo : "images/partner/die-mobiliar-logo.svg"
-      text : "Puzzle ITC lorem ipsum erstklassiger IT-Dienstleister decken wir den ganzen Lebenszyklus von geschäftskritischen Anwendungen und Infrastrukturen ab. Dabei setzen wir konsequent auf Open Source Technologien sowie modernste Methoden und Werkzeuge."
-      URL : "https://puzzle.ch"
-      label : "puzzle.ch"
+    - logo : "images/partner/appuio_logo@2x.png"
+      text : "APPUiO ist die führende, auf Kubernetes basierende Container-Plattform für das Design, die Entwicklung und den Betrieb von Applikationen. Auf Basis bewährter Open Source Konzepte wie Docker und Kubernetes unterstützt APPUiO den DevOps-Ansatz. So werden Entwicklung, Deployment und Betriebsprozesse durch Automatisierung und Self-Service beschleunigt. Ebenso wird die Zusammenarbeit zwischen Software-Entwicklern und Betriebsorganisation verbessert."
+      URL : "https://www.appuio.ch"
+      label : "appuio.ch"

@@ -1,8 +1,9 @@
 {{ define "main" }}
 
-{{ with site.Data.trainings.lead }}
+{{ with .Params.lead }}
   {{ partial "lead.html" . }}
 {{ end }}
+
 
 
 <!-- trainigs -->
@@ -10,15 +11,14 @@
   <div class="container">
     
     
-    {{ if site.Data.trainings.content }}
-      {{ with site.Data.trainings.content }}
+    
       <div class="row my-5">
         <div class="col-lg-9 offset-lg-1">
-          {{ .  | markdownify }}
+          {{ .Content }}
         </div>
       </div>
-      {{ end }}
-    {{ end }}
+   
+
     
     
 

@@ -1,3 +1,20 @@
+.modal-dialog {
+  
+  
+  @include media-breakpoint-up(md) {
+    max-width: 720px;
+  }
+
+  @include media-breakpoint-up(lg) {
+        max-width: 960px;
+  }
+  @include media-breakpoint-up(xl) {
+    max-width: 1140px;
+  }
+}
+
+ 
+
 .modal-content {
     position: relative;
     display: -webkit-box;
@@ -11,4 +28,14 @@
     border: none;
     border-radius: 0;
     outline: 0;
+}
+
+.modal-backdrop {
+  background-color: var(--primary);
+  &.show {
+    opacity: 1;
+    background-image: url("../images/AC_Muster_2_RGB_Weiss@2x.png");
+    background-attachment: fixed;
+    background-size: 150%;
+  }
 }

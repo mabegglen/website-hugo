@@ -35,3 +35,42 @@
 }
 
 
+.icon-plus {
+  width: 24px;
+  height: 24px;
+  
+  .box-anmelden & {
+      width: 20px;
+      height: 20px;
+  }
+
+  position: relative;
+  &::before {
+    content: "";
+    height: 100%;
+    width: 1px;
+    background: var(--primary);
+    display: block;
+    top: 0;
+    left: 50%;
+    position: absolute;
+
+    [aria-expanded="true"] & {
+      height: 0;
+    }
+  }
+  &::after {
+    content: "";
+    height: 1px;
+    width: 100%;
+    background: var(--primary);
+    display: block;
+    top: 50%;
+    left: 0;
+    position: absolute;
+  }
+
+  .box-anmelden  [aria-expanded="true"] & {
+      display: none;
+    }
+}

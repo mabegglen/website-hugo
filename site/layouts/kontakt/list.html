@@ -1,6 +1,6 @@
 {{ define "main" }}
  
-{{ with site.Data.kontakt.lead }}
+{{ with .Params.lead }}
   {{ partial "lead.html" . }}
 {{ end }}
 
@@ -16,11 +16,11 @@
               
               <div class="mb-4">
                 <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" id="anrede_frau" name="anrede" class="custom-control-input" required>
+                    <input type="radio" id="anrede_frau" name="anrede" value="Frau" class="custom-control-input" required>
                     <label class="custom-control-label" for="anrede_frau">Frau</label>
                   </div>
                   <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" id="anrede_herr" name="anrede" class="custom-control-input">
+                    <input type="radio" id="anrede_herr" name="anrede" value="Herr" class="custom-control-input">
                     <label class="custom-control-label" for="anrede_herr">Herr</label>
                   </div>
                 </div>

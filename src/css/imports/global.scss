@@ -60,7 +60,10 @@ body {
   text-align: center;
   background-color: #282c34;
   color: white;*/
-  padding-top: 12rem;
+  padding-top: 7rem;
+  @include media-breakpoint-up(lg) {
+    padding-top: 10rem;
+  }
   color: $AC-Blue;
   color: var(--primary);
 }
@@ -80,7 +83,8 @@ body {
 #logo,
 .claim,
 .icon:not(.icon-white),
-.toggler-icon {
+.toggler-icon,
+.kurzlogo {
   path, polygon, rect {
    fill: $AC-Blue;
     fill: var(--primary);
@@ -116,6 +120,7 @@ h2,
 h3,
 .h3,
 .category,
+.accordion-title,
 .footer-section h5,
 .paragraph-lg,
 .quote {
@@ -127,14 +132,20 @@ h3,
 }
 
 h4,
-.h4 {
-  font-size: 1.222rem
+.h4  {
+  font-family: "TTFirsNeue-Light", sans-serif;
+  font-size: 1.125rem;
+  @include media-breakpoint-up(md) {
+      font-size:  1.222222222222222rem
+    }
 }
 
 .small-bold {
   font-family: "TTFirsNeue-Medium", sans-serif;
   font-size: 14px;
 }
+
+
 
 .btn {
   font-family: "TTFirsNeue-Medium", sans-serif;
@@ -205,6 +216,10 @@ a {
 
 .lead-big {
   font-family: "TTFirsNeue-Medium", sans-serif;
+}
+
+.lead-big,
+.main-carousel .category {
   font-size: 1.625rem;
   line-height: 2.15rem;
 
@@ -215,11 +230,16 @@ a {
 }
 
 .pattern {
-  position: relative;
+  //position: relative;
+  background-image: url("../images/AC_Muster_1_RGB_Weiss@2x.png");
+  background-attachment: fixed;
+  //background-position: center;
+  background-size: 1675px;
+  
+  /*
   &::after {
     content: "";
-    background-image: url("../images/AC_Muster_1_RGB_Weiss.svg");
-    opacity: 0.1;
+    //opacity: 0.1;
     top: 0;
     left: 0;
     bottom: 0;
@@ -227,14 +247,12 @@ a {
     position: absolute;
     //z-index: -1;   
     pointer-events: none;
-    background-attachment: fixed;
   }
+  */
 }
-
-.modal-backdrop.show {
-    opacity: 0.5;
-    background-image: url("../images/AC_Muster_1_RGB_Weiss.svg");
-    background-attachment: fixed;
+.pattern-2 {
+  //position: relative;
+  background-image: url("../images/AC_Muster_2_RGB_Weiss@2x.png");
 }
 
 
@@ -257,6 +275,8 @@ a {
 
   li {
     list-style: none;
+    line-height: 1.7;
+    
     &::before {
       content: "¬ ";
       margin-left: -0.75rem;

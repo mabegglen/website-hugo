@@ -1,7 +1,6 @@
 baseurl = "/"
 languageCode = "de-ch"
-languageLang = "de"
-title = "acend GmbH"
+title = "acend GmbH – experience knowledge"
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
@@ -29,19 +28,16 @@ weight = 3
 # default parameters
 [params]
 home = "Home"
-logo = "/AC-logo-rgb-blue.svg"
-# theme color
-theme_color = "#41228e"
 
 # contact info
-phone = "+41 00 000 00 00"
+phone = "+41 31 370 22 00"
 name = "**acend GmbH**"
-address = "Musterstrasse 108, Bern"
+address = "Belpstrasse 37, 3007 Bern"
 email = "info@acend.ch"
 
 # meta description
 author = "acend GmbH"
-description = "This is meta description"
+description = "Trainings in Container & Kubernetes..."
 # google analytics
 google_analytics_id = "" # Your ID
 # copyright
@@ -53,32 +49,17 @@ copyright = "&copy; 2020 acend GmbH"
 enable = true
 preloader = "images/preloader.gif" # use png, jpg, svg or gif format
 
-# contact
+# Formulare
 [params.contact]
 enable = true
-form_action = "https://formspree.io/stream4@acend.ch" # contact form works with : https://formspree.io
+form_action = "https://formspree.io/xzbjngrg"  
 
-# google map
-[params.map]
-enable = false
-gmap_api = "https://maps.googleapis.com/maps/api/js?key=&#038;types=(cities)&#038;libraries=places&#038;language=en"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
-map_marker = "images/marker.png"
+# contact
+[params.anmeldung]
+enable = true
+form_action = "https://formspree.io/xgengykn" 
 
 # social site
-[[params.social]]
-icon = "ti-facebook"
-link = ""
-
-[[params.social]]
-icon = "ti-instagram"
-link = ""
-
-[[params.social]]
-icon = "ti-linkedin"
-link = "https://www.linkedin.com/company/acend-ch/"
-
-[[params.social]]
-icon = "ti-twitter-alt"
-link = "https://www.twitter.com/"
+[params.social]
+linkedin = "https://www.linkedin.com/company/acend-ch/"
+twitter = "https://www.twitter.com/"

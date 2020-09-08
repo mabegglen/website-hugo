@@ -1,18 +1,32 @@
 {{ define "main" }}
  
 
+<div class="main-carousel mb-6">
+  <div  class="carousel-cell container py-5">
+    <div class="d-flex">
+        {{ with .Params.headerimages }}
+          <div class="img-container mt-5" id="l1"><img  src="{{ .img1 | relURL}}" alt="" class="img-fluid"></div>
+          <div class="img-container" id="l2"><img  src="{{ .img2 | relURL}}" alt="" class="img-fluid"></div>
+          <div class="img-container align-self-end mb-5" id="l3"><img  src="{{ .img3 | relURL}}" alt="" class="img-fluid"></div>
+          {{ end }}
+        </div>
 
+      <div class="row w-100">
+        <div class="col-11 col-lg-5 bg-primary p-5 text-white h-100 box ">
+            <div class="ml-auto duration small-bold text-center text-md-left float-right  d-none d-md-flex align-items-center">
+                <svg class="icon-sm img-fluid mr-md-2" width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Uhr" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Uhr_RGB_Schwarz" transform="translate(7 7)" fill="#fff" fill-rule="nonzero"><path id="Path" d="M23 12v15h15v-4H27V12z"></path><path d="M25 0C11.193 0 0 11.193 0 25s11.193 25 25 25c.67 0 1.34 0 2-.09V41h-4v4.9C12.232 44.883 3.998 35.854 3.974 25.038c-.023-10.816 8.173-19.88 18.937-20.943 10.763-1.063 20.574 6.223 22.667 16.835C47.67 31.54 41.36 42.007 31 45.11v4.16c12.27-3.032 20.347-14.745 18.82-27.292C48.29 9.43 37.64-.002 25 0z" id="Path"></path></g></g></svg>
+                <span class="nowrap">{{.Params.duration }}</span>
+              </div>
 
-<section  class="section my-5">
-<div class="container">
-<div class="col-11 col-lg-5 bg-primary p-5 text-white h-100 box">
-   Trainigsangebot
-    <h3 class="lead-big_ mb-0">{{.Params.title }}</h3>
-     <div class="category mb-3">{{ delimit .Params.categories ", " | humanize }}</div> 
- </div>
-</div>
-</section>
+            <div class="h4">Trainigsangebot</div>
+            <h3 class="lead-big mb-0">{{.Params.title }}</h3>
+            {{ if .Params.categories}} <div class="category mb-3 mb-lg-4">{{ delimit .Params.categories ", " | humanize }}</div> {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
 
+ 
 
 
 <section data-sticky-container class="section my-5">
@@ -35,12 +49,12 @@
               
                 <a role="button" class="collapsed" data-toggle="collapse" data-target="#{{ .title | urlize}}" aria-expanded="false" aria-controls="{{ .title | urlize}}">
                     <div class="accordion-header py-3 border-top d-flex justify-items-center">
-                        <h3 class="accordion-title m-0">{{ .title | markdownify}}</h3>
-                        <div class="icon ml-auto">+</div>
+                        <h4 class="accordion-title m-0">{{ .title | markdownify}}</h4>
+                        <div class="icon-plus ml-auto mr-3"></div>
                     </div>
                   </a>
                 <div id="{{ .title | urlize}}" class="collapse  container-fluid_" aria-labelledby="heading" data-parent="#mainAccordion">
-                  <div class="pb-3">{{ .content | markdownify }}</div> 
+                  <div class="pb-3">{{ .content | safeHTML }}</div> 
                  </div> 
 
                  {{ end }}
@@ -65,24 +79,28 @@
             </div>
 
             <div class="row my-5 entry-content">
+
+                {{ with .Params.trainingsinhalt.liste1 }}
               <div class="col-lg-6">
-                  <h3 class="border-bottom">{{ .Params.trainingsinhalt.liste1.title | markdownify}}</h3>
+                  <h4 class="pb-2 category border-bottom">{{  .title | markdownify}}</h4>
                   <ul>
-                      {{ range .Params.trainingsinhalt.liste1.liste }}
+                      {{ range .liste }}
                       <li>{{ .el }}</li>
                       {{ end }}
                     </ul>
-              </div>
+                  </div>
+              {{ end }}
+              {{ with .Params.trainingsinhalt.liste2 }}
               <div class="col-lg-6">
-                  <h3 class="border-bottom">{{ .Params.trainingsinhalt.liste2.title | markdownify}}</h3>
+                  <h4 class="pb-2 category border-bottom">{{  .title | markdownify}}</h4>
                   <ul>
-                      {{ range .Params.trainingsinhalt.liste2.liste }}
+                      {{ range  .liste }}
                       <li>{{ .el }}</li>
                       {{ end }}
                     </ul>
                   </ul>
               </div>
-
+              {{ end }}
             </div>
 
 
@@ -95,9 +113,9 @@
             <div class="p-3 sticky" data-sticky-class="is-sticky" data-margin-top="140">
               <div class="border p-3  mb-2 bg-white">
                 
-               <a role="button"   data-toggle="collapse" data-target="#personen" aria-expanded="true" aria-controls="personen">
-                <h4 class="pb-3  d-flex align-items-end">
-                    <svg class="icon img-fluid mr-2" width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Avatar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Avatar_RGB_Schwarz" transform="translate(6 6)" fill="#000" fill-rule="nonzero"><path d="M37.4 33.82A14.52 14.52 0 0 0 40 25.6V10H20v8h4v-4h12v11.6a10.64 10.64 0 0 1-2.2 6.48v.09A9.92 9.92 0 0 1 16 26V13c0-6.22 2.48-9 8.05-9a17.28 17.28 0 0 1 6 1.29C33.4 6.46 36.87 7.67 42 4.74l1.73-1-2-3.47-1.73.99c-3.54 2-5.57 1.32-8.64.25A21 21 0 0 0 24 0c-7.77 0-12 4.62-12 13v13a13.87 13.87 0 0 0 2.36 7.79L0 40.75V52h4v-8.75l13.17-6.38A13.88 13.88 0 0 0 25.94 40h.27a13.66 13.66 0 0 0 8.36-3.1L48 43.26V52h4V40.74l-14.6-6.92z" id="Path"/></g></g></svg> Personen</h4></a>
+               <a role="button" class="d-flex align-items-center" data-toggle="collapse" data-target="#personen" aria-expanded="true" aria-controls="personen">
+                <h4 class="mb-3  d-flex align-items-end">
+                    <svg class="icon img-fluid mr-2" width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Avatar" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Avatar_RGB_Schwarz" transform="translate(6 6)" fill="#000" fill-rule="nonzero"><path d="M37.4 33.82A14.52 14.52 0 0 0 40 25.6V10H20v8h4v-4h12v11.6a10.64 10.64 0 0 1-2.2 6.48v.09A9.92 9.92 0 0 1 16 26V13c0-6.22 2.48-9 8.05-9a17.28 17.28 0 0 1 6 1.29C33.4 6.46 36.87 7.67 42 4.74l1.73-1-2-3.47-1.73.99c-3.54 2-5.57 1.32-8.64.25A21 21 0 0 0 24 0c-7.77 0-12 4.62-12 13v13a13.87 13.87 0 0 0 2.36 7.79L0 40.75V52h4v-8.75l13.17-6.38A13.88 13.88 0 0 0 25.94 40h.27a13.66 13.66 0 0 0 8.36-3.1L48 43.26V52h4V40.74l-14.6-6.92z" id="Path"/></g></g></svg> Personen</h4><div class="icon-plus ml-auto"></div></a>
                    
                     <div id="personen" class="collapse fade show border-top small-bold" data-parent=".box-anmelden">
                         <div class="border-bottom  py-2 d-flex">
@@ -112,9 +130,9 @@
           
             
               <div class="border p-3  mb-2 bg-white">
-                  <a role="button" class="collapsed" data-toggle="collapse" data-target="#teams" aria-expanded="false" aria-controls="teams">
-                <h4 class="pb-3 d-flex align-items-end">
-                      <svg class="icon img-fluid mr-2" width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Team" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Gruppe_RGB_Schwarz" transform="translate(4 6)" fill="#000" fill-rule="nonzero"><path d="M56.72 30.63l-6-4.05a8.56 8.56 0 0 0 1.55-5.06v-7.38h-4v7.38c0 2.73-1.67 4.4-4.48 4.45a4.38 4.38 0 0 1-3.21-1.11 4.55 4.55 0 0 1-1.21-3.34V14c0-3 1.33-4.29 4.29-4.29a6.35 6.35 0 0 1 2.83.68 7.88 7.88 0 0 0 5.25.68l2-.39L53 6.75l-2 .39a4.06 4.06 0 0 1-2.9-.43 10.09 10.09 0 0 0-4.4-1c-5.19 0-8.29 3.1-8.29 8.29v7.53a8.92 8.92 0 0 0 1.52 5.12l-4.65 3.53-.74-.47a12.61 12.61 0 0 0 1.42-6V9.84H17.13v8.3h4v-4.3H29v9.83c0 4.79-2.81 7.58-7.71 7.67a7.4 7.4 0 0 1-5.58-1.89 7.86 7.86 0 0 1-2.06-5.78V11.84c0-5.16 2.51-7.67 7.68-7.67A10.91 10.91 0 0 1 26.1 5.3a11.09 11.09 0 0 0 7.45 1l2-.39L34.67 2l-2 .4a7.28 7.28 0 0 1-5.08-.73A14.754 14.754 0 0 0 21.24.21C14 .17 9.6 4.53 9.6 11.84v11.83A12.86 12.86 0 0 0 11.12 30L.2 36.9V52h4V39.1l9.53-6A11.7 11.7 0 0 0 21 35.34h.29A12.36 12.36 0 0 0 29 32.81l9.9 6.29V48h4V36.9l-7-4.45 4.22-3.2a8.92 8.92 0 0 0 3.59.72h.2a9.44 9.44 0 0 0 3.6-.77l7 4.74 2.21-3.31z" id="Path"/></g></g></svg> Teams</h4></a>
+                  <a role="button" class="d-flex align-items-center collapsed" data-toggle="collapse" data-target="#teams" aria-expanded="false" aria-controls="teams">
+                <h4 class="mb-3 d-flex align-items-end">
+                      <svg class="icon img-fluid mr-2" width="64" height="64" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Team" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Gruppe_RGB_Schwarz" transform="translate(4 6)" fill="#000" fill-rule="nonzero"><path d="M56.72 30.63l-6-4.05a8.56 8.56 0 0 0 1.55-5.06v-7.38h-4v7.38c0 2.73-1.67 4.4-4.48 4.45a4.38 4.38 0 0 1-3.21-1.11 4.55 4.55 0 0 1-1.21-3.34V14c0-3 1.33-4.29 4.29-4.29a6.35 6.35 0 0 1 2.83.68 7.88 7.88 0 0 0 5.25.68l2-.39L53 6.75l-2 .39a4.06 4.06 0 0 1-2.9-.43 10.09 10.09 0 0 0-4.4-1c-5.19 0-8.29 3.1-8.29 8.29v7.53a8.92 8.92 0 0 0 1.52 5.12l-4.65 3.53-.74-.47a12.61 12.61 0 0 0 1.42-6V9.84H17.13v8.3h4v-4.3H29v9.83c0 4.79-2.81 7.58-7.71 7.67a7.4 7.4 0 0 1-5.58-1.89 7.86 7.86 0 0 1-2.06-5.78V11.84c0-5.16 2.51-7.67 7.68-7.67A10.91 10.91 0 0 1 26.1 5.3a11.09 11.09 0 0 0 7.45 1l2-.39L34.67 2l-2 .4a7.28 7.28 0 0 1-5.08-.73A14.754 14.754 0 0 0 21.24.21C14 .17 9.6 4.53 9.6 11.84v11.83A12.86 12.86 0 0 0 11.12 30L.2 36.9V52h4V39.1l9.53-6A11.7 11.7 0 0 0 21 35.34h.29A12.36 12.36 0 0 0 29 32.81l9.9 6.29V48h4V36.9l-7-4.45 4.22-3.2a8.92 8.92 0 0 0 3.59.72h.2a9.44 9.44 0 0 0 3.6-.77l7 4.74 2.21-3.31z" id="Path"/></g></g></svg> Teams</h4><div class="icon-plus ml-auto"></div></a>
                       <div id="teams" class="collapse fade border-top small-bold" data-parent=".box-anmelden">
 
                           
@@ -148,18 +166,8 @@
         <h3 class="mb-5">{{ .title  | markdownify }}</h3> 
         <div class="row">
         {{ range .trainer }}
-        <div class="col-6 mb-5">
-          <div class="row">
-            <div class="col-sm-6">
-              <img src="{{ .image | relURL }}" class="img-fluid">
-            </div>
-            <div class="col-sm-6">
-              <h4 class="mb-0 mt-3 mt-sm-4">{{.title }}</h4>
-              <p class="title">{{.designation }}</p>
-              <p class="small">{{.abstract }}</p>
-            </div>
-          </div>
-        </div>
+
+          {{ partial "team-member.html" . }}
         
         {{ end }}
       </div>
@@ -175,38 +183,9 @@
 <!-- testimonials -->
 {{ if .Params.testimonials.enable }}
 {{ with .Params.testimonials }}
-<section data-scroll class="section my-5">
-    <div class="testimonial-carousel">
-      {{ range .testimonial }}
-      <div class="container carousel-cell">
-      <div class="row">
-        
-        <div class="col-lg-9 offset-1 offset-lg-2 ">
-            
-             <div class=" row mx-0 pb-5 bg-primary text-white testimonial">
-              <div class="col-5 p-0 img">
-                <img src="{{ .image | relURL }}" class="img-fluid">
-              </div>
-              <div class="col-7 mt-5 mb-md-5 offset-1 px-0">
-                <div class="d-flex">
-                  <svg class="icon icon-white  img-fluid flex-shrink-0 mr-3" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="icon/Sprechblase" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="AC_Icon_Master_Pfade_AC_Icon_Sprechblase" transform="translate(6 12)" fill="#ffffff" fill-rule="nonzero"><path id="Path" d="M0 0v41l12.52-7H40v-4H11.48L4 34.18V4h44v26h-4v4h8V0z"/><path id="Rectangle" d="M12 10h28v4H12zm0 10h24v4H12z"/></g></g></svg>
-                <p>{{.title  | safeHTML }}</p></div>
-  
-                <p class="quote d-none d-md-block">{{.text  | markdownify }}</p>
-               </div>
-              <div class="col d-md-none">
-                 <p class="quote">«{{.text  | markdownify }}»</p>
-              </div>
-            </div>
-   
-          
-          </div>
-       </div>
-      </div>
-          {{ end }}
-        
-    </div>
-  </section>
+
+{{ partial "testimonials.html" . }}
+
   {{ end }}
   {{ end }}
   <!-- /testimonials -->

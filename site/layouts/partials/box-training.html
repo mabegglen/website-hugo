@@ -1,5 +1,5 @@
 <div data-scroll class="box-training border p-4 mb-6">
-  <div class="d-flex">
+  <div class="d-flex  px-2 pt-2 px-lg-4 pt-lg-3">
       <div>
         <h3  class="mb-0">{{ .Title }}</h3>
         <div class="category mb-3">{{ delimit .Params.categories ", " | humanize }}</div>
@@ -11,14 +11,14 @@
           {{ end }}
         </div>
       </div>
-      <div class="row mr-lg-1 mb-minus">
-        <div class="col-lg-5 col-xl-6  mb-3 mb-lg-0  d-flex flex-column">
-            <p>{{ .Params.abstract }}</p>
-            <div class="border-outline  mt-auto   mr-md-auto d-none d-lg-inline"><a class="btn btn-primary py-3 px-5" href="{{ .Permalink | safeURL }}">Mehr erfahren</a></div>
+      <div class="row mb-minus">
+        <div class="col-lg-5 col-xl-6 px-4  mb-3 mb-lg-0  d-flex flex-column">
+            <p class="pl-lg-3">{{ .Params.abstract }}</p>
+            <div class="border-outline  mt-auto ml-lg-3  mr-md-auto d-none d-lg-inline"><a class="btn btn-primary py-3 px-5" href="{{ .Permalink | safeURL }}">Mehr erfahren</a></div>
 
           </div>
 
-          <div class="col-lg-7 col-xl-6 ">
+          <div class="col-lg-7 col-xl-6 px-4 pl-lg-3">
             <div class="row">
             <div class="col-lg-6 p-0  mb-3 mb-lg-0 border-outline box">
               <div class="border p-3  h-100  bg-white">
@@ -61,7 +61,7 @@
             </div>
           </div>
 
-          <div class="border-outline mt-3  d-lg-none  w-100"><a class="btn btn-primary py-3 px-5  w-100" href="{{ .Permalink | safeURL }}">Mehr erfahren</a></div>
+          <div class="border-outline mt-3 mx-2 d-lg-none  w-100"><a class="btn btn-primary py-3 px-5  w-100" href="{{ .Permalink | safeURL }}">Mehr erfahren</a></div>
         </div>
           
 

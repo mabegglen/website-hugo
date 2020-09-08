@@ -1,4 +1,5 @@
-.form-control {
+.form-control,
+.custom-select {
     outline: none;
     display: block;
     width: 100%;
@@ -7,7 +8,7 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #495057;
+    color: var(--primary) !important;
     background-color: transparent;
     background-clip: padding-box;
     border-color: $AC-Blue;
@@ -45,4 +46,17 @@
     color: #C10100 !important;
     width: 100% !important;
   }
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--primary) !important;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: var(--primary) !important;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: var(--primary) !important;
 }

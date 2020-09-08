@@ -1,8 +1,7 @@
 <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-dialog container" role="document">
           <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="signupModalLabel">Anmeldung</h5>
+            <div class="modal-header border-0">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">
                   <svg class="icon" width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -18,43 +17,48 @@
               </button>
             </div>
             <div class="modal-body">
-
-                <div class="container-fluid">
+                {{ with site.Data.anmeldung }}
                     <div class="row mb-5">
-                      <div class="col-lg-8 lead-big">
-                          Lorem ipsum dolor sit amet, consectetur adi dkler ioern ring pisicing etur urlrer.
+                      <div class="col-lg-8 offset-lg-1">
+                      <h4 class="modal-title" id="signupModalLabel">{{  .title }}</h4>
+                      <div class="lead-big">
+                          {{  .text }}
                       </div>  
                     </div>
+                    </div>
                     
-                    
+                    {{ end }}
                     
                     <div class="row">
-                      <div class="col-lg-11 offset-lg-1">
+                      <div class="col-lg-9 offset-lg-2">
 
 
-                <form id="anmeldeform" action="{{site.Params.contact.form_action}}" method="POST" >
+                <form id="anmeldeform" action="{{site.Params.anmeldung.form_action}}" method="POST" >
 
 
-                    <div class="mb-4">
-                        <select class="custom-select" required>
+                    <div class="mb-4  form-row">
+                    <div class="col-lg-6">
+                        <select class="custom-select" name="Kurs" required>
                         <option value="" selected>Kurs auswählen...</option>
                         {{ $t := where .Site.RegularPages "Section" "trainings"}}
                         {{ range $t }}
-                        <option value="1">{{ .Title }}</option>
+                        <option value="{{ .Title }}">{{ .Title }}</option>
                         {{ end }}
 
                         
                         
                       </select>
                       </div>
+                      </div>
+
 
                     <div class="mb-4">
                       <div class="custom-control custom-radio custom-control-inline">
-                          <input type="radio" id="select_einzelperson" name="einzelperson" class="custom-control-input" required>
+                          <input type="radio" id="select_einzelperson" name="person_team" value="Einzelperson"  class="custom-control-input" required>
                           <label class="custom-control-label" for="select_einzelperson">Einzelperson</label>
                         </div>
                         <div class="custom-control custom-radio custom-control-inline">
-                          <input type="radio" id="select_team" name="einzelperson" class="custom-control-input">
+                          <input type="radio" id="select_team" name="person_team" value="Team"  class="custom-control-input">
                           <label class="custom-control-label" for="select_team">Team</label>
                         </div>
                       </div>
@@ -62,11 +66,11 @@
                   
                       <div class="mb-4">
                       <div class="custom-control custom-radio custom-control-inline">
-                          <input type="radio" id="anrede_frau" name="anrede" class="custom-control-input" required>
+                          <input type="radio" id="anrede_frau" name="anrede" value="Frau" class="custom-control-input" required>
                           <label class="custom-control-label" for="anrede_frau">Frau</label>
                         </div>
                         <div class="custom-control custom-radio custom-control-inline">
-                          <input type="radio" id="anrede_herr" name="anrede" class="custom-control-input">
+                          <input type="radio" id="anrede_herr" name="anrede" value="Herr" class="custom-control-input">
                           <label class="custom-control-label" for="anrede_herr">Herr</label>
                         </div>
                       </div>
@@ -76,7 +80,15 @@
                     
                     <input type="text" id="vorname" name="vorname" placeholder="Vorname *" class="form-control form-control-lg  mb-4" required>
                     
-                    <input type="text" id="firma" name="firma" placeholder="Firma" class="form-control form-control-lg  mb-4">
+                    <div class="form-row">
+                      <div class="col-lg-9">
+                        <input type="text" id="firma" name="firma" placeholder="Firma" class="form-control form-control-lg  mb-4">
+                        </div>
+                      <div class="col-lg-3">
+                        <input type="number" id="personen" name="anzahl_personen" placeholder="Anzahl Personen" class="form-control form-control-lg  mb-4">
+                        </div>
+
+                      </div>
                    
                     <input type="email" id="email" name="_replyto" placeholder="E-mail *" class="form-control form-control-lg mb-4" required>
                     
@@ -89,7 +101,7 @@
                   
                       <div class="custom-control custom-checkbox mb-4">
                           <input type="checkbox" class="custom-control-input" id="agb_check" required>
-                          <label class="custom-control-label small" for="agb_check">Ich habe die Nutzungsbedingungen der Website gelesen und bin damit einverstanden.
+                          <label class="custom-control-label small" for="agb_check"> Ich habe die <a href="/datenschutz" target="_blank" rel="noopener">Nutzungsbedingungen</a> der Website gelesen und bin damit einverstanden.
                             </label>
                         </div>
       
@@ -98,9 +110,8 @@
                 </form>
               </div>  
             </div>
-              </div>  
             </div>
-
+       
 
             </div>
             

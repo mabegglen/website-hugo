@@ -1,44 +1,40 @@
 {{ define "main" }}
 
-{{ with site.Data.ueberuns.lead }}
+{{ with .Params.lead }}
   {{ partial "lead.html" . }}
 {{ end }}
 
-{{ with site.Data.ueberuns.main_image }}
-  <img src="{{ . | relURL}}" alt="" class="bg-shape-1 w-100">
+{{ with .Params.main_image }}
+<div class="wide-banner bg-cover d-flex justify-content-center align-items-center" data-background="{{ . | relURL}}">
+    <div class="img-container"><svg class="img-fluid" width="106px" height="360px" viewBox="0 0 106 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <g id="x" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <g id="AC---Ansatz" transform="translate(-668.000000, -905.000000)" fill="#FFFFFF">
+              <g id="logo/AC-kurzlogo-cmyk-black" transform="translate(668.000000, 905.000000)">
+                  <g id="AC-kurzlogo-cmyk-black" fill="none">
+                      <polygon id="Fill-1" fill="#ffffff" points="106 0 0 0 0 360 106 360 106 306.518963 52.9974 306.518963 52.9974 53.486284 106 53.486284"></polygon>
+                  </g>
+              </g>
+          </g>
+      </g>
+  </svg></div>
+</div>
+
 {{ end }}
 
 
- 
-<!-- page title 
-<section class="page-title-alt bg-primary_ position-relative overflow-hidden_">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h1 class="text-white_ font-tertiary">{{ .Params.leadtitle }}</h1>
-      </div>
-    </div>
-  </div> -->
-  <!-- background shapes 
-  <img src="{{`images/illustrations/page-title.png`| relURL}}" alt="illustrations" class="bg-shape-1 w-100">
-  <img src="{{`images/illustrations/dots-group-sm.svg`| relURL}}" alt="illustrations" class="bg-shape-2">
-  <img src="{{`images/illustrations/leaf-yellow.svg`| relURL}}" alt="illustrations" class="bg-shape-3">
-  <img src="{{`images/illustrations/leaf-orange.svg`| relURL}}" alt="illustrations" class="bg-shape-4">
-  <img src="{{`images/illustrations/dots-group-cyan.svg`| relURL}}" alt="illustrations" class="bg-shape-5">
-  <img src="{{`images/illustrations/leaf-cyan-lg.svg`| relURL}}" alt="illustrations" class="bg-shape-6">-->
-</section>
-<!-- /page title -->
+
 
 <!-- about -->
 <section class="section my-6">
   <div class="container">
-
+    {{ with .Params.subtopic_1 }}
     <div class="row">
       <div  data-scroll class="col-11 col-lg-5 offset-1">
-        <h3>Subthema 1 enim ad minim veniam, quis nostrud.</h3>
-        <p>Kaum ein Moment beflügelt Entwicklungen so sehr, wie die Freude darüber, etwas Neues entdeckt zu haben. Als Wissensplattform begleitet acend mit dieser Haltung Schweizer Engineers, ihre Unternehmen in technologisches Neuland zu führen.</p>
+        <h3>{{ .title | markdownify }}</h3>
+        <p>{{ .text | markdownify }}</p>
       </div>
     </div>
+    {{ end }}
 
     <div class="row images my-6">
         <div class="col-lg-10 offset-lg-2 d-flex align-items-start">
@@ -51,14 +47,15 @@
         </div>      
     </div>
 
+    {{ with .Params.subtopic_2 }}
     <div class="row my-6">
         <div  data-scroll class="col-11 col-lg-5 offset-1 offset-lg-6">
           
-          <h3>Subthema 2 enim ad minim veniam, quis nostrud.</h3>
-          <p>Kaum ein Moment beflügelt Entwicklungen so sehr, wie die Freude darüber, etwas Neues entdeckt zu haben. Als Wissensplattform begleitet acend mit dieser Haltung Schweizer Engineers, ihre Unternehmen in technologisches Neuland zu führen.</p>
-        </div>
-        
+            <h3>{{ .title | markdownify }}</h3>
+            <p>{{ .text | markdownify }}</p>
+           </div>
       </div>
+      {{ end }}
 
       <div class="row images my-6">
           <div class="col-lg-10   d-flex align-items-start">
@@ -70,14 +67,15 @@
               </div>
           </div>      
       </div>
+    {{ with .Params.subtopic_3 }}
 
       <div class="row my-6">
           <div  data-scroll class="col-11 col-lg-5 offset-1">
-            <h3>Subthema 3 enim ad minim veniam, quis nostrud.</h3>
-            <p>Kaum ein Moment beflügelt Entwicklungen so sehr, wie die Freude darüber, etwas Neues entdeckt zu haben. Als Wissensplattform begleitet acend mit dieser Haltung Schweizer Engineers, ihre Unternehmen in technologisches Neuland zu führen.</p>
-          </div>
+              <h3>{{ .title | markdownify }}</h3>
+              <p>{{ .text | markdownify }}</p>
+            </div>
         </div>
-
+        {{ end }}
 
         <div class="row my-6">
           <div  data-scroll class="col-9 offset-1 bg-primary text-white p-5">
@@ -92,28 +90,17 @@
 
 
 <!-- team -->
-{{ if site.Data.ueberuns.team.enable }}
-{{ with site.Data.ueberuns.team }}
+{{ if .Params.team.enable }}
+{{ with .Params.team }}
 <section class="section mb-5 bg-cover" data-background="{{`images/backgrounds/team-bg.png`|relURL}}">
   <div class="container">
-    <h2 class="mb-5">{{ .title | markdownify }}</h2>
+    <h2 data-scroll class="mb-5">{{ .title | markdownify }}</h2>
     
     <div class="row">
       <div class="col-lg-11 offset-lg-1">
         <div class="row">
           {{ range .team_member }}
-          <div class="col-6 mb-5">
-            <div class="row">
-             <div class="col-sm-6">
-                <img src="{{ .image | relURL }}" class="img-fluid">
-             </div>
-              <div class="col-sm-6">
-                <h4 class="mb-0 mt-3 mt-sm-4">{{.title }}</h4>
-                <p class="title">{{.designation }}</p>
-                <p class="small">{{.abstract }}</p>
-              </div>
-            </div>
-          </div>
+              {{ partial "team-member.html" . }}
           {{ end }}
         </div>
       </div>
