@@ -5,7 +5,7 @@ draft: false
 
 lead:
   title: "Über uns"
-  content: "Mit der Idee IT-Schulungen zu revolutionieren hat unsere Reise begonnen."
+  content: "Die Reise begann mit der Idee, IT-Schulungen zu revolutionieren."
 
 # main image
 main_image: "images/ueberuns/ACEND_Adventure_Lava_Big@4x.jpg"
