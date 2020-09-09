@@ -30,7 +30,7 @@ Fint Digital Design, Zurich, Switzerland
 
 ##### Fotografie
 
-Portäits Fotografie mit Personen
+Portraits Fotografie mit Personen
 [www.janoschabel.com](https://janoschabel.com)<br/>      
 
 
