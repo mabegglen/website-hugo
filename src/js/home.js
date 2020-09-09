@@ -7,7 +7,7 @@ export default function() {
             wrapAround: true,
             fade: true,
             adaptiveHeight: false,
-            autoPlay: 3200,
+            autoPlay: 3900,
             pauseAutoPlayOnHover: false,
             prevNextButtons: false,
             pageDots: $('.main-carousel .carousel-cell').length > 1 ? true : false,
@@ -26,7 +26,7 @@ export default function() {
             wrapAround: true,
             fade: true,
             adaptiveHeight: false,
-            autoPlay: 3500,
+            autoPlay: 4200,
             pauseAutoPlayOnHover: false,
             prevNextButtons: false,
         });
