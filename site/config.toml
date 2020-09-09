@@ -31,17 +31,17 @@ home = "Home"
 
 # contact info
 phone = "+41 31 370 22 00"
-name = "**acend GmbH**"
+name = "**acend gmbh**"
 address = "Belpstrasse 37, 3007 Bern"
 email = "info@acend.ch"
 
 # meta description
-author = "acend GmbH"
+author = "acend gmbh"
 description = "Trainings in Container & Kubernetes..."
 # google analytics
 google_analytics_id = "" # Your ID
 # copyright
-copyright = "&copy; 2020 acend GmbH"
+copyright = "&copy; 2020 acend gmbh"
 
 
 # preloader
