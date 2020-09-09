@@ -91,7 +91,7 @@ trainers:
       linkedin : "https://www.linkedin.com/in/benjamin-affolter-0438441b6/"
       twitter : "https://twitter.com/bliemli"
 
-   - title : "Thömu"
+    - title : "Thömu"
       image : "images/team/AC_Thoemu@2x.jpg"
       designation : "Co-Founder & Trainer"
       abstract : "Auf seiner Reise durch die IT hat er sich schon vielen Abenteuern gestellt. Privat sattelt er seit geraumer Zeit seinen Drahtesel, um die restliche Welt zu entdecken."

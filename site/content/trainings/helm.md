@@ -85,7 +85,7 @@ trainers:
   enable: true
   title : "Lernen Sie Ihre Trainer kennen"
   trainer:
-   - title : "Benj"
+    - title : "Benj"
       image : "images/team/AC_Benji@2x.jpg"
       designation : "Co-Founder & Trainer"
       abstract : "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Trainings-Teilnehmenden."
