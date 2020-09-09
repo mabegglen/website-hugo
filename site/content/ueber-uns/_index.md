@@ -5,8 +5,7 @@ draft: false
 
 lead:
   title: "Über uns"
-  content: "Die Idee zu acend entstand im Sommer 2019 an einem Samy Deluxe Konzert in der Piazza-Bar. Hier fassten einige der Gründer - mitgerissen von den Beats und dem Gefühl der unvergänglichen Jugend - den ambitionierten Entschluss, IT-Schulungen zu revolutionieren. 
- Gesagt, getan. Nur wenige Monate und zahlreiche Iterationen später können wir dir lehrreiche, unterhaltsame und bereichernde Trainings anbieten. Unsere Trainings bringen nicht nur dein Wissen auf das nächste Level, sondern bleiben auch als unvergessliches Erlebnis in Erinnerung."
+  content: "Mit der Idee IT-Schulungen zu revolutionieren hat unsere Reise begonnen."
 
 
 # main image
