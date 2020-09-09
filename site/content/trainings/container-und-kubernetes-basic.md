@@ -15,7 +15,7 @@ personen:
   preis : "CHF 1900"
 
 headerimages:
-  img1 : "images/trainings/ACEND_Adventure_Polarlicht@4x.jpg"
+  img1 : "images/trainings/ACEND_Adventure_Eishoele@4x.jpg"
   img2 : "images/trainings/ACEND_Jeremy@4x.jpg"
   img3 : "images/trainings/ACEND_CodeA@4x.jpg"
 

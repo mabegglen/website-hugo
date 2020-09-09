@@ -31,7 +31,7 @@
   }
 
   .box {
-    transform: translateX(-50px);
+    transform: translateX(-10%);
     transition: all 0.8s cubic-bezier(0.215, 0.610, 0.355, 1);
     //opacity: 0;
   }
@@ -40,7 +40,7 @@
      .img-container {
         &:nth-child(1) {
           img  {
-              transform: translateX(50px);
+              transform: translateX(10%);
                opacity: 1;
             }
           }
@@ -49,7 +49,7 @@
                opacity: 1;
             }
           &:nth-child(3) img  {
-              transform: translateX(-50px);
+              transform: translateX(-10%);
                opacity: 1;
             }
 
@@ -61,7 +61,7 @@
   }
 }
 
-.testimonial-carousel {
+.testimonials-img {
   
   .carousel-cell {
     margin-top: 5rem;
@@ -90,7 +90,6 @@
 .flickity-page-dots {
   bottom: 1em;
   .testimonial-carousel & {
-
     bottom: 2rem;
    }
 
@@ -107,6 +106,16 @@
       background: #fff;
     }
   }
+
+  .main-carousel & {
+    @include media-breakpoint-down(xs) {
+      bottom: 11em;
+      transform: rotate(90deg);
+      right: -25px;
+      width: auto;
+    }
+  }
+
 }
 
 .section-about {

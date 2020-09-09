@@ -18,30 +18,30 @@ slideshow:
       subtitle : "Basics"
       URL : "/trainings/container-und-kubernetes-basic/"
       label : "Mehr erfahren"
-      img1 : "images/trainings/ACEND_Adventure_Polarlicht@4x.jpg"
-      img2 : "images/trainings/ACEND_Jeremy@4x.jpg"
-      img3 : "images/trainings/ACEND_CodeA@4x.jpg"
+      img1 : "images/trainings/ACEND_Adventure_Eishoele@2x.jpg"
+      img2 : "images/trainings/ACEND_Jeremy@2x.jpg"
+      img3 : "images/trainings/ACEND_CodeA@2x.jpg"
       
     - ubertitle : "Trainingsangebot"
       title : "Helm"
       subtitle : "Basics"
       URL : "/trainings/container-und-kubernetes-basic/"
       label : "Mehr erfahren"
-      img1 : "images/trainings/ACEND_Adventure_Lava@4x.jpg"
-      img2 : "images/trainings/ACEND_Adyna@4x.jpg"
-      img3 : "images/trainings/ACEND_CodeB@4x.jpg"
+      img1 : "images/trainings/ACEND_Adventure_Lava@2x.jpg"
+      img2 : "images/trainings/ACEND_Adyna@2x.jpg"
+      img3 : "images/trainings/ACEND_CodeB@2x.jpg"
       
     - ubertitle : "Trainingsangebot"
       title : "Open Shift"
       subtitle : "Basics"
       URL : "/trainings/container-und-kubernetes-basic/"
       label : "Mehr erfahren"
-      img1 : "images/trainings/ACEND_Adventure_Eishoele@4x.jpg"
-      img2 : "images/trainings/ACEND_Philip@4x.jpg"
-      img3 : "images/trainings/ACEND_CodeC@4x.jpg"
+      img1 : "images/trainings/ACEND_Adventure_Polarlicht@2x.jpg"
+      img2 : "images/trainings/ACEND_Dave@2x.jpg"
+      img3 : "images/trainings/ACEND_CodeD@2x.jpg"
   
 # trainings
-trainigs:
+trainings:
   title: "Unsere Trainings" 
   text: "Bei uns lernst du neue Technologien auf eine aussergewöhnliche Art und Weise kennen. Unsere Trainings bestehen aus abwechslungsreicher Theorie und praxisnahen hands-on Labs. Lass dich inspirieren vom Herzblut unserer Trainer und tausche dich mit unserer Community aus."
 

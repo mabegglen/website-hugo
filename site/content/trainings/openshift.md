@@ -14,9 +14,9 @@ personen:
   preis : "CHF 600"
 
 headerimages:
-  img1 : "images/trainings/ACEND_Adventure_Eishoele@4x.jpg"
-  img2 : "images/trainings/ACEND_Philip@4x.jpg"
-  img3 : "images/trainings/ACEND_CodeC@4x.jpg"
+  img1 : "images/trainings/ACEND_Adventure_Polarlicht@2x.jpg"
+  img2 : "images/trainings/ACEND_Dave@2x.jpg"
+  img3 : "images/trainings/ACEND_CodeD@2x.jpg"
   
 
 main_text: "Container-Technologien haben in den letzten Jahren enorm an Bedeutung gewonnen. Open­Shift bietet basierend auf diesen Technologien – unter anderem Kubernetes – eine umfassende und komfortable Container Plattform-Lösung.

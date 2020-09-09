@@ -72,5 +72,9 @@
 
   .box-anmelden  [aria-expanded="true"] & {
       display: none;
+
+  }
+  .box-training  [aria-expanded="true"] & {
+      display: none;
     }
 }

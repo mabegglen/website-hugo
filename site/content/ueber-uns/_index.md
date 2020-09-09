@@ -24,6 +24,11 @@ subtopic_3:
   title : "Werde Teil unserer Community"
   text : "Einfachere Formulierung: Wir pflegen das Miteinander und den Austausch während den Trainings - natürlich begleitet von kulinarischen Überraschungen. Wir sind Teil der wachsenden Schweizer Cloud Native Community. Schliess dich uns an."
   
+# quote
+quote:
+  text: "Kaum ein Moment beflügelt Entwicklungen so sehr, wie die Freude darüber, etwas Neues entdeckt zu haben. Als Wissensplattform begleitet acend mit dieser Haltung Schweizer Engineers, ihre Unternehmen in technologisches Neuland zu führen."
+  name: "Tobi"
+  title: "Gründer acend"
 
 # team
 team:
@@ -87,7 +92,7 @@ team:
       designation : "Co-Founder"
       abstract : "Er jongliert nicht nur gekonnt mit Zahlen, sondern auch mit den schärfsten Küchenmessern."
       linkedin : "https://www.linkedin.com/in/marcelgroner/"
-      twitter : "https://twitter.com/marcelgroner"
+      twitter : "https://twitter.com/mar73cel"
 
       
     - title : "Tobi"

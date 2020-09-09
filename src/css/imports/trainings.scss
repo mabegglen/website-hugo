@@ -8,6 +8,18 @@
         border-left-width: 0.5rem;
       }
     }
+
+    .collapse  {
+         display: block !important;
+         opacity: 1 !important;
+    }
+    [data-toggle="collapse"] {
+        pointer-events: none;
+    }
+    .icon-plus {
+      display: none;
+    }
+
   }
 }
 
