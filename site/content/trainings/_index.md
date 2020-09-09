@@ -9,4 +9,4 @@ lead:
 
 ---
 
-Als Wissensplattform begleitet acend Schweizer Engineers und ihre Unternehmen in technologisches Neuland. Wir bieten aussergewöhnliche, lustvolle und sinnorientierte Lehr- und Lernerfahrungen. Gemeinsam mit starken Partnern wie Puzzle ITC nutzen wir das Fachwissen, die wir in der Entwicklung, Betreuung und Vermittlung von Cloud Native und Open Source gemacht haben. Unsere Trainings stellen den Wissensaustausch und das gemeinsame Lernen ins Zentrum – praxisbezogen, unkompliziert und aus erster Hand.
+Als Wissensplattform begleitet acend Engineers und ihre Unternehmen in technologisches Neuland. Wir bieten aussergewöhnliche, lustvolle und sinnorientierte Lehr- und Lernerfahrungen. Gemeinsam mit starken Partnern wie Puzzle ITC nutzen wir das Fachwissen, dass wir in der Entwicklung, Betreuung und Vermittlung von Cloud Native Technologien und Open Source gemacht haben. Unsere Trainings stellen den Wissensaustausch und das gemeinsame Lernen ins Zentrum – praxisbezogen, unkompliziert und aus erster Hand.
