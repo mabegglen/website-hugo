@@ -1,12 +1,11 @@
 ---
 title: "Über uns"
-description: "This is meta description."
+description: "Mit der Idee IT-Schulungen zu revolutionieren in den Bereichen Kubernetes, OpenShift und Helm hat unsere Reise begonnen."
 draft: false
 
 lead:
   title: "Über uns"
-  content: "Die Idee zu acend entstand im Sommer 2019 an einem Samy Deluxe Konzert in der Piazza-Bar. Hier fassten einige der Gründer - mitgerissen von den Beats und dem Gefühl der unvergänglichen Jugend - den ambitionierten Entschluss, IT-Schulungen zu revolutionieren. 
- Gesagt, getan. Nur wenige Monate und zahlreiche Iterationen später können wir dir lehrreiche, unterhaltsame und bereichernde Trainings anbieten. Unsere Trainings bringen nicht nur dein Wissen auf das nächste Level, sondern bleiben auch als unvergessliches Erlebnis in Erinnerung."
+  content: "Mit der Idee IT-Schulungen zu revolutionieren hat unsere Reise begonnen."
 
 
 # main image
@@ -22,11 +21,11 @@ subtopic_2:
   
 subtopic_3:
   title : "Werde Teil unserer Community"
-  text : "Einfachere Formulierung: Wir pflegen das Miteinander und den Austausch während den Trainings - natürlich begleitet von kulinarischen Überraschungen. Wir sind Teil der wachsenden Schweizer Cloud Native Community. Schliess dich uns an."
+  text : "Wir pflegen das Miteinander und den Austausch während den Trainings - natürlich begleitet von kulinarischen Überraschungen. Wir sind Teil der wachsenden Schweizer Cloud Native Community. Schliess dich uns an."
   
 # quote
 quote:
-  text: "Der Mensch und sein Wissen gehören zu den wichtigsten Faktoren, welche über den Erfolg eines Unternehmens bestimmen. Wir wollen Wissen auf neue Arten und Weise verbreiten und so Firmen zu ihrem Erfolg verhelfen."
+  text: "Der Mensch und sein Wissen gehören zu den wichtigsten Faktoren, welche über den Erfolg eines Unternehmens bestimmen. Wir wollen Wissen auf neue Art und Weise verbreiten und so Firmen zu ihrem Erfolg verhelfen."
   name: "Thömu"
   title: "Co-Founder acend"
   img: "images/ueberuns/ACEND_Afterworkbeer@4x.jpg"

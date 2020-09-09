@@ -52,9 +52,9 @@ accordion:
 # Trainingsinhalt
 trainingsinhalt: 
     title : "Trainingsinhalt"
-    text : "Unsere Trainings bestehen aus abwechslungs­reichen Präsentationen und Hands-on Labs, um deren Inhalt auf spannende Art und Weise zu übermitteln.  
+    text : "Unsere Trainings bestehen aus abwechslungs­reichen Präsentationen und hands-on Labs, um deren Inhalt auf spannende Art und Weise zu übermitteln.  
 
-    Gerne nehmen wir in Absprache auch Bezug auf Ihre Infrastruktur. Bei Bedarf für weitere Inhalte können wir auf Ihren Wunsch hin An­passungen vornehmen."
+    Gerne nehmen wir in Absprache auch Bezug auf Ihre Infrastruktur. Bei Bedarf für weitere Inhalte können wir auf Ihren Wunsch hin Anpassungen vornehmen."
     liste1:
       title: "Container Basics"
       liste:
@@ -92,7 +92,7 @@ trainingsinhalt:
 # trainer
 trainers:
   enable: true
-  title : "Lernen Sie Ihre Trainer kennen"
+  title : "Lerne zwei deiner Trainer kennen"
   trainer:
     - title : "Johann"
       image : "images/team/AC_Johann@2x.jpg"
@@ -112,7 +112,7 @@ trainers:
 testimonials:
   enable: true
   testimonial:
-    - title : "Das sagt unsere Trainingsteilnehmerin<br/>Bonfils Nicolas, Bern"
+    - title : "Das sagt unsere Trainingsteilnehmer<br/>Nicolas Bonfils, Bern"
       image : "images/team/Coach@4x.jpg"
       text : "Sehr gut geführter Workshop mit fachlich kompetenten Trainern in lockerer Atmosphäre. Besonders der Mix zwischen Theorie und Labs (Praxis) hat mir gefallen."
       
