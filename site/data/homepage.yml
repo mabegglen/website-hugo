@@ -51,15 +51,15 @@ testimonials:
   enable : true
   title : "Testimonials"
   testimonial:
-     - title : "Das sagt unser Kursteilnehmer<br/>Bonfils Nicolas, Bern"
+     - title : "Das sagt unser Trainingsteilnehmer<br/>Bonfils Nicolas, Bern"
        image : "images/trainings/ACEND_Jeremy@4x.jpg"
        text : "Sehr gut geführter Workshop mit fachlich kompetenten Trainern in lockerer Atmosphäre. Besonders der Mix zwischen Theorie und Labs (Praxis) hat mir gefallen."
     
-     - title : "Das sagt unsere Kursteilnehmerin<br/>Curdin Salis Gross, Bern"
+     - title : "Das sagt unsere Trainingsteilnehmerin<br/>Curdin Salis Gross, Bern"
        image : "images/trainings/ACEND_Jeremy@4x.jpg"
        text : "Die Trainings sind ausgezeichnet und praxisorientiert. Die Trainer nehmen sich die Zeit um geduldig auf individuelle Anliegen einzugehen. Alles in allem absolut empfehlenswert!" 
     
-     - title : "Das sagt unsere Kursteilnehmerin<br/>Bianca White, Bern"
+     - title : "Das sagt unsere Trainingsteilnehmerin<br/>Bianca White, Bern"
        image : "images/trainings/ACEND_Jeremy@4x.jpg"
        text : "Ut enim ad minim veniam, quis nostrud exercitation ullamco Kubernetes Basic nostrud exercitation ullamco ex earmo coma modo consequat." 
     
