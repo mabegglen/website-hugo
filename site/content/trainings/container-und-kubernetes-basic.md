@@ -6,7 +6,7 @@ draft: false
 weight: 0
 slug: 
 categories: ["Basics"]
-duration: "3 Tage"
+duration: "2 Tage"
 abstract : "Einführung in Cloud Native Technologien für Software Entwickler und Devops Engineers"
 main_title : "Einführung in Cloud Native Technologien für Software Entwickler und Devops Engineers"
 
@@ -20,7 +20,7 @@ headerimages:
   img3 : "images/trainings/ACEND_CodeA@2x.jpg"
 
 
-main_text: "Container-Technologien und insbesondere Kubernetes haben in den letzten Jahren enorm an Bedeutung gewonnen und wurden ein wichtiger Treiber der Digitalisierung. 
+main_text: "Container-Technologien und insbesondere Kubernetes haben in den letzten Jahren enorm an Bedeutung gewonnen und wurden zu einem wichtigen Treiber der Digitalisierung. 
 
 Dieses zweitägige Training auf Deutsch oder Englisch bietet einen praktischen und klar verständlichen Einstieg in diese Open Source-Technologien. Unsere Trainer kommen aus der Praxis und sind zertifizierte Kubernetes Administratoren."
 
@@ -97,14 +97,14 @@ trainers:
     - title : "Johann"
       image : "images/team/AC_Johann@2x.jpg"
       designation : "Co-Founder & Trainer"
-      abstract : "Stille Wasser sind tief und gerne taucht er tief in die Cloud Native Technologien ein. Als nachhaltiger Klimafreund taucht er lieber im Thunersee als im Meer ab."
+      abstract : "Stille Wasser sind tief und tief taucht er auch in die Cloud Native Technologien ein. Als nachhaltiger Klimafreund macht er dies lieber im Thunersee als im Meer."
       linkedin : "https://www.linkedin.com/in/jogy/"
       twitter : "https://twitter.com/_jogy_"
       
     - title : "Seba"
       image : "images/team/AC_Seba@2x.jpg"
       designation : "Co-Founder & Trainer"
-      abstract : "Für ihn ist hochkomplexe IT nicht schwieriger als ein Kinderspiel. Erklären kann er beides gleich gut."
+      abstract : "Immer am Puls der Technik und einen Schritt voraus. Für ihn ist hochkomplexe IT nicht schwieriger zu verstehen, als ein Kinderspiel. Erklären kann er beides gleich gut."
       linkedin : "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"
       twitter : "https://twitter.com/SebaPlattner"
 
@@ -112,8 +112,8 @@ trainers:
 testimonials:
   enable: true
   testimonial:
-    - title : "Das sagt unsere Kursteilnehmerin<br/>Tobine Tröhler, Basel"
+    - title : "Das sagt unsere Kursteilnehmerin<br/>Bonfils Nicolas, Bern"
       image : "images/team/Coach@4x.jpg"
-      text : "«Ut enim ad minim veniam, quis nostrud exercitation ullamco Kubernetes Basic nostrud exercitation ullamco ex earmo coma modo consequat.»"
+      text : "«Sehr gut geführter Workshop mit fachlich kompetenten Trainern in lockerer Atmosphäre. Besonders der Mix zwischen Theorie und Labs (Praxis) hat mir gefallen.”»"
       
 ---
