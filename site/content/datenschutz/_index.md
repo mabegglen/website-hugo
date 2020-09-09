@@ -4,16 +4,6 @@ date: 2020-09-02T19:50:08+02:00
 draft: false
 ---
 
-# Datenschutzerklärung
-
-
-
-
-#### Cookies
-
-
-
-
 # Datenschutz
 
 ## Allgemeine Informationen
