@@ -55,7 +55,7 @@ testimonials:
        image : "images/trainings/ACEND_Jeremy@4x.jpg"
        text : "Sehr gut geführter Workshop mit fachlich kompetenten Trainern in lockerer Atmosphäre. Besonders der Mix zwischen Theorie und Labs (Praxis) hat mir gefallen."
     
-     - title : "Das sagt unsere Trainingsteilnehmerin<br/>Curdin Salis Gross, Bern"
+     - title : "Das sagt unsere Trainingsteilnehmer<br/>Curdin Salis Gross, Bern"
        image : "images/trainings/ACEND_Jeremy@4x.jpg"
        text : "Die Trainings sind ausgezeichnet und praxisorientiert. Die Trainer nehmen sich die Zeit um geduldig auf individuelle Anliegen einzugehen. Alles in allem absolut empfehlenswert!" 
     
@@ -74,6 +74,6 @@ partner:
       label : "puzzle.ch"
 
     - logo : "images/partner/appuio_logo@2x.png"
-      text : "APPUiO ist die führende, auf Kubernetes basierende Container-Plattform für das Design, die Entwicklung und den Betrieb von Applikationen. Auf Basis bewährter Open Source Konzepte wie Docker und Kubernetes unterstützt APPUiO den DevOps-Ansatz. So werden Entwicklung, Deployment und Betriebsprozesse durch Automatisierung und Self-Service beschleunigt. Ebenso wird die Zusammenarbeit zwischen Software-Entwicklern und Betriebsorganisation verbessert."
+      text : "APPUiO ist die führende, auf Kubernetes basierende Container-Plattform für das Design, die Entwicklung und den Betrieb von Applikationen. Auf Basis bewährter Open Source Konzepte wie Docker und Kubernetes unterstützt APPUiO den DevOps-Ansatz. So werden Entwicklung, Deployment und Betriebsprozesse durch Automatisierung und Self-Service beschleunigt."
       URL : "https://www.appuio.ch"
       label : "appuio.ch"
