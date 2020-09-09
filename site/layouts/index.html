@@ -4,7 +4,7 @@
 {{ with site.Data.homepage.slideshow }}
 <div class="main-carousel mb-6">
     {{ range .item }}
-    <div  class="carousel-cell container py-md-5">
+    <div  class="carousel-cell container p-0 py-md-5">
         <div class="d-flex">
           <div class="img-container mt-5" id="l1"><img  src="{{ .img1 | relURL}}" alt="" class="img-fluid"></div>
           <div class="img-container" id="l2"><img  src="{{ .img2 | relURL}}" alt="" class="img-fluid"></div>
@@ -12,7 +12,7 @@
         </div>
 
       <div class="row w-100">
-        <div class="col-11 col-lg-5 bg-primary p-5 text-white h-100 box ">
+        <div class="col-11 col-lg-5 bg-primary p-4 pl-5 p-md-5 text-white h-100 box ">
             <div class="h4">{{.ubertitle }}</div>
             <h3 class="lead-big mb-0">{{.title }}</h3>
             {{ if .subtitle}} <div class="category mb-3 mb-lg-4">{{.subtitle }}</div> {{ end }}
@@ -67,7 +67,7 @@
         {{ with site.Data.homepage.trainings }}
       <h2  data-scroll  class="mb-3">{{ .title }}</h2>
       <div class="row">
-        <div  data-scroll  class="col-11 col-lg-9 offset-1 mb-5">
+        <div  data-scroll  class="col-10 col-lg-9 offset-1 mb-5">
           <p>{{ .text | markdownify }}</p>
         </div>
       </div>  

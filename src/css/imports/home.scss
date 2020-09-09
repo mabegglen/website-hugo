@@ -109,10 +109,11 @@
 
   .main-carousel & {
     @include media-breakpoint-down(xs) {
-      bottom: 11em;
+      bottom: 7em;
       transform: rotate(90deg);
       right: -25px;
       width: auto;
+      z-index: 10;
     }
   }
 

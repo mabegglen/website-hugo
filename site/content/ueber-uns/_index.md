@@ -29,6 +29,7 @@ quote:
   text: "Der Mensch und sein Wissen gehören zu den wichtigsten Faktoren, welche über den Erfolg eines Unternehmens bestimmen. Wir wollen Wissen auf neue Arten und Weise verbreiten und so Firmen zu ihrem Erfolg verhelfen."
   name: "Thömu"
   title: "Co-Founder acend"
+  img: "images/ueberuns/ACEND_Afterworkbeer@4x.jpg"
 
 # team
 team:
@@ -41,6 +42,7 @@ team:
       abstract : "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Trainings-Teilnehmenden."
       linkedin : "https://www.linkedin.com/in/benjamin-affolter-0438441b6/"
       twitter : "https://twitter.com/bliemli"
+      
       
     - title : "Chrigu"
       image : "images/team/AC_Chrigu@2x.jpg"
@@ -82,5 +84,21 @@ team:
       abstract : "Immer am Puls der Technik und einen Schritt voraus. Für ihn ist hochkomplexe IT nicht schwieriger zu verstehen, als ein Kinderspiel. Erklären kann er beides gleich gut."
       linkedin : "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"
       twitter : "https://twitter.com/SebaPlattner"
+  
+      
+    - title : "Thömu"
+      image : "images/team/AC_Thoemu@2x.jpg"
+      designation : "Co-Founder & Trainer"
+      abstract : "Auf seiner Reise durch die IT hat er sich schon vielen Abenteuern gestellt. Privat sattelt er seit geraumer Zeit seinen Drahtesel, um die restliche Welt zu entdecken."
+      linkedin : "https://www.linkedin.com/in/thomas-philipona-217367158/"
+      twitter : "https://twitter.com/tphilipona"
+
+      
+    - title : "Tobi"
+      image : "images/team/AC_Tobi@2x.jpg"
+      designation : "Co-Founder"
+      abstract : "Seine Socken sind farbig, seine Ideen wild. Und wenn er nicht am Meer ist und die Wellen bezwingt, sucht er kreative Wege, uns noch besser aussehen zu lassen."
+      linkedin : "https://www.linkedin.com/in/tobias-tr%C3%B6hler-13a37885/"
+      twitter : "https://twitter.com/Tobee_Tr"
       
 ---
