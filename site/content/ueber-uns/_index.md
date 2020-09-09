@@ -1,6 +1,6 @@
 ---
 title: "Über uns"
-description: "This is meta description."
+description: "Mit der Idee IT-Schulungen zu revolutionieren in den Bereichen Kubernetes, OpenShift und Helm hat unsere Reise begonnen."
 draft: false
 
 lead:
@@ -21,7 +21,7 @@ subtopic_2:
   
 subtopic_3:
   title : "Werde Teil unserer Community"
-  text : "Einfachere Formulierung: Wir pflegen das Miteinander und den Austausch während den Trainings - natürlich begleitet von kulinarischen Überraschungen. Wir sind Teil der wachsenden Schweizer Cloud Native Community. Schliess dich uns an."
+  text : "Wir pflegen das Miteinander und den Austausch während den Trainings - natürlich begleitet von kulinarischen Überraschungen. Wir sind Teil der wachsenden Schweizer Cloud Native Community. Schliess dich uns an."
   
 # quote
 quote:
