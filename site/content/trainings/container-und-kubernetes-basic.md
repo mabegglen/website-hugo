@@ -7,8 +7,8 @@ weight: 0
 slug: 
 categories: ["Basics"]
 duration: "2 Tage"
-abstract : "Einführung in Cloud Native Technologien für Software Entwickler und Devops Engineers"
-main_title : "Einführung in Cloud Native Technologien für Software Entwickler und Devops Engineers"
+abstract : "In zwei Tagen von der theoretischen Grundlage zur selbst deployten, containerbasierten Applikation auf Kubernetes. "
+main_title : "In zwei Tagen von der theoretischen Grundlage zur selbst deployten, containerbasierten Applikation auf Kubernetes. "
 
 personen: 
   daten : "10.11.20, 11.11.20"
