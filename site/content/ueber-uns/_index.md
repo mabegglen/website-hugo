@@ -59,7 +59,7 @@ team:
     - title : "Johann"
       image : "images/team/AC_Johann@2x.jpg"
       designation : "Co-Founder & Trainer"
-      abstract : "Stille Wasser sind tief und tief taucht er auch in die Cloud Native Technologien ein. Als nachhaltiger Klimafreund macht er dies lieber im Thunersee als im Meer."
+      abstract : "Stille Wasser sind tief und tief taucht er auch in die Cloud Native Technologien ein. Als nachhaltiger Klimafreund ist er aber lieber im Thunersee als im Meer."
       linkedin : "https://www.linkedin.com/in/jogy/"
       twitter : "https://twitter.com/_jogy_"
     
