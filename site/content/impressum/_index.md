@@ -5,7 +5,7 @@ draft: false
 ---
 
 
-​
+
 # Impressum
 
   
@@ -30,7 +30,7 @@ Fint Digital Design, Zurich, Switzerland
 
 ##### Fotografie
 
-Portraits Fotografie mit Personen
+Portraits und Schulungsszenen: Janosch Abel, Bern
 [www.janoschabel.com](https://janoschabel.com)<br/>      
 
 
