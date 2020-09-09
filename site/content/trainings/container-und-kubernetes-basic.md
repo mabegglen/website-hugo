@@ -7,8 +7,8 @@ weight: 0
 slug: 
 categories: ["Basics"]
 duration: "2 Tage"
-abstract : "Einführung in Cloud Native Technologien für Software Entwickler und Devops Engineers"
-main_title : "Einführung in Cloud Native Technologien für Software Entwickler und Devops Engineers"
+abstract : "In zwei Tagen von der theoretischen Grundlage zur selbst deployten, containerbasierten Applikation auf Kubernetes. "
+main_title : "In zwei Tagen von der theoretischen Grundlage zur selbst deployten, containerbasierten Applikation auf Kubernetes. "
 
 personen: 
   daten : "10.11.20, 11.11.20"
@@ -112,7 +112,7 @@ trainers:
 testimonials:
   enable: true
   testimonial:
-    - title : "Das sagt unsere Kursteilnehmerin<br/>Bonfils Nicolas, Bern"
+    - title : "Das sagt unsere Trainingsteilnehmerin<br/>Bonfils Nicolas, Bern"
       image : "images/team/Coach@4x.jpg"
       text : "Sehr gut geführter Workshop mit fachlich kompetenten Trainern in lockerer Atmosphäre. Besonders der Mix zwischen Theorie und Labs (Praxis) hat mir gefallen."
       

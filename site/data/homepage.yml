@@ -14,7 +14,7 @@ slideshow:
   enable : true
   item: 
     - ubertitle : "Trainingsangebot"
-      title : "Container und Kubernetes"
+      title : "Container & Kubernetes"
       subtitle : "Basics"
       URL : "/trainings/container-und-kubernetes-basic/"
       label : "Mehr erfahren"
@@ -32,7 +32,7 @@ slideshow:
       img3 : "images/trainings/ACEND_CodeB@2x.jpg"
       
     - ubertitle : "Trainingsangebot"
-      title : "Open Shift"
+      title : "OpenShift"
       subtitle : "Basics"
       URL : "/trainings/openshift/"
       label : "Mehr erfahren"
@@ -51,15 +51,15 @@ testimonials:
   enable : true
   title : "Testimonials"
   testimonial:
-     - title : "Das sagt unser Kursteilnehmer<br/>Bonfils Nicolas, Bern"
+     - title : "Das sagt unser Trainingsteilnehmer<br/>Bonfils Nicolas, Bern"
        image : "images/trainings/ACEND_Jeremy@4x.jpg"
        text : "Sehr gut geführter Workshop mit fachlich kompetenten Trainern in lockerer Atmosphäre. Besonders der Mix zwischen Theorie und Labs (Praxis) hat mir gefallen."
     
-     - title : "Das sagt unsere Kursteilnehmerin<br/>Hans Muster, Winterthur"
+     - title : "Das sagt unsere Trainingsteilnehmer<br/>Curdin Salis Gross, Bern"
        image : "images/trainings/ACEND_Jeremy@4x.jpg"
-       text : "Ut enim ad minim veniam, quis nostrud exercitation ullamco Kubernetes Basic nostrud exercitation ullamco ex earmo coma modo consequat." 
+       text : "Die Trainings sind ausgezeichnet und praxisorientiert. Die Trainer nehmen sich die Zeit um geduldig auf individuelle Anliegen einzugehen. Alles in allem absolut empfehlenswert!" 
     
-     - title : "Das sagt unsere Kursteilnehmerin<br/>Bianca White, Bern"
+     - title : "Das sagt unsere Trainingsteilnehmerin<br/>Bianca White, Bern"
        image : "images/trainings/ACEND_Jeremy@4x.jpg"
        text : "Ut enim ad minim veniam, quis nostrud exercitation ullamco Kubernetes Basic nostrud exercitation ullamco ex earmo coma modo consequat." 
     
@@ -74,6 +74,6 @@ partner:
       label : "puzzle.ch"
 
     - logo : "images/partner/appuio_logo@2x.png"
-      text : "APPUiO ist die führende, auf Kubernetes basierende Container-Plattform für das Design, die Entwicklung und den Betrieb von Applikationen. Auf Basis bewährter Open Source Konzepte wie Docker und Kubernetes unterstützt APPUiO den DevOps-Ansatz. So werden Entwicklung, Deployment und Betriebsprozesse durch Automatisierung und Self-Service beschleunigt. Ebenso wird die Zusammenarbeit zwischen Software-Entwicklern und Betriebsorganisation verbessert."
+      text : "APPUiO ist die führende, auf Kubernetes basierende Container-Plattform für das Design, die Entwicklung und den Betrieb von Applikationen. Auf Basis bewährter Open Source Konzepte wie Docker und Kubernetes unterstützt APPUiO den DevOps-Ansatz. So werden Entwicklung, Deployment und Betriebsprozesse durch Automatisierung und Self-Service beschleunigt."
       URL : "https://www.appuio.ch"
       label : "appuio.ch"

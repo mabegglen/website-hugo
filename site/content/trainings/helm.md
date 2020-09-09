@@ -85,7 +85,7 @@ trainers:
   enable: true
   title : "Lernen Sie Ihre Trainer kennen"
   trainer:
-   - title : "Benj"
+    - title : "Benj"
       image : "images/team/AC_Benji@2x.jpg"
       designation : "Co-Founder & Trainer"
       abstract : "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Trainings-Teilnehmenden."
@@ -105,8 +105,8 @@ trainers:
 testimonials:
   enable: true
   testimonial:
-    - title : "Das sagt unsere Kursteilnehmerin<br/>Curdin Salis Gross, Bern"
+    - title : "Das sagt unser Trainingsteilnehmer<br/>Curdin Salis Gross, Bern"
       image : "images/team/Coach@4x.jpg"
-      text : "«Die Trainings sind ausgezeichnet und praxisorientiert. Die Trainer nehmen sich die Zeit um geduldig auf individuelle Anliegen einzugehen. Alles in allem absolut empfehlenswert!»"
+      text : "Die Trainings sind ausgezeichnet und praxisorientiert. Die Trainer nehmen sich die Zeit um geduldig auf individuelle Anliegen einzugehen. Alles in allem absolut empfehlenswert!"
       
 ---
