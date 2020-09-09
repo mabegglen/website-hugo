@@ -69,7 +69,7 @@ partner:
   title : "Unsere Partner"
   item:
     - logo : "images/partner/logo-puzzle-logo@2x.png"
-      text : "Puzzle ITC deckt als innovativer IT-Dienstleister den ganzen Lebenszyklus von geschäftskritischen Anwendungen und Infrastrukturen ab. Dabei wird konsequent auf Open Source Technologien sowie modernste Methoden und Werkzeuge gesetzt. Ein interdisziplinäres und qualifiziertes Team arbeitet an Projekten in den Bereichen Beratung, Applikationen, Delivery, Infrastruktur und eigenen Open Source Lösungen."
+      text : "Puzzle ITC deckt als innovativer IT-Dienstleister den ganzen Lebenszyklus von geschäftskritischen Anwendungen und Infrastrukturen ab. Dabei wird konsequent auf Open Source Technologien sowie modernste Methoden und Werkzeuge gesetzt. Verschiedene interdisziplinäre Teams arbeitet an Projekten in den Bereichen Beratung, Applikationen, Delivery, Infrastruktur und eigenen Open Source Lösungen."
       URL : "https://puzzle.ch"
       label : "puzzle.ch"
 
