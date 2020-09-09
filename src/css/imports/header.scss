@@ -3,6 +3,10 @@
 
   &.nav-open {
     background: var(--primary);
+    background-image: url("../images/AC_Muster_1_RGB_Weiss@2x.png");
+    background-attachment: fixed;
+    background-size: 1675px;
+
     bottom: 0;
 
     a {
@@ -10,7 +14,8 @@
     }
 
     #logo {
-        transform: translateX(0) !important;
+        //transform: translateX(0) !important;
+        opacity: 1  !important;
          path {
            //#claim:()
           fill: #fff;
@@ -52,8 +57,9 @@
        }
 
        #logo {
-         transform: translateX(-131px);
-          transition: transform 0.2s ease-in-out;
+          //transform: translateX(-131px);
+          opacity: 0;
+          transition: opacity 0.2s ease-in-out;
        }
       }
      @include media-breakpoint-up(md) {
@@ -171,12 +177,64 @@
       &::after {
         width: 100%;
         width: calc(100% + 0.5rem );
-        transition-delay: 0;
+        transition-delay: 0s;
       }
       &::before {
         content: "";
         height: 10px;
         transition-delay: 0.25s;
+      }
+    }
+}
+
+
+
+.link-border {
+  display: inline-block;
+  position: relative;
+  padding-right:  0.5rem;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 100%;
+    width: calc(100% + 0.5rem );
+    height: 1px;
+    background-color: var(--primary);
+    .bg-primary & {
+      background-color: #fff;
+    }
+    //position: absolute;
+    //right: 0;
+    //bottom: 0;
+    transition: width .2s ease-in-out;
+  }
+
+  &::before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 10px;
+    background-color: var(--primary);
+    .bg-primary & {
+      background-color: #fff;
+    }
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transition: height .1s ease-in-out  0.25s;
+  }
+
+    &:hover {
+      //border-bottom: 1px solid;
+      &::after {
+        width: 0;
+        transition-delay: 0.2s;
+      }
+      &::before {
+        content: "";
+        height: 0;
+        transition-delay: 0s;
       }
     }
 }

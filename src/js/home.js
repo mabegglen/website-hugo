@@ -11,6 +11,7 @@ export default function() {
             pauseAutoPlayOnHover: false,
             prevNextButtons: false,
             pageDots: $('.main-carousel .carousel-cell').length > 1 ? true : false,
+            draggable: false,
         });
     }
 

@@ -1,5 +1,7 @@
 .main-carousel .carousel-cell {
   .row {
+    position: relative;
+    z-index: 2;
     @include media-breakpoint-up(lg) {
       position: absolute;
       bottom: 10%;
@@ -86,7 +88,11 @@
 }
 
 .flickity-page-dots {
-  bottom: 2rem;
+  bottom: 1em;
+  .testimonial-carousel & {
+
+    bottom: 2rem;
+   }
 
   .dot {
     width: 32px;

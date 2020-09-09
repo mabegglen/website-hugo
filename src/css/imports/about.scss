@@ -3,7 +3,10 @@
     margin-bottom: 9rem;
     height: 40vw;
     background-position: center center;
-    background-size: cover;
+    //background-size: cover;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
   }
   .images {
 

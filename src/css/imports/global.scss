@@ -70,8 +70,13 @@ body {
 
 //icons
 .icon {
-  width: 40px;
-  height: 40px;
+  width: 28px;
+  height: 28px;
+
+    @include media-breakpoint-up(lg) {
+      width: 40px;
+      height: 40px;
+    }
 }
 .icon-sm {
   width: 28px;
@@ -276,7 +281,7 @@ a {
   li {
     list-style: none;
     line-height: 1.7;
-    
+
     &::before {
       content: "¬ ";
       margin-left: -0.75rem;
