@@ -112,7 +112,7 @@ trainers:
 testimonials:
   enable: true
   testimonial:
-    - title : "Das sagt unsere Trainingsteilnehmer<br/>Nicolas Bonfils, Bern"
+    - title : "Das sagt unser Trainingsteilnehmer<br/>Nicolas Bonfils, Bern"
       image : "images/team/Coach@4x.jpg"
       text : "Sehr gut geführter Workshop mit fachlich kompetenten Trainern in lockerer Atmosphäre. Besonders der Mix zwischen Theorie und Labs (Praxis) hat mir gefallen."
       
