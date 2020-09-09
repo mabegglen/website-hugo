@@ -82,7 +82,7 @@ Gerne nehmen wir in Absprache auch Bezug auf Ihre Infrastruktur. Bei Bedarf für
 # trainer
 trainers:
   enable: true
-  title : "Lernen Sie Ihre Trainer kennen"
+  title : "Lerne zwei deiner Trainer kennen"
   trainer:
     - title : "Benj"
       image : "images/team/AC_Benji@2x.jpg"
