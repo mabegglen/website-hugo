@@ -26,7 +26,7 @@ export default function() {
             wrapAround: true,
             fade: true,
             adaptiveHeight: false,
-            autoPlay: 4200,
+            autoPlay: 4700,
             pauseAutoPlayOnHover: false,
             prevNextButtons: false,
         });
