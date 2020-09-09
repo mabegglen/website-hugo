@@ -105,7 +105,7 @@ testimonials:
   testimonial:
     - title : "Das sagt unsere Trainingsteilnehmerin<br/>Bianca White, Bern"
       image : "images/team/Coach@4x.jpg"
-      text : "Eine total neue Lernerfahrung mit tollen Labs und begeisterten Trainern. Das neu gewonnen Wissen konnte ich schon am nächsten Tag im Unternehmen einsetzen. Von mir gibts 5 von 5 Sterne."
+      text : "Eine total neue Lernerfahrung mit tollen Labs und begeisterten Trainern. Das erworbene Wissen konnte ich schon am nächsten Tag in meinem Unternehmen einsetzen. Von mir gibt's 5 von 5 Sternen."
       
 ---
 
