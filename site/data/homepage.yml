@@ -51,7 +51,7 @@ testimonials:
   enable : true
   title : "Testimonials"
   testimonial:
-     - title : "Das sagt unser Trainingsteilnehmer<br/>Bonfils Nicolas, Bern"
+     - title : "Das sagt unser Trainingsteilnehmer<br/>Nicolas Bonfils, Bern"
        image : "images/trainings/ACEND_Jeremy@4x.jpg"
        text : "Sehr gut geführter Workshop mit fachlich kompetenten Trainern in lockerer Atmosphäre. Besonders der Mix zwischen Theorie und Labs (Praxis) hat mir gefallen."
     
