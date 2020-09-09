@@ -114,6 +114,6 @@ testimonials:
   testimonial:
     - title : "Das sagt unsere Kursteilnehmerin<br/>Bonfils Nicolas, Bern"
       image : "images/team/Coach@4x.jpg"
-      text : "«Sehr gut geführter Workshop mit fachlich kompetenten Trainern in lockerer Atmosphäre. Besonders der Mix zwischen Theorie und Labs (Praxis) hat mir gefallen.”»"
+      text : "Sehr gut geführter Workshop mit fachlich kompetenten Trainern in lockerer Atmosphäre. Besonders der Mix zwischen Theorie und Labs (Praxis) hat mir gefallen."
       
 ---
