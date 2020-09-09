@@ -103,9 +103,9 @@ trainers:
 testimonials:
   enable: true
   testimonial:
-    - title : "Das sagt unsere Trainingsteilnehmerin<br/>Tobine Tröhler, Basel"
+    - title : "Das sagt unsere Trainingsteilnehmerin<br/>Bianca White, Bern"
       image : "images/team/Coach@4x.jpg"
-      text : "Ut enim ad minim veniam, quis nostrud exercitation ullamco Kubernetes Basic nostrud exercitation ullamco ex earmo coma modo consequat."
+      text : "Eine total neue Lernerfahrung mit tollen Labs und begeisterten Trainern. Das neu gewonnen Wissen konnte ich schon am nächsten Tag im Unternehmen einsetzen. Von mir gibts 5 von 5 Sterne."
       
 ---
 
