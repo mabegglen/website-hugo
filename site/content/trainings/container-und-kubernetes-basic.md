@@ -92,7 +92,7 @@ trainingsinhalt:
 # trainer
 trainers:
   enable: true
-  title : "Lernen Sie Ihre Trainer kennen"
+  title : "Lerne zwei deiner Trainer kennen"
   trainer:
     - title : "Johann"
       image : "images/team/AC_Johann@2x.jpg"
