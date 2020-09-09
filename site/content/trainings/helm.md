@@ -1,17 +1,17 @@
 ---
 title: "Helm"
-description: "Ein praktischer Einstieg in den bekanntesten Paketmanager für Applikationen auf Kubernetes."
+description: "Ein praktischer Einstieg in den bekanntesten Paketmanager HELM für Applikationen auf Kubernetes."
 date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 0
 slug: 
 categories: ["Basics"]
-duration: "1 Tag"
-abstract : "Einführung in Cloud Native Technologien für Software Entwickler und Devops Engineers"
-main_title : "Einführung in Cloud Native Technologien für Software Entwickler und Devops Engineers"
+duration: "0.5 Tag"
+abstract : "Ein praktischer Einstieg in den bekanntesten Paketmanager für Applikationen auf Kubernetes."
+main_title : "Ein praktischer Einstieg in den bekanntesten Paketmanager für Applikationen auf Kubernetes."
 
 personen: 
-  daten : "09.12.20"
+  daten : "09.12.20 nachmittags"
   preis : "CHF 600"
 
 headerimages:
@@ -24,7 +24,7 @@ main_text: "Dieses halbtägige Training auf Deutsch oder Englisch bietet einen p
 verständlichen Einstieg zu Helm, dem bekanntesten Paketmanager für Applikationen auf 
 Kubernetes. 
 
-Mittels Helm können auch komplexe Applika­tionen auf Container Plattformen definiert, 
+Mittels Helm können auch komplexe Applikationen auf Container Plattformen definiert, 
 installiert, verwaltet und betrieben werden. Unsere Trainer kommen aus der Praxis und 
 sind zertifizierte Kubernetes Administratoren."
 
@@ -85,26 +85,28 @@ trainers:
   enable: true
   title : "Lernen Sie Ihre Trainer kennen"
   trainer:
+   - title : "Benj"
+      image : "images/team/AC_Benji@2x.jpg"
+      designation : "Co-Founder & Trainer"
+      abstract : "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Trainings-Teilnehmenden."
+      linkedin : "https://www.linkedin.com/in/benjamin-affolter-0438441b6/"
+      twitter : "https://twitter.com/bliemli"
+    
+    
     - title : "Dänu"
       image : "images/team/AC_Daenu@2x.jpg"
       designation : "Co-Founder & Trainer"
-      abstract : "Nicht nur sein Bart, sondern auch sein Wissen rund um Cloud Native Technologien ist gigantisch."
+      abstract : "Seit Kurzem ist er mit dem Bike rasant unterwegs. Er kann aber auch bremsen und führt unsere Kunden sicher durch die Trainings."
       linkedin : "https://www.linkedin.com/in/dstrohecker/"
-      twitter : " https://twitter.com/sybnex"
-
-    - title : "Benj"
-      image : "images/team/AC_Benji@2x.jpg"
-      designation : "Co-Founder & Trainer"
-      abstract : "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Training-Teilnehmenden."
-      twitter : " https://twitter.com/bliemli"
+      twitter : "https://twitter.com/sybnex"
 
 
 # testimonials
 testimonials:
   enable: true
   testimonial:
-    - title : "Das sagt unsere Kursteilnehmerin<br/>Tobine Tröhler, Basel"
+    - title : "Das sagt unsere Kursteilnehmerin<br/>Curdin Salis Gross, Bern"
       image : "images/team/Coach@4x.jpg"
-      text : "«Ut enim ad minim veniam, quis nostrud exercitation ullamco Kubernetes Basic nostrud exercitation ullamco ex earmo coma modo consequat.»"
+      text : "«Die Trainings sind ausgezeichnet und praxisorientiert. Die Trainer nehmen sich die Zeit um geduldig auf individuelle Anliegen einzugehen. Alles in allem absolut empfehlenswert!»"
       
 ---
