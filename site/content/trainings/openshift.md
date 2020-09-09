@@ -1,17 +1,17 @@
 ---
-title: "Container und OpenShift"
+title: "Container & OpenShift"
 description: "Einführung in Cloud Native Technologien für Software Entwickler und Devops Engineers"
 date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 0
 categories: ["Basics"]
-duration: "1 Tag"
+duration: "2 Tage"
 abstract: "Einführung in Cloud Native Technologien für Software Entwickler und Devops Engineers"
 main_title: "Einführung in Cloud Native Technologien für Software Entwickler und Devops Engineers"
 
 personen: 
-  daten : "09.12.20"
-  preis : "CHF 600"
+  daten : "01.12.20, 02.12.20"
+  preis : "CHF 1900"
 
 headerimages:
   img1 : "images/trainings/ACEND_Adventure_Polarlicht@2x.jpg"
@@ -87,13 +87,14 @@ trainers:
     - title : "Benj"
       image : "images/team/AC_Benji@2x.jpg"
       designation : "Co-Founder & Trainer"
-      abstract : "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Training-Teilnehmenden."
-      twitter : " https://twitter.com/bliemli"
+      abstract : "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Trainings-Teilnehmenden."
+      linkedin : "https://www.linkedin.com/in/benjamin-affolter-0438441b6/"
+      twitter : "https://twitter.com/bliemli"
 
-    - title : "Thömu"
+   - title : "Thömu"
       image : "images/team/AC_Thoemu@2x.jpg"
       designation : "Co-Founder & Trainer"
-      abstract : "Mit der IT hat er schon viele abenteuerliche Reisen erlebt. Seit geraumer Zeit entdeckt er die Welt auch auf seinem Fahrrad."
+      abstract : "Auf seiner Reise durch die IT hat er sich schon vielen Abenteuern gestellt. Privat sattelt er seit geraumer Zeit seinen Drahtesel, um die restliche Welt zu entdecken."
       linkedin : "https://www.linkedin.com/in/thomas-philipona-217367158/"
       twitter : "https://twitter.com/tphilipona"
       
