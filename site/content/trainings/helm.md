@@ -86,14 +86,14 @@ trainers:
   title : "Lernen Sie Ihre Trainer kennen"
   trainer:
     - title : "Dänu"
-      image : "images/team/Coach@4x.jpg"
+      image : "images/team/AC_Daenu@2x.jpg"
       designation : "Co-Founder & Trainer"
       abstract : "Nicht nur sein Bart, sondern auch sein Wissen rund um Cloud Native Technologien ist gigantisch."
       linkedin : "https://www.linkedin.com/in/dstrohecker/"
       twitter : " https://twitter.com/sybnex"
 
     - title : "Benj"
-      image : "images/team/Coach@4x.jpg"
+      image : "images/team/AC_Benji@2x.jpg"
       designation : "Co-Founder & Trainer"
       abstract : "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Training-Teilnehmenden."
       twitter : " https://twitter.com/bliemli"

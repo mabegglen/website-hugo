@@ -85,13 +85,13 @@ trainers:
   title : "Lernen Sie Ihre Trainer kennen"
   trainer:
     - title : "Benj"
-      image : "images/team/Coach@4x.jpg"
+      image : "images/team/AC_Benji@2x.jpg"
       designation : "Co-Founder & Trainer"
       abstract : "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Training-Teilnehmenden."
       twitter : " https://twitter.com/bliemli"
 
     - title : "Thömu"
-      image : "images/team/Coach@4x.jpg"
+      image : "images/team/AC_Thoemu@2x.jpg"
       designation : "Co-Founder & Trainer"
       abstract : "Mit der IT hat er schon viele abenteuerliche Reisen erlebt. Seit geraumer Zeit entdeckt er die Welt auch auf seinem Fahrrad."
       linkedin : "https://www.linkedin.com/in/thomas-philipona-217367158/"

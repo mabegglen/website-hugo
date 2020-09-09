@@ -79,9 +79,12 @@
         
         {{ with .Params.quote }}
         <div class="row my-6">
-          <div  data-scroll class="col-9 offset-1 bg-primary text-white p-5">
+          <div  data-scroll class="col-9 offset-1 bg-primary text-white p-5 mb-minus">
             <p class="quote">«{{ .text }}»</p>
             <p><strong>{{ .name }}</strong>, {{ .title }}</p>
+          </div>
+          <div  data-scroll class="col-md-5 offset-5 offset-md-6 img ">
+            <img class="img-fluid" src="{{ .img }}">
           </div>
         </div>
         {{ end }}
@@ -94,7 +97,7 @@
 <!-- team -->
 {{ if .Params.team.enable }}
 {{ with .Params.team }}
-<section class="section mb-5 bg-cover" data-background="{{`images/backgrounds/team-bg.png`|relURL}}">
+<section class="section mb-5">
   <div class="container">
     <h2 data-scroll class="mb-5">{{ .title | markdownify }}</h2>
     

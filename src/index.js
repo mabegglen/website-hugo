@@ -61,7 +61,7 @@ $(window).on('load', function () {
 (function ($) {
 	'use strict';
 
- 
+  
 
 	// Background-images
 	$('[data-background]').each(function () {
@@ -71,6 +71,12 @@ $(window).on('load', function () {
 	});
 
  
+
+  $(".anmelde-toggler").click(function(){
+    $('.sticky').toggleClass('d-none');
+  });
+
+
 // StartslideShow Animation:
 
 // Calculate the viewport size
@@ -131,7 +137,7 @@ $( 'form' ).submit(function ( e ) {
      data: formdata,
     success: function (msg) {
  
-      console.log(msg);
+      //console.log(msg);
  
       if (msg.ok == true) {
           

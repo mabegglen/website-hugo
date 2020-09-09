@@ -32,10 +32,14 @@
     border-right: none;
   }
   #mc-embedded-subscribe {
-    color:  var(--primary);
-    background: transparent !important;
-    border-right: 1px solid;
-    border-bottom: 1px solid;
+    //color:  var(--primary);
+    //background: transparent !important;
+    // border-right: 1px solid;
+    // border-bottom: 1px solid;
+    border: 0;
+    &:hover {
+      background:var(--primary) !important;
+    }
   }
   & div.mce_inline_error {
     margin: 0 !important;

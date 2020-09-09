@@ -83,6 +83,12 @@
 }
 
 .navbar-toggler {
+
+   position: fixed;
+    z-index: 5;
+    right: 15px;
+    top: 15px;
+
   padding: 0; 
   background-color: #fff;
   border: none;

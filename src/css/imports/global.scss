@@ -66,6 +66,11 @@ body {
   }
   color: $AC-Blue;
   color: var(--primary);
+
+ font-variant-ligatures: no-contextual;
+    -moz-font-feature-settings: "calt" 0;
+    -webkit-font-feature-settings: "calt" 0;
+    font-feature-settings: "calt" 0;
 }
 
 //icons

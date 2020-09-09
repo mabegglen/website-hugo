@@ -15,9 +15,9 @@ personen:
   preis : "CHF 1900"
 
 headerimages:
-  img1 : "images/trainings/ACEND_Adventure_Eishoele@4x.jpg"
-  img2 : "images/trainings/ACEND_Jeremy@4x.jpg"
-  img3 : "images/trainings/ACEND_CodeA@4x.jpg"
+  img1 : "images/trainings/ACEND_Adventure_Eishoele@2x.jpg"
+  img2 : "images/trainings/ACEND_Jeremy@2x.jpg"
+  img3 : "images/trainings/ACEND_CodeA@2x.jpg"
 
 
 main_text: "Container-Technologien und insbesondere Kubernetes haben in den letzten Jahren enorm an Bedeutung gewonnen und wurden ein wichtiger Treiber der Digitalisierung. 
@@ -95,14 +95,14 @@ trainers:
   title : "Lernen Sie Ihre Trainer kennen"
   trainer:
     - title : "Johann"
-      image : "images/team/Coach@4x.jpg"
+      image : "images/team/AC_Johann@2x.jpg"
       designation : "Co-Founder & Trainer"
       abstract : "Stille Wasser sind tief und gerne taucht er tief in die Cloud Native Technologien ein. Als nachhaltiger Klimafreund taucht er lieber im Thunersee als im Meer ab."
       linkedin : "https://www.linkedin.com/in/jogy/"
       twitter : "https://twitter.com/_jogy_"
       
     - title : "Seba"
-      image : "images/team/Coach@4x.jpg"
+      image : "images/team/AC_Seba@2x.jpg"
       designation : "Co-Founder & Trainer"
       abstract : "Für ihn ist hochkomplexe IT nicht schwieriger als ein Kinderspiel. Erklären kann er beides gleich gut."
       linkedin : "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"

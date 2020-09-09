@@ -29,6 +29,7 @@ quote:
   text: "Kaum ein Moment beflügelt Entwicklungen so sehr, wie die Freude darüber, etwas Neues entdeckt zu haben. Als Wissensplattform begleitet acend mit dieser Haltung Schweizer Engineers, ihre Unternehmen in technologisches Neuland zu führen."
   name: "Tobi"
   title: "Gründer acend"
+  img: "images/ueberuns/ACEND_Afterworkbeer@4x.jpg"
 
 # team
 team:
@@ -49,7 +50,7 @@ team:
       linkedin : "https://www.linkedin.com/in/dstrohecker/"
       twitter : "https://twitter.com/sybnex"
       
-    - title : "Benj"
+    - title : "Benji"
       image : "images/team/AC_Benji@2x.jpg"
       designation : "Co-Founder & Trainer"
       abstract : "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Training-Teilnehmenden."
