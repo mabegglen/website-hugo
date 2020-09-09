@@ -26,16 +26,9 @@ subtopic_3:
   
 # quote
 quote:
-<<<<<<< HEAD
-  text: "Kaum ein Moment beflügelt Entwicklungen so sehr, wie die Freude darüber, etwas Neues entdeckt zu haben. Als Wissensplattform begleitet acend mit dieser Haltung Schweizer Engineers, ihre Unternehmen in technologisches Neuland zu führen."
-  name: "Tobi"
-  title: "Gründer acend"
-  img: "images/ueberuns/ACEND_Afterworkbeer@4x.jpg"
-=======
   text: "Der Mensch und sein Wissen gehören zu den wichtigsten Faktoren, welche über den Erfolg eines Unternehmens bestimmen. Wir wollen Wissen auf neue Arten und Weise verbreiten und so Firmen zu ihrem Erfolg verhelfen."
   name: "Thömu"
   title: "Co-Founder acend"
->>>>>>> c9b44bb179186c1795c29b5c3cc1ecca4f59ce0d
 
 # team
 team:
@@ -63,13 +56,8 @@ team:
       linkedin : "https://www.linkedin.com/in/dstrohecker/"
       twitter : "https://twitter.com/sybnex"
       
-<<<<<<< HEAD
-    - title : "Benji"
-      image : "images/team/AC_Benji@2x.jpg"
-=======
     - title : "Johann"
       image : "images/team/AC_Johann@2x.jpg"
->>>>>>> c9b44bb179186c1795c29b5c3cc1ecca4f59ce0d
       designation : "Co-Founder & Trainer"
       abstract : "Stille Wasser sind tief und tief taucht er auch in die Cloud Native Technologien ein. Als nachhaltiger Klimafreund macht er dies lieber im Thunersee als im Meer."
       linkedin : "https://www.linkedin.com/in/jogy/"
