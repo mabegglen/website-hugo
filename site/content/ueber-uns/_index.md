@@ -25,7 +25,7 @@ subtopic_3:
   
 # quote
 quote:
-  text: "Der Mensch und sein Wissen gehören zu den wichtigsten Faktoren, welche über den Erfolg eines Unternehmens bestimmen. Wir wollen Wissen auf neue Arten und Weise verbreiten und so Firmen zu ihrem Erfolg verhelfen."
+  text: "Der Mensch und sein Wissen gehören zu den wichtigsten Faktoren, welche über den Erfolg eines Unternehmens bestimmen. Wir wollen Wissen auf neue Art und Weise verbreiten und so Firmen zu ihrem Erfolg verhelfen."
   name: "Thömu"
   title: "Co-Founder acend"
   img: "images/ueberuns/ACEND_Afterworkbeer@4x.jpg"
