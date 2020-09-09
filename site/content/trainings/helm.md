@@ -60,9 +60,9 @@ accordion:
 # Trainingsinhalt
 trainingsinhalt: 
     title : "Trainingsinhalt"
-    text : "Unsere Trainings bestehen aus abwechslungs­reichen Präsentationen und Hands-on Labs, um deren Inhalt auf spannende Art und Weise zu übermitteln. 
+    text : "Unsere Trainings bestehen aus abwechslungsreichen Präsentationen und hands-on Labs, um deren Inhalt auf spannende Art und Weise zu übermitteln. 
 
-Gerne nehmen wir in Absprache auch Bezug auf Ihre Infrastruktur. Bei Bedarf für weitere Inhalte können wir auf Ihren Wunsch hin An­passungen vornehmen."
+Gerne nehmen wir in Absprache auch Bezug auf Ihre Infrastruktur. Bei Bedarf für weitere Inhalte können wir auf Ihren Wunsch hin Anpassungen vornehmen."
     liste1:
       title: "Helm Basics"
       liste:
