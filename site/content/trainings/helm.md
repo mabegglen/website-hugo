@@ -107,6 +107,6 @@ testimonials:
   testimonial:
     - title : "Das sagt unsere Trainingsteilnehmerin<br/>Curdin Salis Gross, Bern"
       image : "images/team/Coach@4x.jpg"
-      text : "«Die Trainings sind ausgezeichnet und praxisorientiert. Die Trainer nehmen sich die Zeit um geduldig auf individuelle Anliegen einzugehen. Alles in allem absolut empfehlenswert!»"
+      text : "Die Trainings sind ausgezeichnet und praxisorientiert. Die Trainer nehmen sich die Zeit um geduldig auf individuelle Anliegen einzugehen. Alles in allem absolut empfehlenswert!"
       
 ---

@@ -105,7 +105,7 @@ testimonials:
   testimonial:
     - title : "Das sagt unsere Trainingsteilnehmerin<br/>Tobine Tröhler, Basel"
       image : "images/team/Coach@4x.jpg"
-      text : "«Ut enim ad minim veniam, quis nostrud exercitation ullamco Kubernetes Basic nostrud exercitation ullamco ex earmo coma modo consequat.»"
+      text : "Ut enim ad minim veniam, quis nostrud exercitation ullamco Kubernetes Basic nostrud exercitation ullamco ex earmo coma modo consequat."
       
 ---
 

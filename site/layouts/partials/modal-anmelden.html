@@ -39,7 +39,7 @@
                     <div class="mb-4  form-row">
                     <div class="col-lg-6">
                         <select class="custom-select" name="Kurs" required>
-                        <option value="" selected>Kurs auswählen...</option>
+                        <option value="" selected>Training auswählen...</option>
                         {{ $t := where .Site.RegularPages "Section" "trainings"}}
                         {{ range $t }}
                         <option value="{{ .Title }}">{{ .Title }}</option>
