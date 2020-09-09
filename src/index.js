@@ -14,8 +14,6 @@ import { map, lerp, getMousePos, calcWinsize, getRandomNumber } from './js/utils
 
 //jQuery(document).ready(() => {
 
-home();
-//});
 
 
 
@@ -62,6 +60,8 @@ $(window).on('load', function () {
 	'use strict';
 
   
+  home();
+ 
 
 	// Background-images
 	$('[data-background]').each(function () {

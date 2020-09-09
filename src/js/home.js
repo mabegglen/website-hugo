@@ -13,6 +13,11 @@ export default function() {
             pageDots: $('.main-carousel .carousel-cell').length > 1 ? true : false,
             draggable: false,
         });
+
+
+        setTimeout(function(){
+            flkty.resize();
+        },1000);
     }
 
     if($('.testimonial-carousel .carousel-cell').length > 1){
