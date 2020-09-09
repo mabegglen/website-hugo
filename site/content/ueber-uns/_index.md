@@ -7,9 +7,6 @@ lead:
   title: "Über uns"
   content: "Mit der Idee IT-Schulungen zu revolutionieren hat unsere Reise begonnen."
 
-Test mit einem Text. Sorry Thömu
-
-
 # main image
 main_image: "images/ueberuns/ACEND_Adventure_Lava_Big@4x.jpg"
 
