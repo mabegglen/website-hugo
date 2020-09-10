@@ -1,6 +1,6 @@
 ---
 title: "Über uns"
-description: "Mit der Idee IT-Schulungen zu revolutionieren in den Bereichen Kubernetes, OpenShift und Helm hat unsere Reise begonnen."
+description: "Mit der ambitionierten Idee IT-Schulungen zu revolutionieren in den Bereichen Kubernetes, OpenShift und Helm hat unsere Reise begonnen."
 draft: false
 
 lead:
