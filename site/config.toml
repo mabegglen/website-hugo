@@ -39,7 +39,7 @@ email = "hello@acend.ch"
 author = "acend gmbh"
 description = "Wir eröffnen neue Zugänge zu Cloud Native und Open Source"
 # google analytics
-google_analytics_id = "UA-177601522-1" # Your ID
+google_analytics_id = "" # Your ID
 # copyright
 copyright = "&copy; 2020 acend gmbh"
 
