@@ -37,9 +37,9 @@ email = "hello@acend.ch"
 
 # meta description
 author = "acend gmbh"
-description = "Trainings in Container & Kubernetes..."
+description = "Wir eröffnen neue Zugänge zu Cloud Native und Open Source"
 # google analytics
-google_analytics_id = "" # Your ID
+google_analytics_id = "UA-177601522-1" # Your ID
 # copyright
 copyright = "&copy; 2020 acend gmbh"
 
