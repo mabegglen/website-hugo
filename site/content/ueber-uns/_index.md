@@ -5,8 +5,7 @@ draft: false
 
 lead:
   title: "Über uns"
-  content: "Mit der Idee IT-Schulungen zu revolutionieren hat unsere Reise begonnen."
-
+  content: "Die Reise begann mit der Idee, IT-Schulungen zu revolutionieren."
 
 # main image
 main_image: "images/ueberuns/ACEND_Adventure_Lava_Big@4x.jpg"
@@ -59,7 +58,7 @@ team:
     - title : "Johann"
       image : "images/team/AC_Johann@2x.jpg"
       designation : "Co-Founder & Trainer"
-      abstract : "Stille Wasser sind tief und tief taucht er auch in die Cloud Native Technologien ein. Als nachhaltiger Klimafreund macht er dies lieber im Thunersee als im Meer."
+      abstract : "Stille Wasser sind tief und tief taucht er auch in die Cloud Native Technologien ein. Als nachhaltiger Klimafreund ist er aber lieber im Thunersee als im Meer."
       linkedin : "https://www.linkedin.com/in/jogy/"
       twitter : "https://twitter.com/_jogy_"
     

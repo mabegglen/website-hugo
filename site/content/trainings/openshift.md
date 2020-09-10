@@ -47,7 +47,7 @@ trainingsinhalt:
     title : "Trainingsinhalt"
     text : "Unsere Trainings bestehen aus abwechslungsreichen Präsentationen und hands-on Labs, um deren Inhalt auf spannende Art und Weise zu übermitteln. 
 
-Gerne nehmen wir in Absprache auch Bezug auf Ihre Infrastruktur. Bei Bedarf für weitere Inhalte können wir auf Ihren Wunsch hin Anpassungen vornehmen."
+Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für weitere Inhalte können wir auf deinen Wunsch hin Anpassungen vornehmen."
     liste1:
       title: "Container Basics"
       liste:
@@ -103,9 +103,9 @@ trainers:
 testimonials:
   enable: true
   testimonial:
-    - title : "Das sagt unsere Trainingsteilnehmerin<br/>Tobine Tröhler, Basel"
+    - title : "Das sagt unsere Trainingsteilnehmerin<br/>Bianca White, Bern"
       image : "images/team/Coach@4x.jpg"
-      text : "Ut enim ad minim veniam, quis nostrud exercitation ullamco Kubernetes Basic nostrud exercitation ullamco ex earmo coma modo consequat."
+      text : "Eine total neue Lernerfahrung mit tollen Labs und begeisterten Trainern. Das erworbene Wissen konnte ich schon am nächsten Tag in meinem Unternehmen einsetzen. Von mir gibt's 5 von 5 Sternen."
       
 ---
 

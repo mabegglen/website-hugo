@@ -4,7 +4,7 @@ description: "Wir eröffnen neue Zugänge zu Cloud Native und Open Source."
 draft: false
 
 lead:
-  title: "Unser Angebot"
+  title: "Trainings"
   content: "Wir eröffnen neue Zugänge zu Cloud Native und Open Source."
 
 ---

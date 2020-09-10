@@ -30,7 +30,7 @@ Fint Digital Design, Zurich, Switzerland
 
 ##### Fotografie
 
-Portraits und Schulungsszenen: Janosch Abel, Bern
+Portraits und Schulungsszenen, Janosch Abel, Bern
 [www.janoschabel.com](https://janoschabel.com)<br/>      
 
 
