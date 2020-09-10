@@ -15,9 +15,13 @@ export default function() {
         });
 
 
-        setTimeout(function(){
+       /* setTimeout(function(){
             flkty.resize();
         },1000);
+        */
+        $(window).on('load', function () {
+            flkty.resize();
+        });
     }
 
     if($('.testimonial-carousel .carousel-cell').length > 1){
