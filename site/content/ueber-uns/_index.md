@@ -1,11 +1,11 @@
 ---
 title: "Über uns"
-description: "Mit der ambitionierten Idee IT-Schulungen zu revolutionieren in den Bereichen Kubernetes, OpenShift und Helm hat unsere Reise begonnen."
+description: "Unsere Reise begann 2019 mit der ambitionierten Idee IT-Schulungen zu revolutionieren in den Bereichen Kubernetes, OpenShift und Helm hat unsere Reise begonnen."
 draft: false
 
 lead:
   title: "Über uns"
-  content: "Die Reise begann mit der Idee, IT-Schulungen zu revolutionieren."
+  content: "Unsere Reise begann 2019 mit der ambitionierten Idee, IT-Schulungen zu revolutionieren."
 
 # main image
 main_image: "images/ueberuns/lava_neu.jpg"
