@@ -76,6 +76,15 @@ $(window).on('load', function () {
     $('.sticky').toggleClass('d-none');
   });
 
+  
+  $('#signupModal').on('show.bs.modal', function (e) {
+    const selectedTraining = e.relatedTarget.dataset.kurs;
+    if(selectedTraining){
+      $(this).find('.custom-select option[value="'+selectedTraining+'"]').prop('selected', true);
+
+    }
+
+  });
 
 // StartslideShow Animation:
 

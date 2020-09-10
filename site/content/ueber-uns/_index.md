@@ -10,6 +10,10 @@ lead:
 # main image
 main_image: "images/ueberuns/ACEND_Adventure_Lava_Big@4x.jpg"
 
+subtopic_0:
+  title : "Was bisher geschah"
+  text : "Die Idee zu acend entstand 2019 an einem Samy Deluxe Konzert. Hier fassten einige der Gründer den ambitionierten Entschluss, IT-Schulungen zu revolutionieren. Gesagt, getan. Heute können wir dir lehrreiche, unterhaltsame und bereichernde Trainings anbieten, die dir als unvergessliches Erlebnis in Erinnerung bleiben!"
+  
 subtopic_1:
   title : "Von Pionieren lernen"
   text : "Unsere Trainer sind Experten auf ihrem Fachgebiet, bilden sich mit viel Wissensdurst weiter und sind mit Herzblut bei der Sache."

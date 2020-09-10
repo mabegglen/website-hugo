@@ -15,9 +15,9 @@ personen:
   preis : "CHF 600"
 
 headerimages:
-  img1 : "images/trainings/ACEND_Adventure_Lava@4x.jpg"
-  img2 : "images/trainings/ACEND_Adyna@4x.jpg"
-  img3 : "images/trainings/ACEND_CodeB@4x.jpg"
+  img1 : "images/trainings/ACEND_Adventure_Lava@2x.jpg"
+  img2 : "images/trainings/ACEND_Adyna@2x.jpg"
+  img3 : "images/trainings/ACEND_CodeB@2x.jpg"
       
 
 main_text: "Dieses halbtägige Training auf Deutsch oder Englisch bietet einen praktischen und klar 
