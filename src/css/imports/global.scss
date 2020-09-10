@@ -60,9 +60,9 @@ body {
   text-align: center;
   background-color: #282c34;
   color: white;*/
-  padding-top: 8rem;
+  padding-top: 7rem;
   @include media-breakpoint-up(lg) {
-    padding-top: 10rem;
+    padding-top: 8rem;
   }
   color: $AC-Blue;
   color: var(--primary);

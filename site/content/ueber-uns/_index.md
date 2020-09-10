@@ -8,7 +8,7 @@ lead:
   content: "Die Reise begann mit der Idee, IT-Schulungen zu revolutionieren."
 
 # main image
-main_image: "images/ueberuns/ACEND_Adventure_Lava_Big@4x.jpg"
+main_image: "images/ueberuns/lava_neu.jpg"
 
 subtopic_0:
   title : "Was bisher geschah"

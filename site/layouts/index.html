@@ -5,7 +5,7 @@
 <div class="main-carousel mb-6">
     {{ range .item }}
     <div  class="carousel-cell container p-0 py-md-5">
-        <div class="d-flex">
+        <div class="d-flex images">
           <div class="img-container mt-5" id="l1"><img  src="{{ .img1 | relURL}}" alt="" class="img-fluid"></div>
           <div class="img-container" id="l2"><img  src="{{ .img2 | relURL}}" alt="" class="img-fluid"></div>
           <div class="img-container align-self-end mb-5" id="l3"><img  src="{{ .img3 | relURL}}" alt="" class="img-fluid"></div>
@@ -107,7 +107,7 @@
               {{ range .item }}
                   <div data-scroll class="col-md-6 mb-4">
                       <div class="mb-3 bg-primary p-4 text-center">
-                          <img src="{{ .logo | absURL}}" alt="" class="p-4 img-fluid">
+                          <img src="{{ .logo | absURL}}" alt="" class="img-fluid">
                         </div>
                       <p>
                           {{  .text | markdownify }}
