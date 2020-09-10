@@ -108,12 +108,13 @@ trainers:
       linkedin : "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"
       twitter : "https://twitter.com/SebaPlattner"
 
+
 # testimonials
 testimonials:
   enable: true
   testimonial:
-    - title : "Das sagt unser Trainingsteilnehmer<br/>Nicolas Bonfils, Bern"
+    - title : "Das sagt unsere Trainingsteilnehmerin<br/>Luana  Cusseddu, Bern"
       image : "images/team/Coach@4x.jpg"
-      text : "Sehr gut geführter Workshop mit fachlich kompetenten Trainern in lockerer Atmosphäre. Besonders der Mix zwischen Theorie und Labs (Praxis) hat mir gefallen."
+      text : "Eine total neue Lernerfahrung mit tollen Labs und begeisterten Trainern. Das erworbene Wissen konnte ich schon am nächsten Tag in meinem Unternehmen einsetzen. Von mir gibt's 5 von 5 Sternen."
       
 ---
