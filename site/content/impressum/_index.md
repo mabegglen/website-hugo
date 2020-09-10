@@ -11,7 +11,7 @@ draft: false
   
 ##### Inhalte
 
-acend gmbh Belpstrasse 37, 3007 Bern, info@acend.ch<br/> 
+acend gmbh Belpstrasse 37, 3007 Bern, hello@acend.ch<br/> 
 
 
 ##### Branding Agentur (Konzept & Design)
