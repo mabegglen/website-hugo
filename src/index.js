@@ -76,7 +76,7 @@ $(window).on('load', function () {
     $('.sticky').toggleClass('d-none');
   });
 
-  
+
   $('#signupModal').on('show.bs.modal', function (e) {
     const selectedTraining = e.relatedTarget.dataset.kurs;
     if(selectedTraining){
@@ -153,8 +153,13 @@ $( 'form' ).submit(function ( e ) {
       
           //$(formular).next('.successmessage').removeClass('d-none');
           // $(formular).parent().find('.introtext').addClass('d-none');
+            if ($form.attr('id') === "signupModal") {
+              $form.replaceWith("<p>Danke für deine Anmeldung.</p>");
+              
+            }else {
+              $form.replaceWith("<p>Danke für deine Nachricht.</p>");
 
-           $form.replaceWith("<p>Danke für ihre Nachricht.</p>");
+            }
 
 
 
