@@ -103,9 +103,9 @@ trainers:
 testimonials:
   enable: true
   testimonial:
-    - title : "Das sagt unsere Trainingsteilnehmerin<br/>Bianca White, Bern"
+    - title : "Das sagt unser Trainingsteilnehmer<br/>Nicolas Bonfils, Bern"
       image : "images/team/Coach@4x.jpg"
-      text : "Eine total neue Lernerfahrung mit tollen Labs und begeisterten Trainern. Das erworbene Wissen konnte ich schon am nächsten Tag in meinem Unternehmen einsetzen. Von mir gibt's 5 von 5 Sternen."
+      text : "Sehr gut geführter Workshop mit fachlich kompetenten Trainern in lockerer Atmosphäre. Besonders der Mix zwischen Theorie und Labs (Praxis) hat mir gefallen."
       
 ---
 
