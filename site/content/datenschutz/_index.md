@@ -23,7 +23,7 @@ Belpstrasse 37
 
 datenschutz@acend.ch
 
-Tel. +41 31 370 22 00
+Tel. +41 31 370 22 20
 
 ## Datenschutzbeauftragter
 
