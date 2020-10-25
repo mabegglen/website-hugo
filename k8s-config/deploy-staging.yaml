@@ -5,13 +5,13 @@ metadata:
     keel.sh/policy: "force"
     keel.sh/match-tag: "true"
   labels:
-    app: acend-website
-  name: acend-website
+    app: acend-website-staging
+  name: acend-website-staging
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: acend-website
+      app: acend-website-staging
   strategy:
     rollingUpdate:
       maxSurge: 1
@@ -20,10 +20,10 @@ spec:
   template:
     metadata:
       labels:
-        app: acend-website
+        app: acend-website-staging
     spec:
       containers:
-      - image: acend/website-hugo:latest
+      - image: acend/website-hugo:staging
         imagePullPolicy: Always
         livenessProbe:
           failureThreshold: 3
@@ -35,7 +35,7 @@ spec:
           periodSeconds: 2
           successThreshold: 1
           timeoutSeconds: 2
-        name: acend-website
+        name: acend-website-staging
         env:
           - name: SERVER_HOST
             value: ":8080"
