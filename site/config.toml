@@ -52,12 +52,12 @@ preloader = "images/preloader.gif" # use png, jpg, svg or gif format
 # Formulare
 [params.contact]
 enable = true
-form_action = "https://formspree.io/xzbjngrg"  
+form_action = "/backend/form"
 
 # contact
 [params.anmeldung]
 enable = true
-form_action = "https://formspree.io/xgengykn" 
+form_action = "/backend/form"
 
 # social site
 [params.social]
