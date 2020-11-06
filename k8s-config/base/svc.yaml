@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Service
 metadata:
+  name: acend-website
   labels:
     app: acend-website
-  name: acend-website
 spec:
   ports:
   - port: 8080

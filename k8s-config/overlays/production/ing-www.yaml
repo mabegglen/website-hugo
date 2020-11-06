@@ -12,7 +12,7 @@ metadata:
       more_set_headers "Referrer-Policy: no-referrer-when-downgrade";
   labels:
     app: acend-website
-  name: acend-website-www-acend-ch
+  name: acend-website-www
 spec:
   rules:
   - host: www.acend.ch

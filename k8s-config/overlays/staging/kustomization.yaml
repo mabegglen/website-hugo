@@ -1,0 +1,7 @@
+nameSuffix: -staging
+bases:
+  - ../../base
+patchesStrategicMerge:
+  - deploy-patch.yaml
+  - svc-patch.yaml
+  - ing-patch.yaml

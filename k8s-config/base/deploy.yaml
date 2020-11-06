@@ -1,14 +1,15 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  name: acend-website
   annotations:
-    keel.sh/policy: "force"
     keel.sh/match-tag: "true"
+    keel.sh/policy: force
   labels:
     app: acend-website
-  name: acend-website
 spec:
-  replicas: 1
+  replicas: 2
+  revisionHistoryLimit: 1
   selector:
     matchLabels:
       app: acend-website
@@ -23,7 +24,8 @@ spec:
         app: acend-website
     spec:
       containers:
-      - image: acend/website-hugo:latest
+      - name: acend-website
+        image: acend/website-hugo:latest
         imagePullPolicy: Always
         livenessProbe:
           failureThreshold: 3
@@ -35,7 +37,6 @@ spec:
           periodSeconds: 2
           successThreshold: 1
           timeoutSeconds: 2
-        name: acend-website
         env:
           - name: SERVER_HOST
             value: ":8080"
@@ -51,11 +52,11 @@ spec:
           timeoutSeconds: 2
         resources:
           requests:
-            cpu: "20m"
-            memory: "50M"
+            cpu: 20m
+            memory: 50M
           limits:
-            cpu: "200m"
-            memory: "200M"
+            cpu: 200m
+            memory: 200M
         securityContext:
           allowPrivilegeEscalation: false
           capabilities: {}
