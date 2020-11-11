@@ -11,7 +11,7 @@ abstract : "In zwei Tagen von der theoretischen Grundlage zur selbst deployten, 
 main_title : "In zwei Tagen von der theoretischen Grundlage zur selbst deployten, containerbasierten Applikation auf Kubernetes. "
 
 personen: 
-  daten : "10.11.20, 11.11.20"
+  daten : "28.04.21, 29.04.21"
   preis : "CHF 1900"
 
 headerimages:
