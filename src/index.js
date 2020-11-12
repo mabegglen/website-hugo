@@ -86,6 +86,10 @@ $(window).on('load', function () {
 
   });
 
+
+  $('[data-toggle="popover"]').popover();
+
+
 // StartslideShow Animation:
 
 // Calculate the viewport size

@@ -128,6 +128,44 @@
 {{ end }}
 <!-- /team -->
 
+  <!-- memberships -->
+  {{ if .Params.memberships.enable }}
+  {{ with .Params.memberships }}
+  <section class="section my-5">
+    <div class="container">
+        <h2  data-scroll class="mb-5">{{  .title | markdownify }}</h2>
+        <div class="row">
+          <div class="col-lg-10 offset-lg-1 mb-3">
+              <div class="row">
+ 
+              {{ range .member }}
+                  <div data-scroll class="col-sm-6 col-md-4 mb-4">
+                      <a tabindex="0" class="d-block"  data-container="body" data-toggle="popover" data-placement="right" data-trigger="focus" title="{{  .title | markdownify }}" data-html="true" data-content='
+                      <p class="small">{{.abstract }}</p>
+
+                      {{ if .link}} <a href="{{ .link | absURL }}" class="link-border"  target="_blank" rel="noopener">{{.link_label}}</a> {{ end }}
+
+                      '>
+                      
+                      <div class="mb-2 bg-primary p-4 text-center">
+                          <img src="{{ .logo | absURL}}" alt="" class="img-fluid">
+                        </div>
+                      </a>
+                      <h5>{{  .title | markdownify }}</h5>
+
+                  </div>
+                  {{ end }}
+              </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  <!-- /partner -->
+  
+{{ end }}
+{{ end }}
+
 
 {{ partial "banner-anmelden.html" . }}
 

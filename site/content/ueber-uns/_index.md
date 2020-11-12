@@ -102,5 +102,46 @@ team:
       abstract : "Seine Socken sind farbig, seine Ideen wild. Und wenn er nicht am Meer ist und die Wellen bezwingt, sucht er kreative Wege, uns noch besser aussehen zu lassen."
       linkedin : "https://www.linkedin.com/in/tobias-tr%C3%B6hler-13a37885/"
       twitter : "https://twitter.com/Tobee_Tr"
-      
+
+memberships:
+  enable: true
+  title : "Mitgliedschaften"
+  member:
+    - title : "swissICT"
+      logo : "images/partner/puzzle_logo@2x.png"
+      abstract : "swissITC ist der grösste Fachverband der Branche und verbindet als einzger Verband ICT-Anbieter, Anwender und Fachkräfte der Schweiz"
+      link : "https://www.swissict.ch"
+      link_label : "www.swissict.ch"
+
+    - title : "swissICT"
+      logo : "images/partner/puzzle_logo@2x.png"
+      abstract : "swissITC ist der grösste Fachverband der Branche und verbindet als einzger Verband ICT-Anbieter, Anwender und Fachkräfte der Schweiz"
+      link : "https://www.swissict.ch"
+      link_label : "www.swissict.ch"
+
+    - title : "swissICT"
+      logo : "images/partner/puzzle_logo@2x.png"
+      abstract : "swissITC ist der grösste Fachverband der Branche und verbindet als einzger Verband ICT-Anbieter, Anwender und Fachkräfte der Schweiz"
+      link : "https://www.swissict.ch"
+      link_label : "www.swissict.ch"
+
+    - title : "swissICT"
+      logo : "images/partner/puzzle_logo@2x.png"
+      abstract : "swissITC ist der grösste Fachverband der Branche und verbindet als einzger Verband ICT-Anbieter, Anwender und Fachkräfte der Schweiz"
+      link : "https://www.swissict.ch"
+      link_label : "www.swissict.ch"
+
+    - title : "swissICT"
+      logo : "images/partner/puzzle_logo@2x.png"
+      abstract : "swissITC ist der grösste Fachverband der Branche und verbindet als einzger Verband ICT-Anbieter, Anwender und Fachkräfte der Schweiz"
+      link : "https://www.swissict.ch"
+      link_label : "www.swissict.ch"
+
+    - title : "swissICT"
+      logo : "images/partner/puzzle_logo@2x.png"
+      abstract : "swissITC ist der grösste Fachverband der Branche und verbindet als einzger Verband ICT-Anbieter, Anwender und Fachkräfte der Schweiz"
+      link : "https://www.swissict.ch"
+      link_label : "www.swissict.ch"
+
+
 ---
