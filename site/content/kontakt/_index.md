@@ -1,8 +1,8 @@
 ---
 title: "Kontakt"
-description: "Fragen, Wünsche oder Lust auf ein Bier? Wir freuen uns, dich kennenzulernen."
+description: "Hast du Fragen, ein bestimmtes Anliegen oder möchtest dich generell austauschen? Wir freuen uns auf deine Nachricht."
 draft: false
 lead:
   title: "Kontakt"
-  content: "Fragen, Wünsche oder Lust auf ein Bier? Wir freuen uns, dich kennenzulernen."
+  content: "Hast du Fragen, ein bestimmtes Anliegen oder möchtest dich generell austauschen? Wir freuen uns auf deine Nachricht."
 ---
