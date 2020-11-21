@@ -1,6 +1,6 @@
 ---
 title: "Über uns"
-description: "Wir verfolgen gemeinsam das ehrgeizige Ziel, die Welt der IT-Schulungen zu revolutionieren. Wir sind spezialisiert auf Container-Technologien und weitere OpenSource Technologien im Cloud Native Bereich"
+description: "Wir verfolgen gemeinsam das ehrgeizige Ziel, die Welt der IT-Schulungen zu revolutionieren. Wir sind spezialisiert auf Container-Technologien und weitere OpenSource Technologien im Cloud Native Bereich."
 draft: false
 
 lead:
@@ -32,7 +32,7 @@ subtopic_4:
   
 # quote
 quote:
-  text: "«Die Menschen und ihre Kompetenzen verhelfen Unternehmen zu Erfolg. Wir vermitteln unseren Teilnehmer\*innen neues Wissen und unterstützen sie dabei, sich mit neuen Ansätzen weiterzuentwickeln."
+  text: "«Die Menschen und ihre Kompetenzen verhelfen Unternehmen zu Erfolg. Wir vermitteln unseren TeilnehmerInnen neues Wissen und unterstützen sie dabei, sich mit neuen Ansätzen weiterzuentwickeln."
   name: "Thomas"
   title: "Co-Founder acend"
   img: "images/ueberuns/ACEND_Afterworkbeer@4x.jpg"
