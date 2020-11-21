@@ -42,7 +42,7 @@ team:
   enable: true
   title : "Die Personen hinter acend"
   team_member:
-    - title : "Benjanmin"
+    - title : "Benjamin"
       image : "images/team/AC_Benji@2x.jpg"
       designation : "Co-Founder & Trainer"
       abstract : "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Trainings-Teilnehmenden."
