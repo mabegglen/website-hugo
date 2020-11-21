@@ -1,13 +1,13 @@
 ---
 title: "Container & OpenShift"
-description: "Von der Theorie zur Praxis in der Welt von Container und OpenShift."
+description: "Container und OpenShift – in kurzer Zeit von der Theorie zur Praxis."
 date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 0
 categories: ["Basics"]
 duration: "2 Tage"
-abstract: "Von der Theorie zur Praxis in der Welt von Container und OpenShift."
-main_title: "Von der Theorie zur Praxis in der Welt von Container und OpenShift."
+abstract: "Container und OpenShift – in kurzer Zeit von der Theorie zur Praxis."
+main_title: "Container und OpenShift – in kurzer Zeit von der Theorie zur Praxis."
 
 personen: 
   daten : "01.12.20, 02.12.20"
