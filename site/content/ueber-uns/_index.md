@@ -48,8 +48,7 @@ team:
       abstract : "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Trainings-Teilnehmenden."
       linkedin : "https://www.linkedin.com/in/benjamin-affolter-0438441b6/"
       twitter : "https://twitter.com/bliemli"
-      
-      
+       
     - title : "Christoph"
       image : "images/team/AC_Chrigu@2x.jpg"
       designation : "Co-Founder"
@@ -90,7 +89,6 @@ team:
       abstract : "Immer am Puls der Technik und einen Schritt voraus – je komplexer das Problem desto grösser sein Antrieb. Weil sich nichts von selbst erklärt, übernimmt er das auch gleich"
       linkedin : "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"
       twitter : "https://twitter.com/SebaPlattner"
-  
       
     - title : "Thomas"
       image : "images/team/AC_Thoemu@2x.jpg"
@@ -98,7 +96,6 @@ team:
       abstract : "Kennt die IT-Welt seit Jahren – und entdeckt alles andere auf seinem Drahtesel."
       linkedin : "https://www.linkedin.com/in/thomas-philipona-217367158/"
       twitter : "https://twitter.com/tphilipona"
-
       
     - title : "Tobias"
       image : "images/team/AC_Tobi@2x.jpg"
