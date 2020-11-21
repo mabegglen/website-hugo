@@ -86,7 +86,7 @@ trainers:
   enable: true
   title : "Lerne zwei deiner Trainer kennen"
   trainer:
-    - title : "Benj"
+    - title : "Benjamin"
       image : "images/team/AC_Benji@2x.jpg"
       designation : "Co-Founder & Trainer"
       abstract : "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Trainings-Teilnehmenden."
@@ -94,7 +94,7 @@ trainers:
       twitter : "https://twitter.com/bliemli"
     
     
-    - title : "Dänu"
+    - title : "Daniel"
       image : "images/team/AC_Daenu@2x.jpg"
       designation : "Co-Founder & Trainer"
       abstract : "Seit Kurzem ist er mit dem Bike rasant unterwegs. Er kann aber auch bremsen und führt unsere Kunden sicher durch die Trainings."
