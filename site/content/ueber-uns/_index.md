@@ -32,7 +32,7 @@ subtopic_4:
   
 # quote
 quote:
-  text: "«Die Menschen und ihre Kompetenzen verhelfen Unternehmen zu Erfolg. Wir vermitteln unseren TeilnehmerInnen neues Wissen und unterstützen sie dabei, sich mit neuen Ansätzen weiterzuentwickeln."
+  text: "Die Menschen und ihre Kompetenzen verhelfen Unternehmen zu Erfolg. Wir vermitteln unseren TeilnehmerInnen neues Wissen und unterstützen sie dabei, sich mit neuen Ansätzen weiterzuentwickeln."
   name: "Thomas"
   title: "Co-Founder acend"
   img: "images/ueberuns/ACEND_Afterworkbeer@4x.jpg"
