@@ -79,7 +79,7 @@ team:
     - title : "Philipp"
       image : "images/team/AC_Phippu@2x.jpg"
       designation : "Co-Founder"
-      abstract : "Er verantwortet unsere Special Effects. Böse Zungen behaupten es war der Meistertitel seines Lieblingsclubs, der bei ihm die Lust auf das Unerwartete entfacht hat."
+      abstract : "Er verantwortet unsere Special-Effects. Böse Zungen behaupten es war der Meistertitel seines Lieblingsclubs, der bei ihm die Lust auf das Unerwartete entfacht hat."
       linkedin : "https://www.linkedin.com/in/philipp-grossenbacher/"
       twitter : "https://twitter.com/philogros"
  
