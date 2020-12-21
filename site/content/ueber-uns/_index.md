@@ -108,7 +108,7 @@ memberships:
   member:
     - title : "bernerit.rocks"
       logo : "images/partner/puzzle_logo@2x.png"
-      abstract : "Der Verein bernerit.rocks verfolgt das Ziel, öffentliche, IT-bezogene, technisch motivierte Events im Raum Bern zu organisieren und durchzuführen."
+      abstract : "Der Verein bernerit.rocks verfolgt das Ziel, öffentliche, IT-bezogene, technisch motivierte Events im Raum Bern zu organisieren und durchzuführen. acend gehört zu den ersten Gönnern und ist auch im Vorstand vertreten."
       link : "https://bernerit.rocks/"
       link_label : "bernerit.rocks"
 
