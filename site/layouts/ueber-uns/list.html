@@ -4,6 +4,17 @@
   {{ partial "lead.html" . }}
 {{ end }}
 
+{{ with .Params.introtext }}
+  <div class="container">
+      <div class="row my-5">
+        <div class="col-lg-9 offset-lg-1">
+          <p>{{ . | markdownify }}</p>
+        </div>
+      </div>
+  </div>
+{{ end }}
+
+
 {{ with .Params.main_image }}
 <div  data-scroll class="wide-banner bg-cover d-flex justify-content-center align-items-center" data-background="{{ . | relURL}}">
      <svg class="img-fluid p-3" width="106px" height="360px" viewBox="0 0 106 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
