@@ -106,13 +106,13 @@ memberships:
   member:
     - title : "bernerit.rocks"
       logo : "images/mitgliedschaften/berner-it-rocks.png"
-      abstract : "Der Verein bernerit.rocks verfolgt das Ziel, öffentliche, IT-bezogene, technisch motivierte Events im Raum Bern zu organisieren und durchzuführen. acend gehört zu den ersten Gönnern und ist auch im Vorstand vertreten."
+      abstract : "Der Verein bernerit.rocks veranstaltet technisch motivierte Events für die Berner IT-Community. acend gehört zu den ersten Gönnern und ist auch im Vorstand vertreten."
       link : "https://bernerit.rocks/"
       link_label : "bernerit.rocks"
 
     - title : "CH Open"
       logo : "images/mitgliedschaften/CH-open.png"
-      abstract : "CH Open fördert Open Source Software und offene Standards im Schweizer Markt durch Weiterbildungen und Informationsaustausch unter den Mitgleider"
+      abstract : "CH Open fördert Open Source Software und offene Standards im Schweizer Markt durch Weiterbildungen und Informationsaustausch unter den Mitgliedern."
       link : "https://www.ch-open.ch/"
       link_label : "www.ch-open.ch"
 
@@ -130,7 +130,7 @@ memberships:
 
     - title : "Linux Foundation"
       logo : "images/mitgliedschaften/linuxfoundation.png"
-      abstract : "Die Linux Foundation hat sich zum Ziel gesetzt hat das Wachstum von Linux zu unterstützen. Da helfen wir naütlrich gerne mit."
+      abstract : "Die Linux Foundation hat sich zum Ziel gesetzt das Wachstum von Linux zu unterstützen. Da helfen wir natürlich gerne mit."
       link : "https://www.linuxfoundation.org/"
       link_label : "www.linuxfoundation.org/"
 
