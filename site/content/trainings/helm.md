@@ -107,8 +107,8 @@ testimonials:
   enable: true
   testimonial:
     - title : "Das sagt unser Trainingsteilnehmer<br/>Matthias Summer, Österreich"
-       image : "images/trainings/ACEND_Jeremy@4x.jpg"
-       logo : "images/testimonials/adcubum_logo.png"
-       text : "Das Trainging hat mir sehr gut gefallen und ich konnte einige Dinge mitnehmen, die mir bei der täglichen Arbeit helfen. Die Praxis-Erfahrung und die Leidenschaft für die Technologie war beid en Trainern spürbar. Sie haben uns auch sehr gut unterstützt und uns nützliche Tipps gegeben."     
+      image : "images/trainings/ACEND_Jeremy@4x.jpg"
+      logo : "images/testimonials/adcubum_logo.png"
+      text : "Das Trainging hat mir sehr gut gefallen und ich konnte einige Dinge mitnehmen, die mir bei der täglichen Arbeit helfen. Die Praxis-Erfahrung und die Leidenschaft für die Technologie war beid en Trainern spürbar. Sie haben uns auch sehr gut unterstützt und uns nützliche Tipps gegeben."     
       
 ---
