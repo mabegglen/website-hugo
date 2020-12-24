@@ -32,7 +32,7 @@ slideshow:
       img3 : "images/trainings/ACEND_CodeB@2x.jpg"
       
     - ubertitle : "Trainingsangebot"
-      title : "OpenShift"
+      title : "Container & OpenShift"
       subtitle : "Basics"
       URL : "/trainings/openshift/"
       label : "Mehr erfahren"
@@ -43,7 +43,7 @@ slideshow:
 # trainings
 trainings:
   title: "Unsere Trainings" 
-  text: "Bei uns lernst du neue Technologien auf eine aussergewöhnliche Art und Weise kennen. Unsere Trainings bestehen aus abwechslungsreicher Theorie und praxisnahen hands-on Labs. Lass dich inspirieren vom Herzblut unserer Trainer und tausche dich mit unserer Community aus."
+  text: "Unsere Trainings kombinieren theoretische Inputs mit praxisnahen Hands-on Labs. Lass dich von neuen Technologien begeistern – mit Herzblut vermittelt von unseren Trainern."
 
       
 # testimonial

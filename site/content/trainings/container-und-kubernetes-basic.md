@@ -1,14 +1,14 @@
 ---
 title: "Container & Kubernetes"
-description: "In zwei Tagen von der theoretischen Grundlage zur selbst deployten, containerbasierten Applikation auf Kubernetes."
+description: "In zwei Tagen von den Grundlagen zur selbst deployten, containerbasierten Applikation auf Kubernetes."
 date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 0
 slug: 
 categories: ["Basics"]
 duration: "2 Tage"
-abstract : "In zwei Tagen von der theoretischen Grundlage zur selbst deployten, containerbasierten Applikation auf Kubernetes. "
-main_title : "In zwei Tagen von der theoretischen Grundlage zur selbst deployten, containerbasierten Applikation auf Kubernetes. "
+abstract : "In zwei Tagen von den Grundlagen zur selbst deployten, containerbasierten Applikation auf Kubernetes."
+main_title : "In zwei Tagen von den Grundlagen zur selbst deployten, containerbasierten Applikation auf Kubernetes."
 
 personen: 
   daten : "28.04.21, 29.04.21"
@@ -101,10 +101,10 @@ trainers:
       linkedin : "https://www.linkedin.com/in/johanngyger/"
       twitter : "https://twitter.com/johanngyger"
       
-    - title : "Seba"
+    - title : "Sebastian"
       image : "images/team/AC_Seba@2x.jpg"
       designation : "Co-Founder & Trainer"
-      abstract : "Immer am Puls der Technik und einen Schritt voraus. Für ihn ist hochkomplexe IT nicht schwieriger zu verstehen, als ein Kinderspiel. Erklären kann er beides gleich gut."
+      abstract : "Immer am Puls der Technik und einen Schritt voraus – je komplexer das Problem desto grösser sein Antrieb. Weil sich nichts von selbst erklärt, übernimmt er das auch gleich."
       linkedin : "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"
       twitter : "https://twitter.com/SebaPlattner"
 

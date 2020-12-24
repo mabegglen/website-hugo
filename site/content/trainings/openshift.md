@@ -1,16 +1,16 @@
 ---
 title: "Container & OpenShift"
-description: "Von der Theorie zur Praxis in der Welt von Container und OpenShift."
+description: "Container und OpenShift – in kurzer Zeit von der Theorie zur Praxis."
 date: 2019-05-12T12:14:34+06:00
 draft: false
 weight: 0
 categories: ["Basics"]
 duration: "2 Tage"
-abstract: "Von der Theorie zur Praxis in der Welt von Container und OpenShift."
-main_title: "Von der Theorie zur Praxis in der Welt von Container und OpenShift."
+abstract: "Container und OpenShift – in kurzer Zeit von der Theorie zur Praxis."
+main_title: "Container und OpenShift – in kurzer Zeit von der Theorie zur Praxis."
 
 personen: 
-  daten : "01.12.20, 02.12.20"
+  daten : "19.05.21, 20.05.21"
   preis : "CHF 1900"
 
 headerimages:
@@ -84,17 +84,17 @@ trainers:
   enable: true
   title : "Lerne zwei deiner Trainer kennen"
   trainer:
-    - title : "Benj"
+    - title : "Benjamin"
       image : "images/team/AC_Benji@2x.jpg"
       designation : "Co-Founder & Trainer"
       abstract : "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Trainings-Teilnehmenden."
       linkedin : "https://www.linkedin.com/in/benjamin-affolter-0438441b6/"
       twitter : "https://twitter.com/bliemli"
 
-    - title : "Thömu"
+    - title : "Thomas"
       image : "images/team/AC_Thoemu@2x.jpg"
       designation : "Co-Founder & Trainer"
-      abstract : "Auf seiner Reise durch die IT hat er sich schon vielen Abenteuern gestellt. Privat sattelt er seit geraumer Zeit seinen Drahtesel, um die restliche Welt zu entdecken."
+      abstract : "Kennt die IT-Welt seit Jahren – und entdeckt alles andere auf seinem Drahtesel."
       linkedin : "https://www.linkedin.com/in/thomas-philipona-217367158/"
       twitter : "https://twitter.com/tphilipona"
       
