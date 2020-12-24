@@ -113,8 +113,9 @@ trainers:
 testimonials:
   enable: true
   testimonial:
-    - title : "Das sagt unsere Trainingsteilnehmerin<br/>Luana  Cusseddu, Bern"
-      image : "images/team/Coach@4x.jpg"
-      text : "Eine total neue Lernerfahrung mit tollen Labs und begeisterten Trainern. Das erworbene Wissen konnte ich schon am nächsten Tag in meinem Unternehmen einsetzen. Von mir gibt's 5 von 5 Sternen."
+    - title : "Das sagt unser Trainingsteilnehmer<br/>Corsin Decurtins, Zürich"
+      image : "images/trainings/ACEND_Jeremy@4x.jpg"
+      logo : "images/testimonials/netceterea_logo.png"
+      text : "Wir konnten in mehreren Schulungen das Know-How, unserer Entwickler in ganz Europa, im Bereich Kubernetes aufbauen. Dies hilft uns auch in Zukunft, unsere Kunden mit innovativen Softwarelösungen zu  beliefern. Einfach tolle Trainings und super Trainer."       
       
 ---

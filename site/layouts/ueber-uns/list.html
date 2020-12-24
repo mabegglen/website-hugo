@@ -4,6 +4,17 @@
   {{ partial "lead.html" . }}
 {{ end }}
 
+{{ with .Params.introtext }}
+  <div class="container">
+      <div class="row my-5">
+        <div class="col-lg-9 offset-lg-1">
+          <p>{{ . | markdownify }}</p>
+        </div>
+      </div>
+  </div>
+{{ end }}
+
+
 {{ with .Params.main_image }}
 <div  data-scroll class="wide-banner bg-cover d-flex justify-content-center align-items-center" data-background="{{ . | relURL}}">
      <svg class="img-fluid p-3" width="106px" height="360px" viewBox="0 0 106 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -138,6 +149,42 @@
 {{ end }}
 {{ end }}
 <!-- /team -->
+
+  <!-- memberships -->
+  {{ if .Params.memberships.enable }}
+  {{ with .Params.memberships }}
+  <section class="section my-5">
+    <div class="container">
+        <h2  data-scroll class="mb-5">{{  .title | markdownify }}</h2>
+        <div class="row">
+          <div class="col-lg-10 offset-lg-1 mb-3">
+              <div class="row">
+ 
+              {{ range .member }}
+                  <div data-scroll class="col-sm-6 col-md-4 mb-4">
+                      <a tabindex="0" class="d-block"  data-container="body" data-toggle="popover" data-placement="right" data-trigger="hover" title="{{  .title | markdownify }}" data-html="true" data-content='
+                      <p class="small">{{.abstract }}</p>
+                      {{ if .link}} <a href="{{ .link | absURL }}" class="link-border"  target="_blank" rel="noopener">{{.link_label}}</a> {{ end }} 
+                      '>
+                      
+                      <div class="mb-2 bg-primary p-4 text-center">
+                          <img src="{{ .logo | absURL}}" alt="" class="img-fluid">
+                        </div>
+                      </a>
+                      <h5>{{  .title | markdownify }}</h5>
+
+                  </div>
+                  {{ end }}
+              </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  <!-- /partner -->
+  
+{{ end }}
+{{ end }}
 
 
 {{ partial "banner-anmelden.html" . }}
