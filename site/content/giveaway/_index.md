@@ -1,5 +1,5 @@
 ---
 lead:
   title: "Adresseingabe"
-  content: "Dein Give-away ist schon fast unterwegs."
+  content: "Dein Giveaway ist schon fast unterwegs."
 ---
