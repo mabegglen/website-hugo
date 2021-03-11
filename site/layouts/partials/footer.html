@@ -3,11 +3,11 @@
       <div class="container">
         <div class="row ">
           <div class="col-md-8 mb-5">
-            <h5 class="mb-2">Trainingsberatung unter<br> {{site.Params.phone}}</h5>
-            <p>Mo – Fr von 8.30 – 17.00h</p>
+            <h5 class="mb-2">{{ i18n "trainingsberatung" }}<br> {{site.Params.phone}}</h5>
+            <p>{{ i18n "trainingsberatungTime" }}</p>
           </div>
           <div class="col-md-4 mb-5">
-            <h5 id="newsletter" class="mb-3">Newsletter abonnieren</h5>
+            <h5 id="newsletter" class="mb-3">{{ i18n "newsletter" }}</h5>
               <div id="mc_embed_signup">
                   <form id="newsletterform" action="/backend/newsletter" method="post">
                       <div id="mc_embed_mc_embed_signupsignup_scroll">
@@ -38,9 +38,9 @@
         </div>
         <div class="mb-6 d-flex align-items-end">
 
-          <h5 class="d-inline-block mr-3 mb-0">Folge uns</h5>
+          <h5 class="d-inline-block mr-3 mb-0">{{ i18n "followUs" }}</h5>
             {{ with site.Params.social }}
-            <a class="d-inline-block" href="{{.twitter }}"  target="_blank" rel="noopener">
+            <a class="d-inline-block mr-3" href="{{.twitter }}"  target="_blank" rel="noopener">
               <svg  class="icon" width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>icon/Twitter</title>
                 <g id="icon/Twitter" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -114,8 +114,8 @@
           </div>
 
           <div class="col-md-6 small py-5  text-center  text-md-right">
-                <div class="d-md-inline pr-md-3"><a class="link-border" href="/impressum">Impressum</a></div>
-                <div class="d-md-inline pr-md-3"><a class="link-border" href="/datenschutz">Datenschutz</a></div>
+                <div class="d-md-inline pr-md-3"><a class="link-border" href="{{ i18n "impressumLink" }}">{{ i18n "impressum" }}</a></div>
+                <div class="d-md-inline pr-md-3"><a class="link-border" href="{{ i18n "privacyLink" }}">{{ i18n "privacy" }}</a></div>
                 <div class="d-md-inline ">{{ site.Params.copyright | markdownify }}</div>
           </div>
         </div>
