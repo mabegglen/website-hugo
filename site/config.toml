@@ -37,10 +37,10 @@ defaultContentLanguage = "de"
   [languages.en]
     languageCode = "en-en"
     contentDir = "content/en"
-    title = "EN: acend gmbh – experience knowledge"
+    title = "acend gmbh – experience knowledge"
     languageName = "English"
     weight = 2
-    description = "EN: Wir eröffnen neue Zugänge zu Cloud Native und Open Source"
+    description = "We are opening up new approaches to cloud native and open source"
 
     # menu
     [[languages.en.menu.main]]
