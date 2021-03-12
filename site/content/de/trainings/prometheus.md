@@ -37,7 +37,7 @@ accordion:
 
         - title : "Zielpublikum"
           icon : "3"
-          content : "¬ Unser Training richtet sich an Software Developer, System Engineers, Architects und alle, die Prometheus verstehen und für das Monitoring einsetzen möchten."
+          content : "¬ Unser Training richtet sich an Software Developers, System Engineers, Architects und alle, die Prometheus verstehen und für das Monitoring einsetzen möchten."
 
         - title : "Konditionen"
           icon : "4"
