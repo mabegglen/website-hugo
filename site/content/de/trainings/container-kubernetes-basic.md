@@ -35,7 +35,7 @@ accordion:
   
         - title : "Voraussetzungen"
           icon : "2"
-          content : "¬ Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet via WLAN.<br/>
+          content : "¬ Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet.<br/>
           ¬ Lokale Admin-Rechte oder Zugriffsmöglichkeit auf ein Terminal (im Browser) sind zusätzlich nötig."
 
         - title : "Zielpublikum"
@@ -94,16 +94,16 @@ trainers:
   enable: true
   title : "Lerne zwei deiner Trainer kennen"
   trainer:
-    - title : "Johann"
+    - title : "Johann Gyger"
       image : "images/team/AC_Johann@2x.jpg"
-      designation : "Co-Founder & Trainer"
+      designation : "Trainer"
       abstract : "Stille Wasser sind tief und tief taucht er auch in die Cloud Native Technologien ein. Als nachhaltiger Klimafreund ist er aber lieber im Thunersee als im Meer."
       linkedin : "https://www.linkedin.com/in/johanngyger/"
       twitter : "https://twitter.com/johanngyger"
       
-    - title : "Sebastian"
+    - title : "Sebastian Plattner"
       image : "images/team/AC_Seba@2x.jpg"
-      designation : "Co-Founder & Trainer"
+      designation : "Trainer"
       abstract : "Immer am Puls der Technik und einen Schritt voraus – je komplexer das Problem desto grösser sein Antrieb. Weil sich nichts von selbst erklärt, übernimmt er das auch gleich."
       linkedin : "https://www.linkedin.com/in/sebastian-plattner-4a4653bb/"
       twitter : "https://twitter.com/SebaPlattner"
