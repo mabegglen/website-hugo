@@ -108,7 +108,7 @@ team:
       designation : "Sales & Experience"
       abstract : "Colorful socks and wild ideas: he’s just the man to design our visual presence whenever he’s not riding a wave."
       linkedin : "https://www.linkedin.com/in/tobias-tr%C3%B6hler-13a37885/"
-      twitter : "https://twitter.com/Tobee_Tr" 
+      twitter : "https://twitter.com/Tobee_Tr"
 
 memberships:
   enable: true
