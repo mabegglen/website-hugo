@@ -40,7 +40,7 @@ quote:
 team:
   enable: true
   title : "The People Behind acend"
-  team_member:  
+  team_member:
     - title : "Benjamin Affolter"
       image : "images/team/AC_Benji@2x.jpg"
       designation : "Trainer"
