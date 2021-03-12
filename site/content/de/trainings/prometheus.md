@@ -19,7 +19,7 @@ headerimages:
   img3 : "images/trainings/ACEND_CodeD@2x.jpg"
   
 
-main_text: "Prometheus ist ein modernes und weit verbreitetes auf Metriken basiertes Monitoringsystem. Prometheus kommt oft im Zusammenhang mit dynamischen Plattformen im ContainerUmfeld wie beispielsweise Kubernetes und OpenShift zum Einsatz, eignet sich jedoch auch für die Überwachung klassischer Umgebungen.
+main_text: "Prometheus ist ein modernes und weit verbreitetes, auf Metriken basiertes Monitoringsystem. Prometheus kommt oft im Zusammenhang mit dynamischen Plattformen im Container-Umfeld wie beispielsweise Kubernetes und OpenShift zum Einsatz, eignet sich jedoch auch für die Überwachung klassischer Umgebungen.
 <br/>
 Dieses zweitägige Training auf Deutsch oder Englisch bietet einen praktischen und klar verständlichen Einstieg in die Prometheus-Technologie.
 Das Training wird von Puzzle ITC in Zusammenarbeit mit acend angeboten. Die Durchführung findet Online oder vor Ort statt."
@@ -93,4 +93,3 @@ testimonials:
       text : "Sehr gut geführter Workshop mit fachlich kompetenten Trainern in lockerer Atmosphäre. Besonders der Mix zwischen Theorie und Labs (Praxis) hat mir gefallen."
       
 ---
-
