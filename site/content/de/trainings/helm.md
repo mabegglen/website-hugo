@@ -86,17 +86,17 @@ trainers:
   enable: true
   title : "Lerne zwei deiner Trainer kennen"
   trainer:
-    - title : "Benjamin"
+    - title : "Benjamin Affolter"
       image : "images/team/AC_Benji@2x.jpg"
-      designation : "Co-Founder & Trainer"
+      designation : "Trainer"
       abstract : "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Trainings-Teilnehmenden."
       linkedin : "https://www.linkedin.com/in/benjamin-affolter-0438441b6/"
       twitter : "https://twitter.com/bliemli"
     
     
-    - title : "Daniel"
+    - title : "Daniel Strohecker"
       image : "images/team/AC_Daenu@2x.jpg"
-      designation : "Co-Founder & Trainer"
+      designation : "Trainer"
       abstract : "Seit Kurzem ist er mit dem Bike rasant unterwegs. Er kann aber auch bremsen und führt unsere Kunden sicher durch die Trainings."
       linkedin : "https://www.linkedin.com/in/dstrohecker/"
       twitter : "https://twitter.com/sybnex"
