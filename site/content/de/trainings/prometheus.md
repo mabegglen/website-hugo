@@ -29,7 +29,7 @@ accordion:
     item:
         - title : "Trainingsziele"
           icon : "1"
-          content : "¬ Den Einstieg in die moderne Monitoring Plattform Proemetheus finden<br/>¬ Konzepte von Prometheus verstehen<br/>¬ Mehr über PromQL und deren Anwendungsbereiche erfahren<br/>"
+          content : "¬ Den Einstieg in die moderne Monitoring Plattform Prometheus finden<br/>¬ Konzepte von Prometheus verstehen<br/>¬ Mehr über PromQL und deren Anwendungsbereiche erfahren<br/>"
  
         - title : "Voraussetzungen"
           icon : "2"
