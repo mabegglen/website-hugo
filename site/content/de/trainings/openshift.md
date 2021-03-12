@@ -32,7 +32,7 @@ accordion:
  
         - title : "Voraussetzungen"
           icon : "2"
-          content : "¬ Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet via WLAN.<br/>¬ Lokale Admin-Rechte oder Zugriffsmöglichkeit auf ein Terminal (im Browser) sind zusätzlich nötig."
+          content : "¬ Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet.<br/>¬ Lokale Admin-Rechte oder Zugriffsmöglichkeit auf ein Terminal (im Browser) sind zusätzlich nötig."
 
         - title : "Zielpublikum"
           icon : "3"
@@ -84,16 +84,16 @@ trainers:
   enable: true
   title : "Lerne zwei deiner Trainer kennen"
   trainer:
-    - title : "Benjamin"
+    - title : "Benjamin Affolter"
       image : "images/team/AC_Benji@2x.jpg"
-      designation : "Co-Founder & Trainer"
+      designation : "Trainer"
       abstract : "Kalt lassen ihn höchstens Temperaturen unter 30 Grad, nicht aber neue Technologien oder die Bedürfnisse von Trainings-Teilnehmenden."
       linkedin : "https://www.linkedin.com/in/benjamin-affolter-0438441b6/"
       twitter : "https://twitter.com/bliemli"
 
-    - title : "Thomas"
+    - title : "Thomas Philipona"
       image : "images/team/AC_Thoemu@2x.jpg"
-      designation : "Co-Founder & Trainer"
+      designation : "Trainer"
       abstract : "Kennt die IT-Welt seit Jahren – und entdeckt alles andere auf seinem Drahtesel."
       linkedin : "https://www.linkedin.com/in/thomas-philipona-217367158/"
       twitter : "https://twitter.com/tphilipona"
