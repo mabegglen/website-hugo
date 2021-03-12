@@ -48,7 +48,6 @@ team:
       linkedin : "https://www.linkedin.com/in/benjamin-affolter-0438441b6/"
       twitter : "https://twitter.com/bliemli"
 
-
     - title : "Christoph Aymon"
       image : "images/team/AC_Chrigu@2x.jpg"
       designation : "Trainer"
@@ -61,6 +60,13 @@ team:
       abstract : "Seit Kurzem ist er mit dem Bike rasant unterwegs. Er kann aber auch bremsen und führt unsere Kunden sicher durch die Trainings."
       linkedin : "https://www.linkedin.com/in/dstrohecker/"
       twitter : "https://twitter.com/sybnex"
+
+    - title : "David Kilchenmann"
+      image : "images/team/AC_Dave@2x.jpg"
+      designation : "Sales"
+      abstract : "Der Mann ist der Traum aller Schwiegermütter und auch uns und unseren Kunden zaubert er immer wieder ein Lächeln ins Gesicht."
+      linkedin : "https://www.linkedin.com/in/david-kilchenmann-004aaa68/"
+      twitter : "https://twitter.com/DKilchenmann"
       
     - title : "Johann Gyger"
       image : "images/team/AC_Johann@2x.jpg"
@@ -103,13 +109,6 @@ team:
       abstract : "Farbige Socken, wilde Ideen: Der richtige Mann, um unseren Auftritt zu gestalten, wenn er nicht gerade Wellen reitet."
       linkedin : "https://www.linkedin.com/in/tobias-tr%C3%B6hler-13a37885/"
       twitter : "https://twitter.com/Tobee_Tr"
-
-    - title : "David Kilchenmann"
-      image : "images/team/AC_Dave@2x.jpg"
-      designation : "Sales"
-      abstract : "Der Mann ist der Traum aller Schwiegermütter und auch uns und unseren Kunden zaubert er immer wieder ein Lächeln ins Gesicht."
-      linkedin : "https://www.linkedin.com/in/david-kilchenmann-004aaa68/"
-      twitter : "https://twitter.com/DKilchenmann"
       
 memberships:
   enable: true
