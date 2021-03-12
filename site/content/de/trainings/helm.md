@@ -40,7 +40,7 @@ accordion:
  
         - title : "Voraussetzungen"
           icon : "2"
-          content : "¬ Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet via WLAN.<br/>
+          content : "¬ Die Teilnehmenden benötigen einen Laptop mit direktem Zugang zum Internet.<br/>
 ¬ Lokale Admin-Rechte oder Zugriffsmöglichkeit auf ein Terminal (im Browser) sind zusätzlich nötig.
 "
 
