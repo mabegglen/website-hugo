@@ -41,7 +41,7 @@ accordion:
 
         - title : "Konditionen"
           icon : "4"
-          content : "¬ CHF 2200 / Person für 2 Tage<br/>¬ Gruppen von 8–24 Personen<br/>¬ Inklusive Verpflegung, Unterlagen und cloud-basierte Lab-Umgebung.<br/>¬ Rabatt ab 12 Personen"
+          content : "¬ CHF 2200 / Person für 2 Tage<br/>¬ Gruppen von 8–24 Personen<br/>¬ Inklusive Verpflegung, Unterlagen und cloud-basierter Lab-Umgebung.<br/>¬ Rabatt ab 12 Personen"
 
 # Trainingsinhalt
 trainingsinhalt: 
