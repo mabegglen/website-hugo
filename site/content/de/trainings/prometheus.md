@@ -88,8 +88,8 @@ trainers:
 testimonials:
   enable: true
   testimonial:
-    - title : "Das sagt unser Trainingsteilnehmer<br/>Nicolas Bonfils, Bern"
+    - title : "Das sagt unser Trainingsteilnehmer<br/>Curdin Salis Gross, Bern"
       image : "images/team/Coach@4x.jpg"
-      text : "Sehr gut geführter Workshop mit fachlich kompetenten Trainern in lockerer Atmosphäre. Besonders der Mix zwischen Theorie und Labs (Praxis) hat mir gefallen."
+      text : "Die Trainings sind ausgezeichnet und praxisorientiert. Die Trainer nehmen sich die Zeit um geduldig auf individuelle Anliegen einzugehen. Alles in allem absolut empfehlenswert!"
       
 ---
