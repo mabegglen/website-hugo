@@ -81,12 +81,12 @@ trainers:
       linkedin : "https://www.linkedin.com/in/martin-abegglen-%E5%AE%89%E9%A9%AC%E4%B8%81-171941150/"
       
     - title : "Reto Kupferschmid"
-      designation : "Trainer"
+      designation : "Trainer, Puzzle ITC"
       abstract : "Ganz nach dem Motto, was nicht passt wird passend gemacht, löst er als Engineer alle Herausforderungen im Handumdrehen."
       twitter : "https://twitter.com/reti_k"
       
     - title : "Thomas Philipona"
-      designation : "Trainer, Puzzle ITC"
+      designation : "Trainer"
       abstract : "Kennt die IT-Welt seit Jahren – und entdeckt alles andere auf seinem Drahtesel."
       linkedin : "https://www.linkedin.com/in/thomas-philipona-217367158/"
       twitter : "https://twitter.com/tphilipona"
