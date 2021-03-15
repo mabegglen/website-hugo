@@ -77,7 +77,7 @@ trainers:
 
     - title : "Martin Abegglen"
       designation : "Trainer, Puzzle ITC"
-      abstract : "Nicht einmal PromQL, in ihrer komplexesten Form, lassen ihn aus seiner Ruhe bringen. Mit seinem Knowhow verblüfft er regelmässig."
+      abstract : "Nicht einmal PromQL, in ihrer komplexesten Form, lassen ihn aus seiner Ruhe bringen. Mit seinem Know-how verblüfft er regelmässig."
       linkedin : "https://www.linkedin.com/in/martin-abegglen-%E5%AE%89%E9%A9%AC%E4%B8%81-171941150/"
       
     - title : "Reto Kupferschmid"
