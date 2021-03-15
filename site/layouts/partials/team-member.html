@@ -1,8 +1,10 @@
 <div data-scroll class="col-6 mb-5">
         <div class="row">
+         {{ with .image }}
          <div class="col-sm-6">
             <img src="{{ .image | relURL }}" class="img-fluid">
          </div>
+         {{ end }}
           <div class="col-sm-6">
             <h5 class="mb-0 mt-3 mt-sm-4">{{.title }}</h5>
             <p class="title">{{.designation }}</p>
