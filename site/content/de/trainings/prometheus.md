@@ -76,7 +76,7 @@ trainers:
       linkedin : "https://www.linkedin.com/in/christoph-aymon-b5948a122/"
 
     - title : "Martin Abegglen"
-      designation : "Trainer"
+      designation : "Trainer, Puzzle ITC"
       abstract : "Nicht einmal PromQL, in ihrer komplexesten Form, lassen ihn aus seiner Ruhe bringen. Mit seinem Knowhow verblüfft er regelmässig."
       linkedin : "https://www.linkedin.com/in/martin-abegglen-%E5%AE%89%E9%A9%AC%E4%B8%81-171941150/"
       
@@ -86,7 +86,7 @@ trainers:
       twitter : "https://twitter.com/reti_k"
       
     - title : "Thomas Philipona"
-      designation : "Trainer"
+      designation : "Trainer, Puzzle ITC"
       abstract : "Kennt die IT-Welt seit Jahren – und entdeckt alles andere auf seinem Drahtesel."
       linkedin : "https://www.linkedin.com/in/thomas-philipona-217367158/"
       twitter : "https://twitter.com/tphilipona"
