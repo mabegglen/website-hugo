@@ -14,9 +14,9 @@ personen:
   preis : "CHF 2200"
 
 headerimages:
-  img1 : "images/trainings/ACEND_Adventure_Polarlicht@2x.jpg"
-  img2 : "images/trainings/ACEND_Valentina@2x.jpg"
-  img3 : "images/trainings/ACEND_CodeD@2x.jpg"
+  img1 : "images/trainings/ACEND_Adventure_Surf@2x.jpg"
+  img2 : "images/trainings/ACEND_Vali@2x.jpg"
+  img3 : "images/trainings/ACEND_Code@2x.jpg"
   
 
 main_text: "Prometheus ist ein modernes und weit verbreitetes, auf Metriken basiertes Monitoringsystem. Prometheus kommt oft im Zusammenhang mit dynamischen Plattformen im Container-Umfeld wie beispielsweise Kubernetes und OpenShift zum Einsatz, eignet sich jedoch auch für die Überwachung klassischer Umgebungen.
@@ -67,22 +67,29 @@ Gerne nehmen wir in Absprache auch Bezug auf eure Infrastruktur. Bei Bedarf für
 # trainer
 trainers:
   enable: true
-  title : "Lerne zwei deiner Trainer kennen"
+  title : "Lerne deine Trainer kennen"
   trainer:
 
     - title : "Christoph Aymon"
-      image : "images/team/AC_Chrigu@2x.jpg"
       designation : "Trainer"
       abstract : "Sitzt er nicht konzentriert vor dem Computer, dann am ehesten in einem schnellen Auto – er dreht nur auf dem Nürburgring Extrarunden."
       linkedin : "https://www.linkedin.com/in/christoph-aymon-b5948a122/"
 
+    - title : "Martin Abegglen"
+      designation : "Trainer"
+      abstract : "Nicht einmal PromQL, in ihrer komplexesten Form, lassen ihn aus seiner Ruhe bringen. Mit seinem Knowhow verblüfft er regelmässig."
+      linkedin : "https://www.linkedin.com/in/martin-abegglen-%E5%AE%89%E9%A9%AC%E4%B8%81-171941150/"
+      
+    - title : "Reto Kupferschmid"
+      designation : "Trainer"
+      abstract : "Ganz nach dem Motto, was nicht passt wird passend gemacht, löst er als Engineer alle Herausforderungen im Handumdrehen."
+      twitter : "https://twitter.com/reti_k"
+      
     - title : "Thomas Philipona"
-      image : "images/team/AC_Thoemu@2x.jpg"
       designation : "Trainer"
       abstract : "Kennt die IT-Welt seit Jahren – und entdeckt alles andere auf seinem Drahtesel."
       linkedin : "https://www.linkedin.com/in/thomas-philipona-217367158/"
       twitter : "https://twitter.com/tphilipona"
-      
       
 # testimonials
 testimonials:
