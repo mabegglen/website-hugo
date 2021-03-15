@@ -16,7 +16,7 @@ slideshow:
     - ubertitle : "Trainingsangebot"
       title : "Container & Kubernetes"
       subtitle : "Basics"
-      URL : "/trainings/container-und-kubernetes-basic/"
+      URL : "/trainings/container-kubernetes-basic/"
       label : "Mehr erfahren"
       img1 : "images/trainings/ACEND_Adventure_Eishoele@2x.jpg"
       img2 : "images/trainings/ACEND_Jeremy@2x.jpg"
