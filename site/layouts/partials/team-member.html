@@ -1,6 +1,6 @@
 <div data-scroll class="col-6 mb-5">
         <div class="row">
-         {{ with .image }}
+         {{ if .image }}
          <div class="col-sm-6">
             <img src="{{ .image | relURL }}" class="img-fluid">
          </div>
