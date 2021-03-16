@@ -57,11 +57,11 @@ trainingsinhalt:
       liste:
         - el: "Introduction to Prometheus"
         - el: "Installation and Setup"
-        - el: "Introduction to Prometheus Metrics"
+        - el: "Introduction to Prometheus metrics"
         - el: "Alerting with Alertmanager"
         - el: "Prometheus Exporters"
         - el: "Instrumentation using Client Libraries" 
-        - el: "Visualization of Metrics"
+        - el: "Visualization of metrics"
         - el: "Prometheus on Kubernetes"
         - el: "Deep Dive PromQL with Prometheus Co-Founder Julius Volz"
         - el: "Hands-on labs with lots of real-world examples"
@@ -95,7 +95,7 @@ trainers:
       
     - title : "Thomas Philipona"
       designation : "Trainer"
-      abstract : "He’s been in the IT world for years – and he discovers everything else on this bicycle."
+      abstract : "He’s been in the IT world for years – and he discovers everything else on his bicycle."
       linkedin : "https://www.linkedin.com/in/thomas-philipona-217367158/"
       twitter : "https://twitter.com/tphilipona"
       
