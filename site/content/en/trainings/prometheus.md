@@ -38,7 +38,7 @@ accordion:
 
         - title : "Target Audience"
           icon : "3"
-          content : "¬ Unser Training richtet sich an Software Developers, System Engineers, Architects und alle, die Prometheus verstehen und für das Monitoring einsetzen möchten."
+          content : "¬ Our training is aimed at Software Developers, System Engineers, Architects and anyone who wants to understand and use Prometheus for monitoring"
 
         - title : "Conditions"
           icon : "4"
