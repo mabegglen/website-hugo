@@ -75,6 +75,12 @@ trainers:
       abstract : "Sitzt er nicht konzentriert vor dem Computer, dann am ehesten in einem schnellen Auto – er dreht nur auf dem Nürburgring Extrarunden."
       linkedin : "https://www.linkedin.com/in/christoph-aymon-b5948a122/"
 
+    - title : "Julius Volz"
+      designation : "Trainer, PromLabs"
+      abstract : "Im Prometheus-Universum ist er quasi der Zeus und bei uns übernimmt er als Special Guest einen Teil des Trainings."
+      linkedin : "https://www.linkedin.com/in/julius-volz/"
+      twitter: "https://twitter.com/juliusvolz"
+
     - title : "Martin Abegglen"
       designation : "Trainer, Puzzle ITC"
       abstract : "Nicht einmal PromQL, in ihrer komplexesten Form, lassen ihn aus seiner Ruhe bringen. Mit seinem Know-how verblüfft er regelmässig."
